@@ -22,7 +22,8 @@ CREATE TABLE IF NOT EXISTS modemler (
 );
 CREATE TABLE IF NOT EXISTS sayaclar (
     seri_no TEXT PRIMARY KEY, ad TEXT, saha TEXT, marka TEXT, model TEXT,
-    bolge TEXT, alt_bolge TEXT, eski_son_okuma TEXT
+    bolge TEXT, alt_bolge TEXT, eski_son_okuma TEXT,
+    eski_durum TEXT, sube_kodu TEXT, calisma_grubu TEXT, modem_imei TEXT
 );
 CREATE INDEX IF NOT EXISTS ix_bag_imei ON baglantilar(imei);
 CREATE INDEX IF NOT EXISTS ix_oku_imei ON okumalar(imei);
@@ -34,6 +35,11 @@ def baglan(yol: str) -> sqlite3.Connection:
     db = sqlite3.connect(yol, check_same_thread=False)
     db.row_factory = sqlite3.Row
     db.executescript(SEMA)
+    # Eski veritabanlarına sonradan eklenen kolonlar
+    var = {r[1] for r in db.execute("PRAGMA table_info(sayaclar)")}
+    for kolon in ("eski_durum", "sube_kodu", "calisma_grubu", "modem_imei"):
+        if kolon not in var:
+            db.execute(f"ALTER TABLE sayaclar ADD COLUMN {kolon} TEXT")
     db.commit()
     return db
 

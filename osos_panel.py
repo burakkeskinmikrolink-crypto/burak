@@ -73,13 +73,15 @@ def saha_listesi(db, esik_saat):
     so AS (SELECT imei, MAX(id) oid FROM okumalar GROUP BY imei)
     SELECT t.imei, m.ad, m.saha, m.gsm, sb.son son_bag, sb.adet,
            so.oid, o.zaman son_okuma, o.sayac_kimlik, o.bcc_dogru,
-           s.seri_no, s.marka, s.eski_son_okuma
+           s.seri_no, s.marka, s.eski_son_okuma, s.eski_durum
     FROM tum t
     LEFT JOIN modemler m ON m.imei = t.imei
     LEFT JOIN sb ON sb.imei = t.imei
     LEFT JOIN so ON so.imei = t.imei
     LEFT JOIN okumalar o ON o.id = so.oid
-    LEFT JOIN sayaclar s ON s.saha = m.saha AND m.saha != ''
+    LEFT JOIN sayaclar s ON s.seri_no = (
+        SELECT seri_no FROM sayaclar WHERE modem_imei = t.imei
+           OR (saha = m.saha AND m.saha != '') LIMIT 1)
     ORDER BY m.ad IS NULL, m.ad
     """
     simdi = dt.datetime.now()
@@ -103,6 +105,7 @@ def saha_listesi(db, esik_saat):
             "sayac": r["seri_no"] or "",
             "marka": r["marka"] or "",
             "eski_son_okuma": r["eski_son_okuma"] or "",
+            "eski_durum": r["eski_durum"] or "",
             "son_bag": son_bag,
             "son_oku": son_oku,
             "baglanti_adedi": r["adet"] or 0,
@@ -168,17 +171,17 @@ def ana_sayfa(db, esik):
             f'<td title="{x["son_bag"] or ""}">{once(x["son_bag"])}</td>'
             f'<td title="{x["son_oku"] or ""}">{once(x["son_oku"])}</td>'
             f'<td class="sayi">{e(x["endeks"])} {e(x["birim"])}</td>'
-            f'<td>{e(x["eski_son_okuma"])}</td></tr>'
+            f'<td>{e(x["eski_durum"])}</td><td>{e(x["eski_son_okuma"])}</td></tr>'
         )
     if not liste:
-        satirlar = ('<tr><td colspan="9">Henüz kayıt yok. Önce <code>envanter_yukle.py</code> ile '
+        satirlar = ('<tr><td colspan="10">Henüz kayıt yok. Önce <code>envanter_yukle.py</code> ile '
                     'EnerClever listesini yükle ya da <code>osos_server.py</code> çalıştır.</td></tr>')
     govde = f"""
 <div class="kartlar">{kartlar}</div>
 <div class="arac"><input id="ara" placeholder="Saha, IMEI, GSM ya da sayaç ara">
 <a href="/okumalar.csv">Son okumaları CSV indir</a></div>
 <div class="tablo"><table><thead><tr><th>Saha / Modem</th><th>IMEI</th><th>GSM</th><th>Sayaç</th>
-<th>Durum</th><th>Son bağlantı</th><th>Son okuma</th><th>1.8.0</th><th>EnerClever son okuma</th></tr></thead>
+<th>Durum</th><th>Son bağlantı</th><th>Son okuma</th><th>1.8.0</th><th>EnerClever durumu</th><th>EnerClever son okuma</th></tr></thead>
 <tbody id="liste">{satirlar}</tbody></table></div>
 <script>
 let filtre="";const ara=document.getElementById("ara");
@@ -195,12 +198,16 @@ document.querySelectorAll(".kart").forEach(x=>x.classList.toggle("secili",x===k)
 def modem_sayfasi(db, imei):
     e = html.escape
     m = db.execute("SELECT * FROM modemler WHERE imei=?", (imei,)).fetchone()
-    s = db.execute("SELECT * FROM sayaclar WHERE saha=? AND saha!=''", (m["saha"] if m else "",)).fetchone()
+    s = db.execute(
+        "SELECT * FROM sayaclar WHERE modem_imei=? OR (saha=? AND saha!='') ORDER BY modem_imei=? DESC LIMIT 1",
+        (imei, m["saha"] if m else "", imei),
+    ).fetchone()
     bilgi = ""
     for etiket, deger in (
         ("Modem", m["ad"] if m else "(listede yok)"), ("IMEI", imei),
         ("GSM", m["gsm"] if m else ""), ("ICCID", m["iccid"] if m else ""),
         ("Sayaç", f'{s["seri_no"]} {s["marka"] or ""} {s["model"] or ""}' if s else ""),
+        ("EnerClever durumu", s["eski_durum"] if s else ""),
         ("EnerClever son okuma", s["eski_son_okuma"] if s else ""),
     ):
         bilgi += f"<tr><th>{etiket}</th><td>{e(deger or '')}</td></tr>"
@@ -237,10 +244,12 @@ def modem_sayfasi(db, imei):
 def okumalar_csv(db, esik):
     cikti = io.StringIO()
     w = csv.writer(cikti, delimiter=";")
-    w.writerow(["Saha", "IMEI", "GSM", "Sayac", "Durum", "Son baglanti", "Son okuma", "1.8.0", "Birim"])
+    w.writerow(["Saha", "IMEI", "GSM", "Sayac", "Durum", "Son baglanti", "Son okuma", "1.8.0", "Birim",
+                "EnerClever durumu", "EnerClever son okuma"])
     for x in saha_listesi(db, esik):
         w.writerow([x["ad"], x["imei"], x["gsm"], x["sayac"], DURUMLAR[x["durum"]][0],
-                    x["son_bag"] or "", x["son_oku"] or "", x["endeks"], x["birim"]])
+                    x["son_bag"] or "", x["son_oku"] or "", x["endeks"], x["birim"],
+                    x["eski_durum"], x["eski_son_okuma"]])
     return ("﻿" + cikti.getvalue()).encode("utf-8")  # Excel Türkçe karakterleri doğru açsın
 
 

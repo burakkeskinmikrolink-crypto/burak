@@ -134,5 +134,30 @@ class EnvanterPanelTest(unittest.TestCase):
         self.assertIn("Okunuyor", osos_panel.okumalar_csv(db, 26).decode("utf-8"))
 
 
+class DurumListesiTest(unittest.TestCase):
+    def test_enerclever_xls(self):
+        import envanter_yukle
+        import osos_panel
+        from osos import veritabani
+
+        xls = ("<div><table><tr><th>WorkGroupName</th><th>B&#246;lge</th><th>&#350;ube Kodu</th>"
+               "<th>Saya&#231; Durumu</th><th>Modem Seri No</th><th>Saya&#231; Seri No</th>"
+               "<th>Son Okuma Tarihi</th><th>Saya&#231; Ad&#305;</th></tr>"
+               "<tr><td>Genel</td><td>&#304;stanbul-Avrupa</td><td>1T-N1523</td>"
+               "<td>Veri G&#246;nderimi Yok</td><td>&#39;358741052021927&#39;</td><td>&#39;400106101&#39;</td>"
+               "<td></td><td>S-B34_M1523_BOGAZICI_KAPSAL</td></tr>"
+               "<tr><td>Genel</td><td>&#304;stanbul-Avrupa</td><td>1T-X1</td>"
+               "<td>Veri G&#246;nderiliyor</td><td>&#39;358741052021927&#39;</td><td>&#39;17000001&#39;</td>"
+               "<td>20.10.2026 00:31:23</td><td>S-B34_IKINCI</td></tr></table></div>")
+        db = veritabani.baglan(":memory:")
+        self.assertEqual(envanter_yukle.yukle(db, xls)[:2], ("durum", 2))
+        s = db.execute("SELECT * FROM sayaclar WHERE seri_no='400106101'").fetchone()
+        self.assertEqual((s["modem_imei"], s["eski_durum"], s["bolge"], s["sube_kodu"]),
+                         ("358741052021927", "Veri Gönderimi Yok", "İstanbul-Avrupa", "1T-N1523"))
+        # İki sayaçlı modem panelde tek satır olmalı
+        liste = osos_panel.saha_listesi(db, 26)
+        self.assertEqual(len(liste), 1)
+
+
 if __name__ == "__main__":
     unittest.main()

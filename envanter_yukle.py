@@ -10,6 +10,7 @@ Kullanım:
     python envanter_yukle.py modemler.csv
     python envanter_yukle.py sayac_okumalari.csv
     python envanter_yukle.py sayaclar.csv --db osos.db
+    python envanter_yukle.py meterStatusList_20.10.2026.xls   # Sayaç Durum Kontrol -> Excel
 
 Dosyanın modem mi sayaç listesi mi olduğu başlıklardan anlaşılır.
 Aynı dosyayı tekrar yüklemek kayıtları günceller, çoğaltmaz.
@@ -19,6 +20,7 @@ import argparse
 import csv
 import io
 import sys
+from html.parser import HTMLParser
 
 from osos import veritabani
 
@@ -51,6 +53,17 @@ SAYAC_BASLIK = {
     "SON OKUMA TARIHI": "eski_son_okuma",
 }
 
+DURUM_BASLIK = {
+    "MODEM SERI NO": "imei",
+    "SAYAC SERI NO": "seri_no",
+    "SAYAC ADI": "ad",
+    "BOLGE": "bolge",
+    "SUBE KODU": "sube_kodu",
+    "SAYAC DURUMU": "eski_durum",
+    "SON OKUMA TARIHI": "eski_son_okuma",
+    "WORKGROUPNAME": "calisma_grubu",
+}
+
 _TR = str.maketrans("ÇĞİIÖŞÜçğıiöşü", "CGIIOSUCGIIOSU")
 
 
@@ -68,22 +81,56 @@ def dosya_oku(yol: str) -> str:
     return ham.decode("latin-1")
 
 
+class _HtmlTablo(HTMLParser):
+    """EnerClever'ın .xls dışa aktarımı aslında bir HTML tablosu."""
+
+    def __init__(self):
+        super().__init__()
+        self.satirlar, self._satir, self._hucre = [], None, None
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "tr":
+            self._satir = []
+        elif tag in ("td", "th"):
+            self._hucre = ""
+
+    def handle_endtag(self, tag):
+        if tag in ("td", "th") and self._hucre is not None and self._satir is not None:
+            self._satir.append(self._hucre.strip())
+            self._hucre = None
+        elif tag == "tr" and self._satir is not None:
+            self.satirlar.append(self._satir)
+            self._satir = None
+
+    def handle_data(self, data):
+        if self._hucre is not None:
+            self._hucre += data
+
+
 def satirlar(metin: str):
-    ilk = metin.splitlines()[0] if metin.strip() else ""
-    ayirici = max(("\t", ";", ","), key=ilk.count)
-    okuyucu = csv.reader(io.StringIO(metin), delimiter=ayirici)
+    if "<table" in metin[:2000].lower():
+        p = _HtmlTablo()
+        p.feed(metin)
+        tablo = p.satirlar
+    else:
+        ilk = metin.splitlines()[0] if metin.strip() else ""
+        ayirici = max(("\t", ";", ","), key=ilk.count)
+        tablo = csv.reader(io.StringIO(metin), delimiter=ayirici)
     basliklar = None
-    for satir in okuyucu:
+    for satir in tablo:
         if not any(h.strip() for h in satir):
             continue
         if basliklar is None:
             basliklar = [sade(h) for h in satir]
             continue
-        yield dict(zip(basliklar, (h.strip() for h in satir)))
+        # EnerClever sayıları Excel için 'tırnak' içine alıyor
+        yield dict(zip(basliklar, (h.strip().strip("'") for h in satir)))
 
 
 def tur_bul(basliklar) -> str:
     b = set(basliklar)
+    if "MODEM SERI NO" in b and "SAYAC SERI NO" in b:
+        return "durum"
     if "MODEM" in b or "MODEM ADI" in b or "GSM NO" in b:
         return "modem"
     if "SAYAC" in b or "SAYAC ADI" in b:
@@ -91,34 +138,63 @@ def tur_bul(basliklar) -> str:
     raise SystemExit(f"Başlıklardan liste türü anlaşılamadı: {sorted(b)}")
 
 
+def _yaz(db, tablo, anahtar, alanlar):
+    kolonlar = ", ".join(alanlar)
+    yer = ", ".join("?" for _ in alanlar)
+    guncelle = ", ".join(f"{c}=excluded.{c}" for c in alanlar if c != anahtar)
+    db.execute(
+        f"INSERT INTO {tablo} ({kolonlar}) VALUES ({yer}) "
+        f"ON CONFLICT({anahtar}) DO {'UPDATE SET ' + guncelle if guncelle else 'NOTHING'}",
+        tuple(alanlar.values()),
+    )
+
+
+def _secilen(kayit, esleme):
+    alanlar = {}
+    for baslik, deger in kayit.items():
+        alan = esleme.get(baslik)
+        if alan and deger and alan not in alanlar:
+            alanlar[alan] = deger
+    return alanlar
+
+
 def yukle(db, metin: str):
     kayitlar = list(satirlar(metin))
     if not kayitlar:
         raise SystemExit("Dosyada kayıt bulunamadı.")
     tur = tur_bul(kayitlar[0].keys())
-    esleme = MODEM_BASLIK if tur == "modem" else SAYAC_BASLIK
-    anahtar = "imei" if tur == "modem" else "seri_no"
-    tablo = "modemler" if tur == "modem" else "sayaclar"
 
     sayi = atlanan = 0
     for k in kayitlar:
-        alanlar = {}
-        for baslik, deger in k.items():
-            alan = esleme.get(baslik)
-            if alan and deger and alan not in alanlar:
-                alanlar[alan] = deger
+        if tur == "durum":
+            # Sayaç Durum Kontrol listesi: modem + sayaç + eski sistemdeki durum
+            s = _secilen(k, DURUM_BASLIK)
+            imei, seri = s.pop("imei", ""), s.get("seri_no", "")
+            if not seri:
+                atlanan += 1
+                continue
+            s["saha"] = veritabani.saha_adi(s.get("ad", ""))
+            if imei:
+                s["modem_imei"] = imei
+            _yaz(db, "sayaclar", "seri_no", s)
+            if imei:
+                # Modem adı yoksa sayaç adından türet; modem listesindeki ad varsa ona dokunma
+                db.execute(
+                    "INSERT INTO modemler (imei, ad, saha) VALUES (?, ?, ?) "
+                    "ON CONFLICT(imei) DO UPDATE SET saha=excluded.saha",
+                    (imei, "M-" + s["saha"] if s["saha"] else imei, s["saha"]),
+                )
+            sayi += 1
+            continue
+
+        esleme = MODEM_BASLIK if tur == "modem" else SAYAC_BASLIK
+        anahtar = "imei" if tur == "modem" else "seri_no"
+        alanlar = _secilen(k, esleme)
         if not alanlar.get(anahtar):
             atlanan += 1
             continue
         alanlar["saha"] = veritabani.saha_adi(alanlar.get("ad", ""))
-        kolonlar = ", ".join(alanlar)
-        yer = ", ".join("?" for _ in alanlar)
-        guncelle = ", ".join(f"{c}=excluded.{c}" for c in alanlar if c != anahtar)
-        db.execute(
-            f"INSERT INTO {tablo} ({kolonlar}) VALUES ({yer}) "
-            f"ON CONFLICT({anahtar}) DO UPDATE SET {guncelle}",
-            tuple(alanlar.values()),
-        )
+        _yaz(db, "modemler" if tur == "modem" else "sayaclar", anahtar, alanlar)
         sayi += 1
     db.commit()
     return tur, sayi, atlanan
@@ -136,9 +212,10 @@ def main():
     m = db.execute("SELECT COUNT(*) FROM modemler").fetchone()[0]
     s = db.execute("SELECT COUNT(*) FROM sayaclar").fetchone()[0]
     e = db.execute(
-        "SELECT COUNT(*) FROM modemler m JOIN sayaclar s ON s.saha = m.saha"
+        "SELECT COUNT(*) FROM modemler m WHERE EXISTS (SELECT 1 FROM sayaclar s "
+        "WHERE s.modem_imei = m.imei OR (s.saha = m.saha AND m.saha != ''))"
     ).fetchone()[0]
-    print(f"Toplam: {m} modem, {s} sayaç, {e} modem-sayaç eşleşmesi")
+    print(f"Toplam: {m} modem, {s} sayaç, {e} modemin sayacı eşleşti")
 
 
 if __name__ == "__main__":

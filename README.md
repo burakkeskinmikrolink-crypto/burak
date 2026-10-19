@@ -13,6 +13,7 @@ kendi yazılımımızla okumak.
 | `osos_server.py` | Modemlerin bağlanacağı merkez. Gelen her byte'ı kaydeder, istenirse modem üzerinden sayacı okur, SQLite'a yazar. |
 | `osos_panel.py` | Web paneli: sahaların durumu (okunuyor / bağlanıyor ama okunamıyor / sessiz / hiç bağlanmadı), son endeksler, CSV indirme. |
 | `envanter_yukle.py` | EnerClever'dan kopyalanan modem ve sayaç listesini içeri alır; modem ile sayaç saha adından eşleşir. |
+| `enerclever_analiz.py` | EnerClever'daki mevcut durumu modem tipine, bölgeye, sayaca göre özetler; okunmayan sahaları CSV'ye yazar. |
 | `modem_simulator.py` | Sahte modemler. Gerçek modem yokken tüm sistemi uçtan uca çalıştırıp göstermek için. |
 | `osos/iec62056.py` | Luna, Köhler vb. sayaçların konuştuğu IEC 62056-21 protokolü. |
 
@@ -60,6 +61,14 @@ Aynısını Sayaçlar / Sayaç Okumaları sayfası için de yap.
 
 ```
 python envanter_yukle.py modemler.csv sayaclar.csv
+```
+
+EnerClever → Sayaç Durum Kontrol → Excel ile indirilen `meterStatusList_*.xls`
+dosyası da doğrudan yüklenir (modem IMEI, sayaç, eski sistemdeki durum ve son okuma):
+
+```
+python envanter_yukle.py meterStatusList_20.10.2026_00_48_32.xls
+python enerclever_analiz.py --csv sorunlu_sahalar.csv   # mevcut durum raporu + sahaya gidilecek liste
 ```
 
 ## 4. Paneli aç
