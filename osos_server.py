@@ -29,7 +29,7 @@ import re
 import sqlite3
 import sys
 
-from osos import iec62056 as iec
+from osos import iec62056 as iec, veritabani
 
 IMEI_RE = re.compile(rb"(?<!\d)(35\d{13}|86\d{13})(?!\d)")
 ICCID_RE = re.compile(rb"(?<!\d)(89\d{16,18})(?!\d)")
@@ -47,24 +47,7 @@ class Kayit:
     def __init__(self, db_yolu: str, log_klasoru: str):
         self.log_klasoru = log_klasoru
         os.makedirs(log_klasoru, exist_ok=True)
-        self.db = sqlite3.connect(db_yolu)
-        self.db.executescript(
-            """
-            CREATE TABLE IF NOT EXISTS baglantilar (
-                id INTEGER PRIMARY KEY, baslangic TEXT, bitis TEXT,
-                ip TEXT, port INTEGER, protokol TEXT,
-                imei TEXT, iccid TEXT, ilk_veri_hex TEXT, toplam_byte INTEGER
-            );
-            CREATE TABLE IF NOT EXISTS okumalar (
-                id INTEGER PRIMARY KEY, zaman TEXT, baglanti_id INTEGER,
-                imei TEXT, sayac_kimlik TEXT, bcc_dogru INTEGER, ham TEXT
-            );
-            CREATE TABLE IF NOT EXISTS degerler (
-                okuma_id INTEGER, obis TEXT, deger TEXT, birim TEXT
-            );
-            """
-        )
-        self.db.commit()
+        self.db = veritabani.baglan(db_yolu)
 
     def log(self, metin: str):
         satir = f"{simdi()}  {metin}"

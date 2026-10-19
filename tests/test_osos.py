@@ -102,5 +102,37 @@ class SunucuTest(unittest.TestCase):
             con.execute("SELECT deger FROM degerler WHERE obis='1.8.0'").fetchone()[0], "012345.678")
 
 
+
+class EnvanterPanelTest(unittest.TestCase):
+    def test_envanter_ve_panel(self):
+        import envanter_yukle
+        import osos_panel
+        from osos import veritabani
+
+        db = veritabani.baglan(":memory:")
+        modemler = ("MÜŞTERİ\tMODEM\tSERİ NO\tGSM NO\tIP\tPORT\tAÇIKLAMA\n"
+                    "VODAFONE\tM-B34_M1523_BOGAZICI_KAPSAL\t358741052021927\t5465295149\t\t\t\n"
+                    "VODAFONE\tM-GL34_01078_KUCUKBEBEK2_SE\t358741051624226\t5497132927\t\t\t\n")
+        sayaclar = ("SAYAÇ;SERİ NO;OKUMA ZAMANI\n"
+                    "S-B34_M1523_BOGAZICI_KAPSAL;400106101;23.12.2025 15:03:35\n")
+        self.assertEqual(envanter_yukle.yukle(db, modemler)[:2], ("modem", 2))
+        self.assertEqual(envanter_yukle.yukle(db, sayaclar)[:2], ("sayac", 1))
+        envanter_yukle.yukle(db, modemler)  # tekrar yükleme çoğaltmaz
+        self.assertEqual(db.execute("SELECT COUNT(*) FROM modemler").fetchone()[0], 2)
+
+        db.execute("INSERT INTO baglantilar (baslangic, imei) VALUES (datetime('now','localtime'), ?)",
+                   ("358741052021927",))
+        cur = db.execute("INSERT INTO okumalar (zaman, imei, bcc_dogru) VALUES (datetime('now','localtime'), ?, 1)",
+                         ("358741052021927",))
+        db.execute("INSERT INTO degerler VALUES (?, '1.8.0', '012345.678', 'kWh')", (cur.lastrowid,))
+        liste = {x["imei"]: x for x in osos_panel.saha_listesi(db, 26)}
+        k = liste["358741052021927"]
+        self.assertEqual((k["durum"], k["endeks"], k["sayac"]), ("ok", "012345.678", "400106101"))
+        self.assertEqual(liste["358741051624226"]["durum"], "hic")
+        self.assertIn("BOGAZICI", osos_panel.ana_sayfa(db, 26))
+        self.assertIn("012345.678", osos_panel.modem_sayfasi(db, "358741052021927"))
+        self.assertIn("Okunuyor", osos_panel.okumalar_csv(db, 26).decode("utf-8"))
+
+
 if __name__ == "__main__":
     unittest.main()

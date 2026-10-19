@@ -11,6 +11,9 @@ kendi yazılımımızla okumak.
 |---|---|
 | `sayac_test.py` | Sayacı laptop + USB-RS485 ile doğrudan okur. Sayaç ve kablo sağlam mı? |
 | `osos_server.py` | Modemlerin bağlanacağı merkez. Gelen her byte'ı kaydeder, istenirse modem üzerinden sayacı okur, SQLite'a yazar. |
+| `osos_panel.py` | Web paneli: sahaların durumu (okunuyor / bağlanıyor ama okunamıyor / sessiz / hiç bağlanmadı), son endeksler, CSV indirme. |
+| `envanter_yukle.py` | EnerClever'dan kopyalanan modem ve sayaç listesini içeri alır; modem ile sayaç saha adından eşleşir. |
+| `modem_simulator.py` | Sahte modemler. Gerçek modem yokken tüm sistemi uçtan uca çalıştırıp göstermek için. |
 | `osos/iec62056.py` | Luna, Köhler vb. sayaçların konuştuğu IEC 62056-21 protokolü. |
 
 ## Kurulum
@@ -48,6 +51,32 @@ python osos_server.py --rapor                    # son bağlantı ve okumaları 
 
 Sunucu, modemlerin SIM'lerinin çıktığı Vodafone APN'inden erişilebilir bir
 adreste olmalı.
+
+## 3. EnerClever listesini içeri al
+
+EnerClever → Modemler → "Sayfada" kutusunu en büyüğe al → tabloyu başlıklarıyla
+seç, kopyala → Excel'e yapıştır → CSV kaydet (ya da bir .txt'ye yapıştır).
+Aynısını Sayaçlar / Sayaç Okumaları sayfası için de yap.
+
+```
+python envanter_yukle.py modemler.csv sayaclar.csv
+```
+
+## 4. Paneli aç
+
+```
+python osos_panel.py            # http://localhost:8000
+```
+
+## Modem olmadan deneme (sunum için de)
+
+Üç ayrı pencerede:
+
+```
+python osos_server.py --port 9000 --oku --bekle 1
+python modem_simulator.py --port 9000 --adet 20 --aralik 30
+python osos_panel.py
+```
 
 ## Testler
 
