@@ -1,1 +1,2 @@
-pyserial>=3.5
+pyserial>=3.5   # sayac_test.py
+xlrd>=2.0       # EnerClever .xls raporlarını okumak için

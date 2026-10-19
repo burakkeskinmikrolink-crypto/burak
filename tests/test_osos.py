@@ -159,5 +159,43 @@ class DurumListesiTest(unittest.TestCase):
         self.assertEqual(len(liste), 1)
 
 
+class EnerjiVeOlcumTest(unittest.TestCase):
+    def test_enerji_raporu_ve_fazlar(self):
+        import envanter_yukle
+        import osos_panel
+        from osos import olcumler, veritabani
+
+        rapor = ("Yıl\n\nDeğer;;Okuma Tipi\n;;Toplam Tüketim\n;;2026/10\n"
+                 "Sayaç No;Sayaç Adı;Modem No;Modem;SIMKART GSM No;Alt Bölge;Sehir;Saha Adi;Saha Id;kWh\n"
+                 "400106101;S-B34_M1523_BOGAZICI_KAPSAL;358741052021927;M-B34_M1523_BOGAZICI_KAPSAL;"
+                 "5465295149;İstanbul Avrupa;İstanbul;B34_M1523_BOGAZICI_KAPSAL;1T-N1523;120,5\n"
+                 "17000002;S-X;1;M-X;;;;;;5\n")
+        db = veritabani.baglan(":memory:")
+        self.assertEqual(envanter_yukle.yukle(db, rapor)[:2], ("enerji", 2))
+        self.assertIsNone(db.execute("SELECT 1 FROM modemler WHERE imei='1'").fetchone())
+        self.assertEqual(db.execute("SELECT gsm FROM modemler").fetchone()[0], "5465295149")
+
+        def okuma(zaman, endeks, l1):
+            cur = db.execute("INSERT INTO okumalar (zaman, imei, bcc_dogru) VALUES (?, '358741052021927', 1)",
+                             (zaman,))
+            db.executemany("INSERT INTO degerler VALUES (?,?,?,?)", [
+                (cur.lastrowid, "1.8.0", endeks, "kWh"), (cur.lastrowid, "32.7.0", l1, "V"),
+                (cur.lastrowid, "52.7.0", "230.0", "V"), (cur.lastrowid, "72.7.0", "231.0", "V")])
+        okuma("2026-09-30 23:00:00", "001000.000", "229.0")
+        okuma("2026-10-15 12:00:00", "001050.000", "229.0")
+        okuma("2026-10-31 23:00:00", "001100.250", "000.0")
+        satir = [x for x in osos_panel.enerji_raporu(db, "2026-10") if x["Sayaç No"] == "400106101"][0]
+        self.assertEqual((satir["kWh"], satir["EnerClever kWh"], satir["SIMKART GSM No"]),
+                         (100.25, 120.5, "5465295149"))
+        self.assertIn("Sayaç No;Sayaç Adı", osos_panel.rapor_csv(db, "2026-10").decode("utf-8"))
+
+        son = osos_panel.son_degerler(db, 3)
+        self.assertEqual(olcumler.faz_durumu(son), ["yok", "ok", "ok"])
+        self.assertTrue(any("L1 fazı yok" in m for _, m in olcumler.alarmlar(son)))
+        sayfa = osos_panel.modem_sayfasi(db, "358741052021927")
+        self.assertIn("L1 fazı yok", sayfa)
+        self.assertIn("<svg", sayfa)
+
+
 if __name__ == "__main__":
     unittest.main()

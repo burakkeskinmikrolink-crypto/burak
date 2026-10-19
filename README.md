@@ -69,6 +69,7 @@ dosyası da doğrudan yüklenir (modem IMEI, sayaç, eski sistemdeki durum ve so
 ```
 python envanter_yukle.py meterStatusList_20.10.2026_00_48_32.xls
 python enerclever_analiz.py --csv sorunlu_sahalar.csv   # mevcut durum raporu + sahaya gidilecek liste
+python envanter_yukle.py EnerjiRaporu_55.xls             # aylık kWh + modem GSM numaraları
 ```
 
 ## 4. Paneli aç
@@ -76,6 +77,14 @@ python enerclever_analiz.py --csv sorunlu_sahalar.csv   # mevcut durum raporu + 
 ```
 python osos_panel.py            # http://localhost:8000
 ```
+
+- **Sahalar:** her sahanın durumu, L1/L2/L3 faz durumu, alarmlar (faz yok, düşük/yüksek
+  gerilim, sayaç hata kodu, düşük güç faktörü, akım dengesizliği, sessiz modem).
+- **Modem sayfası:** faz tablosu (gerilim, akım, güç faktörü), sayacın gönderdiği tüm
+  değerler (tarifeler, reaktif, maksimum talep, kesinti sayıları, hata kodu ve bilinmeyen
+  kodlar dahil), gerilim/akım/günlük tüketim grafikleri, okuma ve bağlantı geçmişi.
+- **Enerji Raporu:** EnerClever "Enerji Raporu" ile aynı kolonlarda aylık kWh, yanında
+  EnerClever'ın aynı ay değeri; Excel için CSV.
 
 ## Modem olmadan deneme (sunum için de)
 
