@@ -84,7 +84,7 @@ details summary:focus-visible { outline: 2px solid var(--bar-hi); outline-offset
   <header>
     <div>
       <h1>Haftalık Alarm Trendi</h1>
-      <p class="sub">7 Eylül – 12 Ekim 2026 &nbsp;·&nbsp; Son 6 hafta &nbsp;·&nbsp; Alarm adedi</p>
+      <p class="sub">7 Eylül – 19 Ekim 2026 &nbsp;·&nbsp; Son 7 hafta &nbsp;·&nbsp; Alarm adedi</p>
     </div>
     <div class="org">Mikrolink R1 NOC</div>
   </header>
@@ -114,17 +114,17 @@ details summary:focus-visible { outline: 2px solid var(--bar-hi); outline-offset
 <div id="tip" hidden></div>
 
 <script>
-const WEEKS = ["7 Eyl","14 Eyl","21 Eyl","28 Eyl","5 Eki","12 Eki"];
-const WEEKS_FULL = ["7.09.2026","14.09.2026","21.09.2026","28.09.2026","5.10.2026","12.10.2026"];
+const WEEKS = ["7 Eyl","14 Eyl","21 Eyl","28 Eyl","5 Eki","12 Eki","19 Eki"];
+const WEEKS_FULL = ["7.09.2026","14.09.2026","21.09.2026","28.09.2026","5.10.2026","12.10.2026","19.10.2026"];
 const ALARMS = [
-  ["External Clock Reference Problem", [90,86,94,88,104,90], "Ext. Clock"],
-  ["RF Unit VSWR Threshold Crossed",   [99,88,76,65,51,42],  "VSWR"],
-  ["IP PM Activation Failure",         [32,30,28,5,19,17],   "IP PM"],
-  ["BBU CPRI Interface Error",         [21,18,14,11,9,6],    "CPRI Interface"],
-  ["RF Unit Maintenance Link Failure", [11,12,9,8,6,5],      "RF Maint. Link"],
-  ["BBU CPRI Optical Module Fault",    [2,1,1,0,0,0],        "CPRI Optical"],
+  ["External Clock Reference Problem", [90,86,94,88,104,90,108], "Ext. Clock"],
+  ["RF Unit VSWR Threshold Crossed",   [99,88,76,65,51,42,66],  "VSWR"],
+  ["IP PM Activation Failure",         [32,30,28,5,19,17,10],   "IP PM"],
+  ["BBU CPRI Interface Error",         [21,18,14,11,9,6,11],    "CPRI Interface"],
+  ["RF Unit Maintenance Link Failure", [11,12,9,8,6,5,8],      "RF Maint. Link"],
+  ["BBU CPRI Optical Module Fault",    [2,1,1,0,0,0,4],        "CPRI Optical"],
 ];
-const TOTAL = [323,294,233,177,189,160];
+const TOTAL = [323,294,233,177,189,160,207];
 const N = TOTAL.length, L = N - 1;
 const NS = "http://www.w3.org/2000/svg";
 const el = (tag, attrs, parent, text) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text != null) e.textContent = text; parent && parent.appendChild(e); return e; };
@@ -135,10 +135,10 @@ const sign = v => v > 0 ? "+" + v : v < 0 ? "−" + Math.abs(v) : "0";
 const total6 = pct(TOTAL[0], TOTAL[L]), wow = pct(TOTAL[L-1], TOTAL[L]);
 const risers = ALARMS.filter(a => a[1][L] > a[1][L-1]);
 const kpis = [
-  ["12 Ekim toplam", TOTAL[L], "", ""],
-  ["6 haftalık değişim", sign(total6) + "%", `${TOTAL[0]} → ${TOTAL[L]}`, total6 < 0 ? "good" : "bad"],
+  [WEEKS[L].replace("Eki","Ekim") + " toplam", TOTAL[L], "", ""],
+  [N + " haftalık değişim", sign(total6) + "%", `${TOTAL[0]} → ${TOTAL[L]}`, total6 < 0 ? "good" : "bad"],
   ["Geçen haftaya göre", sign(wow) + "%", `${TOTAL[L-1]} → ${TOTAL[L]}`, wow < 0 ? "good" : "bad"],
-  ["Artış gösteren alarm", risers.length, risers.length ? risers.map(a => a[2]).join(" · ") : "Tüm alarmlar azaldı veya sabit", risers.length ? "bad" : "good"],
+  ["Artış gösteren alarm", risers.length, risers.length === 0 ? "Tüm alarmlar azaldı veya sabit" : risers.length > 2 ? "Azalan: " + (ALARMS.filter(a => !risers.includes(a)).map(a => a[2]).join(" · ") || "yok") : risers.map(a => a[2]).join(" · "), risers.length ? "bad" : "good"],
 ];
 document.getElementById("kpis").innerHTML = kpis.map(([l, v, n, c]) =>
   `<div class="kpi"><div class="lbl">${l}</div><div class="row"><div class="big ${c}">${v}</div><div class="note">${n}</div></div></div>`).join("");
@@ -168,7 +168,7 @@ document.getElementById("kpis").innerHTML = kpis.map(([l, v, n, c]) =>
 /* Small multiples */
 (() => {
   const host = document.getElementById("multiples");
-  ALARMS.forEach(([name, d]) => {
+  [...ALARMS].sort((a, b) => b[1][L] - a[1][L]).forEach(([name, d]) => {
     const diff = d[L] - d[L-1];
     const cls = diff > 0 ? "bad" : diff < 0 ? "good" : "";
     const delta = diff > 0 ? `▲ +${diff} <span>geçen hafta</span>` : diff < 0 ? `▼ −${-diff} <span>geçen hafta</span>` : `<span style="color:var(--flat)">■ değişim yok</span>`;
