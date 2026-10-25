@@ -10,7 +10,8 @@ import numpy as np
 from matplotlib.animation import FFMpegWriter, FuncAnimation
 
 ANAPARA, ORAN, YIL = 1000, 0.07, 40
-yillar = np.arange(YIL + 1)
+KARE_YIL = 10  # 30 fps, yilda 10 kare (~13 sn video)
+yillar = np.linspace(0, YIL, YIL * KARE_YIL + 1)
 bilesik = ANAPARA * (1 + ORAN) ** yillar
 basit = ANAPARA * (1 + ORAN * yillar)
 
@@ -33,10 +34,10 @@ baslik = ax.set_title("", color="white", fontsize=20)
 def kare(i):
     c_line.set_data(yillar[: i + 1], bilesik[: i + 1])
     s_line.set_data(yillar[: i + 1], basit[: i + 1])
-    baslik.set_text(f"Year {i}: ${bilesik[i]:,.0f} vs ${basit[i]:,.0f}")
+    baslik.set_text(f"Year {yillar[i]:.0f}:  ${bilesik[i]:,.0f} (compound)  vs  ${basit[i]:,.0f} (simple)")
     return c_line, s_line, baslik
 
 
-anim = FuncAnimation(fig, kare, frames=YIL + 1, blit=False)
-anim.save("bilesik_faiz.mp4", writer=FFMpegWriter(fps=6))
+anim = FuncAnimation(fig, kare, frames=len(yillar), blit=False)
+anim.save("bilesik_faiz.mp4", writer=FFMpegWriter(fps=30))
 print("bitti")
