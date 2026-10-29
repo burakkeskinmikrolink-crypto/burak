@@ -38,6 +38,19 @@ Senaryo metinleri İngilizce, notlar ve açıklamalar Türkçe. Sadece metin ür
 | 16 Ara | Çar | Hidden Systems | 13 Aralık kararından sonra (konu: `konular.md`) | — | — |
 | 16 Ara | Çar | Scam Engineer | Öneri: `scam_engineer/evergreen-04.md` (para gönderdim) | Senaryo dosyasının içinde | 17, 19, 21 Ara |
 
+### 📱 Bağımsız Shorts takvimi (9 Kasım – 13 Aralık)
+Uzun videodan kesilmeyen, kendi mini konusu olan Short'lar. Kanal başına haftada 4, toplam **60**. Uzun video Short'larıyla birlikte her kanalda neredeyse her gün bir Short çıkıyor. Hepsi kaynaklı ve `shortchk` kontrolünden geçti (ilk kare hareketli, ≤6 kelime, ilk VO cümlesiyle aynı, döngü).
+
+| Hafta | Hidden Systems | Centworks | Scam Engineer |
+|---|---|---|---|
+| 1 (9–15 Kas) | 9, 10, 11, 13 Kas — `hidden_systems/shorts-bagimsiz-hafta-1.md` | 9, 11, 13, 14 Kas — `centworks/shorts-bagimsiz-hafta-1.md` | 11, 13, 14 (akşam), 15 Kas — `scam_engineer/shorts-bagimsiz-hafta-1.md` |
+| 2 (16–22 Kas) | 17, 18, 20, 22 Kas — `…-hafta-2.md` | 16, 18, 20, 21 Kas — `…-hafta-2.md` | 17, 18, 20, 22 Kas — `…-hafta-2.md` |
+| 3 (23–29 Kas) | 24, 25, 27, 29 Kas — `…-hafta-3.md` | 23, 25, 27, 28 Kas — `…-hafta-3.md` | 24, 25, 27, 29 Kas — `…-hafta-3.md` |
+| 4 (30 Kas–6 Ara) | 1, 2, 4, 6 Ara — `…-hafta-4.md` | 1, 3, 4, 5 Ara — `…-hafta-4.md` | 1, 2, 4, 6 Ara — `…-hafta-4.md` |
+| 5 (7–13 Ara) | 8, 9, 11, 13 Ara — `…-hafta-5.md` | 7, 9, 11, 12 Ara — `…-hafta-5.md` | 8, 9, 11, 13 Ara — `…-hafta-5.md` |
+
+> Günler, o kanalın uzun video Short'larının **çıkmadığı** günlere yerleştirildi. Her dosyanın başındaki tabloda gün, format ve "Related video" var. Related video her zaman o gün **yayınlanmış** bir videoya bağlanır.
+
 **Yedek:** `hidden_systems/yedek-kuba.md` (+ `yedek-kuba-shorts.md`). Küba videosu politik hassasiyet nedeniyle takvimden çıkarıldı.
 **Sonraki haftalar (planlanan, senaryosu yok):** [`konular.md`](konular.md)
 
