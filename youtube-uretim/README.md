@@ -1,46 +1,81 @@
 # youtube-uretim: Üretim dosyaları
 
-Hazırlanma: 29 Ekim 2026. Tüm senaryo metinleri İngilizce, notlar ve açıklamalar Türkçe. Sadece metin üretildi, görsel üretilmedi.
+Senaryo metinleri İngilizce, notlar ve açıklamalar Türkçe. Sadece metin üretildi, görsel üretilmedi.
 
-## Üretilenler
+- **1. tur (29 Ekim 2026):** konu planı, 1.–2. hafta senaryoları, Scam Engineer Shorts serisi
+- **2. tur (29 Ekim 2026):** 3.–4. hafta senaryoları (her kanal için 2'şer), Hidden Systems ve Centworks için ayrı Shorts dosyaları
 
-| Dosya | İçerik | Yayın | Anlatım uzunluğu |
-|---|---|---|---|
-| `konular.md` | 3 kanal için 6 haftalık konu planı. Her konuda: neden şimdi, tahmini ABD/UK arama ilgisi, 1 cümlelik hook. Centworks'te 2 "What if…" ve 2 "A vs B" var. | — | — |
-| `hidden_systems/04.md` | **Google Cloud Londra: çalışmayan jeneratör** (20 Ekim 2026). "Dramatize + gerçek görseller" deneme bölümü | 11 Kasım | 1.191 kelime (~8 dk) |
-| `hidden_systems/05.md` | **First Brands: faturalar üzerine kurulu 10 milyar $'lık çöküş** | 18 Kasım | 1.134 kelime (~7,5 dk) |
-| `centworks/03.md` | **Kuruş öldü: nakit yuvarlama ve Common Cents Act** | 7 Kasım | 1.110 kelime (~7,5 dk) |
-| `centworks/04.md` | **Kredi kartı ödüllerini kim ödüyor?** (swipe fee + Visa/Mastercard uzlaşması) | 14 Kasım | 1.148 kelime (~7,5 dk) |
-| `scam_engineer/03.md` | **"Unpaid toll" SMS'i:** "Reply Y" hilesi ve kartın dijital cüzdana eklenmesi | 11 Kasım | 1.137 kelime (~7,5 dk) |
-| `scam_engineer/04.md` | **Phantom Hacker:** sahte teknik destek → sahte banka → sahte devlet | 18 Kasım | 1.123 kelime (~7,5 dk) |
-| `scam_engineer/shorts_5-10_kasim.md` | Spoofing ve SIM swap videolarından **6 Short** (2× quiz, 2× kısa hikâye, 2× gerçek mi sahte mi), 5–10 Kasım takvimiyle | 5–10 Kasım | 30–40 sn/adet |
+## Dosyalar
 
-Her uzun senaryo dosyasında şunlar var:
+### Planlama
+| Dosya | İçerik |
+|---|---|
+| `konular.md` | 3 kanal için 6 haftalık konu planı (neden şimdi, tahmini ABD/UK arama ilgisi, hook). Senaryosu yazılanlar ✅ ile işaretli. |
+
+### Hidden Systems (`hidden_systems/`)
+| Hafta | Senaryo | Konu | Yayın | Anlatım | Shorts |
+|---|---|---|---|---|---|
+| 1 | `04.md` | Google Cloud Londra: çalışmayan jeneratör (20 Ekim 2026). "Dramatize + gerçek görseller" denemesi | 11 Kas | 1.191 kelime | `shorts_04.md` |
+| 2 | `05.md` | First Brands: faturalar üzerine kurulu çöküş | 18 Kas | 1.134 kelime | `shorts_05.md` |
+| 3 | `06.md` | **YENİ:** AWS us-east-1 soğutma arızası (Mayıs 2026). Isı, kesinti ve "neden iki değil üç zon" | 25 Kas | 1.136 kelime | `shorts_06.md` |
+| 4 | `07.md` | **YENİ:** Küba'nın tekrar tekrar ölen şebekesi ve "black start" | 2 Ara | 1.126 kelime | `shorts_07.md` |
+
+### Centworks (`centworks/`)
+| Hafta | Senaryo | Konu | Yayın | Anlatım | Shorts |
+|---|---|---|---|---|---|
+| 1 | `03.md` | Kuruş öldü: nakit yuvarlama ve Common Cents Act | 7 Kas | 1.110 kelime | `shorts_03.md` |
+| 2 | `04.md` | Kredi kartı ödüllerini kim ödüyor? | 14 Kas | 1.148 kelime | `shorts_04.md` |
+| 3 | `05.md` | **YENİ (What if):** What if the Fed keeps raising rates? | 21 Kas | 1.123 kelime | `shorts_05.md` |
+| 4 | `06.md` | **YENİ (A vs B):** Buy Now, Pay Later vs Credit Card | 28 Kas | 1.127 kelime | `shorts_06.md` |
+
+### Scam Engineer (`scam_engineer/`)
+| Hafta | Senaryo | Konu | Yayın | Anlatım | Shorts |
+|---|---|---|---|---|---|
+| — | `shorts_5-10_kasim.md` | Spoofing ve SIM swap videolarından 6 Short (2× quiz, 2× hikâye, 2× gerçek mi sahte mi) | 5–10 Kas | — | — |
+| 1 | `03.md` | "Unpaid toll" SMS'i ve dijital cüzdan hilesi | 11 Kas | 1.137 kelime | dosya içinde |
+| 2 | `04.md` | Phantom Hacker | 18 Kas | 1.123 kelime | dosya içinde |
+| 3 | `05.md` | **YENİ:** Sahte online mağazalar (Black Friday) | 25 Kas | 1.121 kelime | dosya içinde |
+| 4 | `06.md` | **YENİ:** Medicare açık kayıt dönemi sahte aramaları | 2 Ara | 1.112 kelime | dosya içinde |
+
+Anlatım uzunlukları sadece seslendirilecek metni sayıyor. 150 kelime/dk hızla her senaryo yaklaşık 7,5–8 dakika.
+
+### Her uzun senaryo dosyasında
 - Sahne sahne senaryo: `[SAHNE n | görsel önerisi | süre]` + anlatım metni
 - 3 başlık seçeneği (biri arama odaklı)
 - Küçük resim metni (≤4 kelime) ve görsel fikri
 - YouTube açıklaması (bölümler + kaynak linkleri)
 - Etiketler
-- Kaynak/doğrulama tablosu (Türkçe)
-- 3 Short senaryosu (her videoda farklı formatlar; Scam Engineer'da quiz / kısa hikâye / gerçek mi sahte mi)
+- Kaynak ve doğrulama tablosu (Türkçe)
+- Shorts: Hidden Systems ve Centworks'te ayrı `shorts_XX.md` dosyasına link, Scam Engineer'da dosyanın içinde (quiz / kısa hikâye / gerçek mi sahte mi)
 
-## Senaryo kurallarına uyum (kontrol listesi)
-- [x] İlk cümle en şok edici sonuç. Tarih/saat ile açılış ya da selamlama yok.
-- [x] İlk ~15 saniyede "By the end of this video, you'll know…" vaadi
+### Shorts dosyalarının formatı (`shorts_XX.md`)
+Her Short için: süre, ilk karedeki hook yazısı, zamanlı tablo (zaman · görsel · ekran yazısı), seslendirmenin tam metni (VO), açıklama, hashtag'ler, kaynak ve önerilen yayın günü. VO'lar 69–96 kelime arasında, yani yaklaşık 30–40 saniye. Aynı kanal içinde formatlar değişiyor: tek gizem, rakam karşılaştırma, POV, efsane kırıcı, quiz, senaryo kartları, soru-cevap.
+
+## Senaryo kurallarına uyum
+- [x] İlk cümle en çarpıcı sonuç. Tarih/saat ile açılış ya da selamlama yok.
+- [x] İlk ~15 saniyede "By the end…" vaadi
 - [x] Anlatıcı kimliği tek cümle, ~20. saniyeye kadar
-- [x] Arka plan/ders kısmı 0:50 civarında başlıyor (45. saniyeden sonra), öncesi hikâye
-- [x] Her 60–90 saniyede yeni merak sorusu, cevaplar son sahnelerde toplanıyor
-- [x] 1.100–1.350 kelime aralığı (anlatım metni sayıldı)
-- [x] Görsel önerileri Wikimedia Commons, Pexels/Pixabay ve ABD hükümeti kamu malı materyallerinden. Haber ajansı fotoğrafı ve gerçek kişi fotoğrafı yok.
+- [x] Arka plan/ders kısmı ~0:50'de başlıyor, öncesi hikâye
+- [x] Her 60–90 saniyede yeni merak sorusu, cevaplar son sahnede toplanıyor
+- [x] Anlatım 1.100–1.350 kelime aralığında
+- [x] Görseller Wikimedia Commons, NASA/NOAA, ABD hükümeti kamu malı, Pexels/Pixabay ve özgün grafiklerden. Haber ajansı fotoğrafı ve gerçek kişi fotoğrafı yok.
 - [x] Scam Engineer: korku dili yok, çözüm odaklı kapanış, yardım hattı ve ihbar linkleri var
 
 ## ⚠️ Yayından önce yapılması gerekenler
-1. **Linkleri bir kez aç.** Bu oturumda doğrudan sayfa açma (WebFetch) ağ ayarları yüzünden engelliydi. Tüm iddialar web arama sonuçlarındaki kaynak özetlerinden doğrulandı ve her dosyanın sonundaki tabloda durumları yazıyor. Özellikle status.cloud.google.com, ic3.gov, ftc.gov, federalreserve.gov ve usmint.gov linklerini kontrol et.
+1. **Linkleri bir kez aç.** Bu oturumda doğrudan sayfa açma (WebFetch) ağ ayarları yüzünden engelliydi. İddialar web arama sonuçlarındaki kaynak özetlerinden doğrulandı ve her dosyanın sonundaki tabloda durumları yazıyor.
 2. **Değişebilecek bilgiler:**
-   - `hidden_systems/04.md`: Google'ın **nihai** olay raporu çıktı mı?
-   - `hidden_systems/05.md`: Ceza davasının tarihi (kaynaklarda Temmuz 2026 ve Şubat 2027 geçiyor)
-   - `centworks/03.md`: Common Cents Act **imzalandı mı?** (Kongre'den 28 Eylül 2026'da geçti)
-   - `centworks/04.md`: Visa/Mastercard uzlaşmasının **nihai onay** durumu
-3. **Centworks anlatıcı kimliği:** Kanal için kimlik tanımlanmadığından öneri bir cümle yazıldı ("I spend my evenings reading Federal Reserve research…"). Kendi gerçek arka planına göre değiştir.
-4. **Dramatize sahneler:** "Diane", "Frank", "Linda", "Tom" ve sahnelerdeki müşteri ve mühendisler temsilî karakter. Ekranda "Reconstruction / Composite character" yazısını unutma.
-5. **Arama ilgisi** sütunu tahmini. Google Trends'te kontrol et.
+   - `hidden_systems/04.md`: Google'ın nihai olay raporu çıktı mı?
+   - `hidden_systems/05.md`: First Brands ceza davasının tarihi
+   - `hidden_systems/06.md`: AWS'nin resmî post-event summary'si. Başlangıç saati ve süre kaynaklar arasında farklı.
+   - `hidden_systems/07.md`: Küba'da 2026 çöküş sayısı (UPI'ye göre Eylül'deki 7.). Yayına kadar yeni çöküş olabilir.
+   - `centworks/03.md`: Common Cents Act imzalandı mı?
+   - `centworks/04.md`: Visa/Mastercard uzlaşmasının nihai onayı
+   - `centworks/05.md`: Ekim TÜFE'si, son Freddie Mac oranı, Aralık FOMC beklentisi
+   - `centworks/06.md`: BNPL sağlayıcılarının güncel ücret ve faiz koşulları
+   - `scam_engineer/06.md`: Michigan DIFS'in kendi duyurusu ve 42 CFR 422.2264 metni
+3. **Centworks anlatıcı kimliği:** Öneri cümle ("I spend my evenings reading Federal Reserve research…") kendi gerçek arka planına göre değiştirilmeli.
+4. **Dramatize karakterler temsilî:** Diane, Frank, Linda, Tom, Carol, Dorothy, Ana & Chris, Jordan ve sahnelerdeki müşteri ve mühendisler. Ekranda "Reconstruction / Composite character / Illustrative example" yazısı kullanılmalı.
+5. **Hassas konular:**
+   - First Brands: iddialar kanıtlanmadı, sanıklar suçsuzluk beyan etti.
+   - Küba: Küba hükümetinin (ABD ablukası) ve bağımsız analistlerin (yatırımsızlık) açıklamaları birlikte veriliyor.
+6. **Arama ilgisi** sütunu tahmini. Google Trends'te kontrol et.
