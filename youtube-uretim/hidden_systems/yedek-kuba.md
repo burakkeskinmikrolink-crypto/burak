@@ -160,4 +160,4 @@ cuba blackout, cuba blackout 2026, cuba power grid collapse, black start explain
 ---
 
 ## Shorts
-3 Short'un tam metni ayrı dosyada: [`shorts_07.md`](shorts_07.md)
+3 Short'un tam metni ayrı dosyada: [`yedek-kuba-shorts.md`](yedek-kuba-shorts.md)
