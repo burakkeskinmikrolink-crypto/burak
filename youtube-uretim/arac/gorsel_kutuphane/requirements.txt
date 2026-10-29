@@ -1,0 +1,3 @@
+requests>=2.31
+python-dotenv>=1.0  # isteğe bağlı; modül kendi .env ayrıştırıcısıyla da çalışır
+# ffmpeg Python paketi değildir; ayrıca kurulmalı (README: Windows kurulumu)
