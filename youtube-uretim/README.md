@@ -4,6 +4,27 @@ Senaryo metinleri İngilizce, notlar ve açıklamalar Türkçe. Sadece metin ür
 
 - **1. tur (29 Ekim 2026):** konu planı, 1.–2. hafta senaryoları, Scam Engineer Shorts serisi
 - **2. tur (29 Ekim 2026):** 3.–4. hafta senaryoları (her kanal için 2'şer), Hidden Systems ve Centworks için ayrı Shorts dosyaları
+- **3. tur (29 Ekim 2026):** Büyüme ve para kazanma **oyun kitabı** araştırması (`oyun-kitabi/`)
+
+## Oyun kitabı (`oyun-kitabi/`)
+Her bulgunun yanında kaynak linki ve güven düzeyi (yüksek / orta / düşük) var. Pazarlama abartısı içeren ve "hızlı zengin ol" türü kaynaklar elendi. Öncelik YouTube'un resmî kaynaklarında (Help, Blog, Creator Insider), akademik çalışmalarda ve büyük veri setli analizlerde.
+
+| Dosya | İçerik |
+|---|---|
+| `ozet-ve-kurallar.md` | **Buradan başla.** En etkili 15 kural (öncelik sırasıyla, her biri için neden ve nasıl) + haftalık metrik takip tablosu |
+| `senaryo-revizyon-onerileri.md` | Mevcut 12 senaryo ve Shorts dosyaları için somut değişiklik önerileri (senaryo dosyaları değiştirilmedi) + 5.–6. hafta için farklı yapı önerileri |
+| `giris-ve-elde-tutma.md` | İlk 30–40 saniye teşhisi (%58 kayıp), hook türleri, açık döngüler, tempo, yeni ilk 40 saniye şablonu, test planı |
+| `shorts.md` | "Viewed vs swiped away" oranını artırma (%30 → hedef %45–50), ilk kare, döngü, süre, Related Video ile aktarım, yayın sıklığı |
+| `baslik-ve-kucuk-resim.md` | Test & Compare nasıl okunur (kazanan izlenme süresine göre seçiliyor), yüzsüz küçük resim formülleri, başlık formülleri |
+| `rakip-analizi.md` | 3 kanal × 5 rakip: abone, içerik türü, stil, uzunluk ve sıklık, bizim için dersler |
+| `yapay-zeka-ve-politika.md` | "Inauthentic content" (2025) ve **16 Temmuz 2026 netleştirmesi** (3 kategori, finans ve sağlık konusunu anlatan yapay zekâ personaları dahil), risk denetimi, 10 kırmızı çizgi |
+| `gorsel-ve-ses.md` | Wikimedia, NASA, ABD ve İngiltere kamu kaynakları, Pexels, Pixabay, Natural Earth ve OSM lisans kuralları. Ken Burns, parallax ve harita animasyonu. SSML ile daha doğal TTS |
+| `buyume-taktikleri.md` | İlk 1.000 abone: vidIQ'nun 33 milyon kanallık verisi, bitiş ekranı, seri ve oynatma listesi, topluluk gönderileri, yayın saati, spamsız dış trafik |
+| `para-kazanma.md` | YPP eşikleri, nişe göre temkinli RPM aralıkları (ABD ve İngiltere, Shorts dahil), reklam dostu içerik, affiliate ve sponsorluk zamanlaması, açıklama kuralları (FTC, ASA) |
+
+**Oyun kitabının en kritik iki bulgusu:**
+1. **Politika riski:** YouTube 16 Temmuz 2026'da finans, sağlık ve hukuk konularını anlatan yapay zekâ personalarının para kazanamayacağını netleştirdi. Centworks ve Scam Engineer'da **gerçek insan sesi** ve **doğru anlatıcı kimliği** şart.
+2. **Elde tutma sorunu:** İlk merak sorusu şu an ~0:50'de, izleyicinin %58'i ise 0:40'tan önce gidiyor. İlk soru **0:35–0:40'a** çekilmeli.
 
 ## Dosyalar
 
