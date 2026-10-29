@@ -1,0 +1,38 @@
+{
+  "id": "SE-04-S1",
+  "kanal": "scam_engineer",
+  "format": "quiz",
+  "baslik": "\"Medicare\" is calling. What do you share?",
+  "yayin_tarihi": "2026-11-19",
+  "sure_sn": 32,
+  "ilk_kare": {
+    "hareket": "Telefon titreşerek çalıyor, ekranda arayan adı 'MEDICARE' (kurgusal arayüz)",
+    "ekran_yazisi": "\"MEDICARE\" IS CALLING. YOU SHARE…?"
+  },
+  "sahneler": [
+    {"bas_sn": 0, "bit_sn": 2, "rol": "hook", "gorsel": "Titreşen telefon, arayan adı MEDICARE", "ekran_yazisi": "\"MEDICARE\" IS CALLING. YOU SHARE…?"},
+    {"bas_sn": 2, "bit_sn": 12, "rol": "secenekler", "gorsel": "Şıklar tek tek düşüyor", "ekran_yazisi": "A) NUMBER B) LAST FOUR C) NOTHING"},
+    {"bas_sn": 12, "bit_sn": 15, "rol": "geri_sayim", "gorsel": "Sayaç, tik sesi", "ekran_yazisi": "3… 2… 1…"},
+    {"bas_sn": 15, "bit_sn": 29, "rol": "cevap", "gorsel": "C yeşil yanıyor, 1-800-MEDICARE", "ekran_yazisi": "C) HANG UP, CALL 1-800-MEDICARE"},
+    {"bas_sn": 29, "bit_sn": 32, "rol": "dongu", "gorsel": "Çalan telefona geri dönüş", "ekran_yazisi": ""}
+  ],
+  "vo": {
+    "ilk_cumle": "\"Medicare\" is calling. You share…?",
+    "govde": [
+      "A: your Medicare number. B: just the last four digits. C: nothing — hang up and call 1-800-MEDICARE yourself.",
+      "It's C. Medicare doesn't call to verify your number, and the name on the screen isn't proof. Real help is one call away, on a number you dial yourself. Your number can be billed for things you never got."
+    ],
+    "kapanis_kopru": "So the next time your phone lights up and…"
+  },
+  "dongu": {"kopru": "lights up and…", "hedef": "\"Medicare\" is calling. You share…?"},
+  "related_video": {"baslik": "\"This Is Medicare.\" No, It Isn't. (Before Dec 7)", "kod": "SE-04 v2", "dosya": "scam_engineer/04-v2.md"},
+  "aciklama": "Medicare doesn't call to verify your number. Hang up and call 1-800-MEDICARE yourself. Related video bağlantısı: \"This Is Medicare.\" No, It Isn't. (Before Dec 7)",
+  "hashtagler": ["#medicare", "#scamcalls", "#openenrollment", "#scamengineer"],
+  "quiz": {
+    "soru": "\"Medicare\" is calling. You share…?",
+    "secenekler": {"A": "Your Medicare number", "B": "Just the last four digits", "C": "Nothing — hang up and call 1-800-MEDICARE yourself"},
+    "dogru": "C",
+    "aciklama": "Medicare doesn't call to verify numbers; caller ID names aren't proof.",
+    "geri_sayim_sn": 3
+  }
+}

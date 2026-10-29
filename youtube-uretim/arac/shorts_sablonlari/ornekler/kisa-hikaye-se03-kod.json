@@ -1,0 +1,38 @@
+{
+  "id": "SE-03-S2",
+  "kanal": "scam_engineer",
+  "format": "kisa_hikaye",
+  "baslik": "The code was real. The toll wasn't.",
+  "yayin_tarihi": "2026-11-14",
+  "sure_sn": 36,
+  "ilk_kare": {
+    "hareket": "POV: bankadan gelen doğrulama kodu SMS'i ekrana kayarak düşüyor",
+    "ekran_yazisi": "THE CODE WAS REAL.",
+    "not": "Composite character"
+  },
+  "sahneler": [
+    {"bas_sn": 0, "bit_sn": 2, "rol": "hook", "gorsel": "Kod SMS'i ekrana kayıyor", "ekran_yazisi": "THE CODE WAS REAL."},
+    {"bas_sn": 2, "bit_sn": 14, "rol": "kurulum", "gorsel": "Otoyol SMS'i → sahte ödeme sayfası (kurgusal)", "ekran_yazisi": "$12 TOLL · FAKE PAGE"},
+    {"bas_sn": 14, "bit_sn": 26, "rol": "donum", "gorsel": "Kart simgesi başka bir telefona geçiyor", "ekran_yazisi": "A WALLET ON THEIR PHONE"},
+    {"bas_sn": 26, "bit_sn": 34, "rol": "ders", "gorsel": "Kod mesajı büyütülüyor, 'wallet' kelimesi vurgulu", "ekran_yazisi": "READ WHAT THE CODE IS FOR"},
+    {"bas_sn": 34, "bit_sn": 36, "rol": "dongu", "gorsel": "Kod SMS'ine geri dönüş", "ekran_yazisi": ""}
+  ],
+  "vo": {
+    "ilk_cumle": "The code was real.",
+    "govde": [
+      "Diane got a text about a twelve-dollar toll. She tapped, typed her card, and the site asked for a code, sent by her real bank.",
+      "That code wasn't for a toll. It was her bank asking: add this card to a new phone? The scammers' phone. If a code mentions a wallet you didn't set up, never share it."
+    ],
+    "kapanis_kopru": "Because that's the part people never expect:"
+  },
+  "dongu": {"kopru": "never expect:", "hedef": "The code was real."},
+  "related_video": {"baslik": "The Unpaid Toll Text Isn't After Your $12. It's After This.", "kod": "SE-03 v2", "dosya": "scam_engineer/03-v2.md"},
+  "aciklama": "A twelve-dollar toll text, a real bank code, and a card added to a stranger's phone. Related video bağlantısı: The Unpaid Toll Text Isn't After Your $12. It's After This.",
+  "hashtagler": ["#tollscam", "#smishing", "#applepay", "#scamengineer"],
+  "kisa_hikaye": {
+    "karakter": {"ad": "Diane", "temsili": true},
+    "sonuc": "The code was real.",
+    "donum_noktasi": "The bank code approved adding her card to the scammers' digital wallet",
+    "ders": "If a code mentions a wallet you didn't set up, never share it."
+  }
+}

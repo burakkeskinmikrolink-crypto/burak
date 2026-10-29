@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/youtube-uretim/short.schema.json",
+  "title": "Short senaryosu (quiz | kisa_hikaye | gercek_mi_sahte_mi)",
+  "description": "Hidden Systems, Centworks ve Scam Engineer Short'ları için ortak şema. Biçimsel kurallar bu şemada, sayısal ve dilsel kurallar (ilk kare = ilk VO cümlesi, ≤6 kelime, döngü, süre) dogrula.py'de kontrol edilir.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "kanal", "format", "baslik", "sure_sn", "ilk_kare", "sahneler", "vo", "dongu", "related_video", "aciklama", "hashtagler"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^(HS|CW|SE)-[0-9]{2}-S[1-9]$", "description": "Örn. SE-04-S1 (kanal-bölüm-short)"},
+    "kanal": {"enum": ["hidden_systems", "centworks", "scam_engineer"]},
+    "format": {"enum": ["quiz", "kisa_hikaye", "gercek_mi_sahte_mi"]},
+    "baslik": {"type": "string", "minLength": 5, "maxLength": 100},
+    "yayin_tarihi": {"type": "string", "format": "date"},
+    "sure_sn": {"type": "number", "minimum": 30, "maximum": 45},
+    "ilk_kare": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hareket", "ekran_yazisi"],
+      "properties": {
+        "hareket": {"type": "string", "minLength": 5, "description": "İlk karedeki hareketin tarifi (zoom, kayma, düşen nesne...). Statik kare yasak."},
+        "ekran_yazisi": {"type": "string", "minLength": 2, "description": "En fazla 6 kelime; VO'nun ilk cümlesiyle birebir aynı."},
+        "not": {"type": "string", "description": "Örn. 'Composite character' veya 'Illustrative example'"}
+      }
+    },
+    "sahneler": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["bas_sn", "bit_sn", "gorsel", "ekran_yazisi", "rol"],
+        "properties": {
+          "bas_sn": {"type": "number", "minimum": 0},
+          "bit_sn": {"type": "number", "exclusiveMinimum": 0},
+          "rol": {"enum": ["hook", "soru", "secenekler", "geri_sayim", "cevap", "kurulum", "donum", "ders", "oge", "ifsa", "dongu"]},
+          "gorsel": {"type": "string", "minLength": 3},
+          "ekran_yazisi": {"type": "string"}
+        }
+      }
+    },
+    "vo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ilk_cumle", "govde", "kapanis_kopru"],
+      "properties": {
+        "ilk_cumle": {"type": "string", "minLength": 2},
+        "govde": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 2}},
+        "kapanis_kopru": {"type": "string", "minLength": 2, "description": "Son cümle; '…', ':' veya '—' ile biter ve ilk cümleye bağlanır."}
+      }
+    },
+    "dongu": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kopru", "hedef"],
+      "properties": {
+        "kopru": {"type": "string", "description": "Kapanışın son kelimeleri"},
+        "hedef": {"type": "string", "description": "Bağlandığı ilk cümle"}
+      }
+    },
+    "related_video": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["baslik", "kod"],
+      "properties": {
+        "baslik": {"type": "string", "minLength": 5},
+        "kod": {"type": "string", "description": "Örn. SE-04 v2"},
+        "dosya": {"type": "string"}
+      }
+    },
+    "aciklama": {"type": "string", "pattern": "Related video bağlantısı: "},
+    "hashtagler": {"type": "array", "minItems": 3, "maxItems": 6, "items": {"type": "string", "pattern": "^#[a-z0-9]+$"}},
+    "quiz": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["soru", "secenekler", "dogru", "aciklama", "geri_sayim_sn"],
+      "properties": {
+        "soru": {"type": "string"},
+        "secenekler": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["A", "B", "C"],
+          "properties": {"A": {"type": "string"}, "B": {"type": "string"}, "C": {"type": "string"}}
+        },
+        "dogru": {"enum": ["A", "B", "C"]},
+        "aciklama": {"type": "string"},
+        "geri_sayim_sn": {"type": "integer", "minimum": 2, "maximum": 4}
+      }
+    },
+    "kisa_hikaye": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["karakter", "sonuc", "donum_noktasi", "ders"],
+      "properties": {
+        "karakter": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["ad", "temsili"],
+          "properties": {"ad": {"type": "string"}, "temsili": {"const": true}}
+        },
+        "sonuc": {"type": "string", "description": "Hikâyenin sonucu; hook olarak en başta verilir"},
+        "donum_noktasi": {"type": "string"},
+        "ders": {"type": "string"}
+      }
+    },
+    "gercek_mi_sahte_mi": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["etiketler", "ogeler", "kural"],
+      "properties": {
+        "etiketler": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "string"}, "description": "Örn. ['REAL', 'FAKE'] veya ['RED FLAG', 'OK']"},
+        "ogeler": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["ifade", "cevap", "neden"],
+            "properties": {"ifade": {"type": "string"}, "cevap": {"type": "string"}, "neden": {"type": "string"}}
+          }
+        },
+        "kural": {"type": "string"}
+      }
+    }
+  },
+  "allOf": [
+    {"if": {"properties": {"format": {"const": "quiz"}}}, "then": {"required": ["quiz"], "not": {"anyOf": [{"required": ["kisa_hikaye"]}, {"required": ["gercek_mi_sahte_mi"]}]}}},
+    {"if": {"properties": {"format": {"const": "kisa_hikaye"}}}, "then": {"required": ["kisa_hikaye"], "properties": {"ilk_kare": {"required": ["not"]}}, "not": {"anyOf": [{"required": ["quiz"]}, {"required": ["gercek_mi_sahte_mi"]}]}}},
+    {"if": {"properties": {"format": {"const": "gercek_mi_sahte_mi"}}}, "then": {"required": ["gercek_mi_sahte_mi"], "not": {"anyOf": [{"required": ["quiz"]}, {"required": ["kisa_hikaye"]}]}}}
+  ]
+}

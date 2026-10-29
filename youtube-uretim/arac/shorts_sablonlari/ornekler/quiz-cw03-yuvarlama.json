@@ -1,0 +1,38 @@
+{
+  "id": "CW-03-S1",
+  "kanal": "centworks",
+  "format": "quiz",
+  "baslik": "$7.48 in cash. What do you pay?",
+  "yayin_tarihi": "2026-11-08",
+  "sure_sn": 30,
+  "ilk_kare": {
+    "hareket": "Market fişi kayarak giriyor, 'TOTAL $7.48' yanıp sönüyor",
+    "ekran_yazisi": "$7.48 IN CASH. YOU PAY?"
+  },
+  "sahneler": [
+    {"bas_sn": 0, "bit_sn": 2, "rol": "hook", "gorsel": "Kayan fiş, yanıp sönen toplam", "ekran_yazisi": "$7.48 IN CASH. YOU PAY?"},
+    {"bas_sn": 2, "bit_sn": 9, "rol": "secenekler", "gorsel": "Şıklar tek tek düşüyor", "ekran_yazisi": "A) $7.45 B) $7.50 C) $7.48"},
+    {"bas_sn": 9, "bit_sn": 12, "rol": "geri_sayim", "gorsel": "Sayaç", "ekran_yazisi": "3… 2… 1…"},
+    {"bas_sn": 12, "bit_sn": 27, "rol": "cevap", "gorsel": "Sayı doğrusu animasyonu, B yeşil; kart terminali $7.48", "ekran_yazisi": "B) $7.50 · CARD: STILL $7.48"},
+    {"bas_sn": 27, "bit_sn": 30, "rol": "dongu", "gorsel": "Fişe geri dönüş", "ekran_yazisi": ""}
+  ],
+  "vo": {
+    "ilk_cumle": "$7.48 in cash. You pay?",
+    "govde": [
+      "A: seven forty-five. B: seven fifty. C: seven forty-eight.",
+      "It's B. With no pennies, cash totals round to the nearest nickel, and eight rounds up. One and two go down, three and four go to five, six and seven go to five, eight and nine go up. Pay by card, and it's still exactly seven forty-eight."
+    ],
+    "kapanis_kopru": "So next time the cashier asks for cash on…"
+  },
+  "dongu": {"kopru": "asks for cash on…", "hedef": "$7.48 in cash. You pay?"},
+  "related_video": {"baslik": "America Killed the Penny. Here's Who Pays the Difference.", "kod": "CW-03 v2", "dosya": "centworks/03-v2.md"},
+  "aciklama": "How cash rounding works without pennies. Related video bağlantısı: America Killed the Penny. Here's Who Pays the Difference.",
+  "hashtagler": ["#penny", "#cashrounding", "#moneytips", "#centworks"],
+  "quiz": {
+    "soru": "$7.48 in cash. You pay?",
+    "secenekler": {"A": "$7.45", "B": "$7.50", "C": "$7.48"},
+    "dogru": "B",
+    "aciklama": "Cash totals round to the nearest nickel; 8 rounds up. Cards stay exact.",
+    "geri_sayim_sn": 3
+  }
+}
