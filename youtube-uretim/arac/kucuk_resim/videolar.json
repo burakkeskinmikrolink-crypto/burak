@@ -1,0 +1,52 @@
+[
+  {"id": "HS-04", "kanal": "hidden_systems", "tarih": "2026-11-11", "baslik": "The Generator That Didn't Start — and Took Britain's Banks With It",
+   "varyantlar": {
+     "A": {"yazi": "GENERATOR NEVER STARTED", "vurgu": [1, 2], "nesne": "jenerator", "ayar": {"etiket": "OFF"}},
+     "B": {"yazi": "BRITAIN COULDN'T PAY", "vurgu": [1, 2], "nesne": "terminal", "ayar": {"ekran": "DECLINED"}}}},
+  {"id": "HS-05", "kanal": "hidden_systems", "tarih": "2026-11-18", "baslik": "The $10 Billion Company That Was Built on Invoices",
+   "varyantlar": {
+     "A": {"yazi": "SOLD THE SAME INVOICE?", "vurgu": [2], "nesne": "fatura_kopya", "ayar": {}},
+     "B": {"yazi": "$9B OWED. $12M LEFT.", "vurgu": [2, 3], "nesne": "iki_cubuk", "ayar": {"sol": "$9B", "sag": "$12M"}}}},
+  {"id": "HS-06", "kanal": "hidden_systems", "tarih": "2026-11-25", "baslik": "A Room Got Too Hot. A Crypto Exchange Went Dark.",
+   "varyantlar": {
+     "A": {"yazi": "TOO HOT TO RUN", "vurgu": [0, 1], "nesne": "termometre", "ayar": {}},
+     "B": {"yazi": "WHY 3 BEATS 2", "vurgu": [1], "nesne": "zonlar", "ayar": {"kapali": [0]}}}},
+  {"id": "HS-07", "kanal": "hidden_systems", "tarih": "2026-12-02", "baslik": "The Phone Line That Worked in Every Power Cut Is Being Switched Off",
+   "varyantlar": {
+     "A": {"yazi": "SWITCHED OFF: 31 JAN", "vurgu": [2, 3], "nesne": "ev_telefonu", "ayar": {}},
+     "B": {"yazi": "WORKS IN POWER CUTS?", "vurgu": [2, 3], "nesne": "ev_telefonu", "ayar": {}}}},
+
+  {"id": "CW-03", "kanal": "centworks", "tarih": "2026-11-07", "baslik": "America Killed the Penny. Here's Who Pays the Difference.",
+   "varyantlar": {
+     "A": {"yazi": "$4.93 → $4.95?", "vurgu": [2], "nesne": "fis", "ayar": {}},
+     "B": {"yazi": "3.69¢ TO MAKE", "vurgu": [0], "nesne": "madeni_para", "ayar": {}}}},
+  {"id": "CW-04", "kanal": "centworks", "tarih": "2026-11-14", "baslik": "Who Really Pays for Your Credit Card Rewards?",
+   "varyantlar": {
+     "A": {"yazi": "WHO PAID YOUR MILES?", "vurgu": [3], "nesne": "kart_ucak", "ayar": {}},
+     "B": {"yazi": "$149 A YEAR?", "vurgu": [0], "nesne": "nakit", "ayar": {"etiket": "$149"}}}},
+  {"id": "CW-05", "kanal": "centworks", "tarih": "2026-11-21", "baslik": "What If the Fed Keeps Raising Rates?",
+   "varyantlar": {
+     "A": {"yazi": "+$284 A MONTH", "vurgu": [0], "nesne": "ev", "ayar": {"etiket": "SAME HOUSE"}},
+     "B": {"yazi": "WHAT IF RATES RISE?", "vurgu": [2, 3], "nesne": "merdiven", "ayar": {}}}},
+  {"id": "CW-06", "kanal": "centworks", "tarih": "2026-11-28", "baslik": "Buy Now, Pay Later vs Credit Card: Which Is Actually Cheaper?",
+   "varyantlar": {
+     "A": {"yazi": "0% vs 21%?", "vurgu": [0], "nesne": "iki_buton", "ayar": {}},
+     "B": {"yazi": "47% PAID LATE", "vurgu": [0], "nesne": "fiyat_etiketi", "ayar": {"yazi": "PAY IN 4"}}}},
+
+  {"id": "SE-03", "kanal": "scam_engineer", "tarih": "2026-11-11", "baslik": "The Unpaid Toll Text Isn't After Your $12. It's After This.",
+   "varyantlar": {
+     "A": {"yazi": "IT'S NOT THE $12", "vurgu": [3], "nesne": "telefon_sms", "ayar": {}},
+     "B": {"yazi": "DON'T REPLY \"Y\"", "vurgu": [2], "nesne": "telefon_sms", "ayar": {"satir1": "Reply Y to", "satir2": "activate"}}}},
+  {"id": "SE-04", "kanal": "scam_engineer", "tarih": "2026-11-18", "baslik": "\"This Is Medicare.\" No, It Isn't. (Before Dec 7)",
+   "varyantlar": {
+     "A": {"yazi": "MEDICARE ISN'T CALLING", "vurgu": [0], "nesne": "telefon_arama", "ayar": {"ad": "MEDICARE"}},
+     "B": {"yazi": "YOUR NUMBER, THEIR PRIZE", "vurgu": [3], "nesne": "telefon_arama", "ayar": {"ad": "MEDICARE"}}}},
+  {"id": "SE-05", "kanal": "scam_engineer", "tarih": "2026-11-25", "baslik": "The Hacker Doesn't Exist. The Three Rescuers Do.",
+   "varyantlar": {
+     "A": {"yazi": "THE HACKER ISN'T REAL", "vurgu": [3], "nesne": "laptop_uc_telefon", "ayar": {}},
+     "B": {"yazi": "3 CALLS. 1 SENTENCE.", "vurgu": [2, 3], "nesne": "laptop_uc_telefon", "ayar": {}}}},
+  {"id": "SE-06", "kanal": "scam_engineer", "tarih": "2026-12-02", "baslik": "This Online Store Was 11 Days Old. Here's How to Tell.",
+   "varyantlar": {
+     "A": {"yazi": "STORE AGE: 11 DAYS", "vurgu": [2, 3], "nesne": "tarayici_magaza", "ayar": {}},
+     "B": {"yazi": "PADLOCK ISN'T SAFETY", "vurgu": [2], "nesne": "asma_kilit", "ayar": {}}}}
+]
