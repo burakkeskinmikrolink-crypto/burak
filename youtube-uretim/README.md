@@ -8,6 +8,8 @@ Senaryo metinleri İngilizce, notlar ve açıklamalar Türkçe. Sadece metin ür
 - **5. tur:** araçlar (`arac/`), kanal sayfaları, topluluk/yorum planı, yayınlanmış videolar için A/B planı, haftalık analiz şablonu
 - **4. tur:** tüm senaryoların **v2** sürümleri (`-v2.md`), Scam Engineer yayın sırasının değişmesi, Küba videosunun yedeğe alınması, Hidden Systems için yeni 2 Aralık konusu
 
+- **6. tur (gelir):** küçük resim üreticisi, reklam dışı gelir, 4.000 saat planı, Scam evergreen videoları, çeviriler (`gelir/`, `ceviriler/`, `arac/kucuk_resim/`)
+
 > **Yayına giren sürüm her zaman `-v2.md`.** v1 dosyaları ve doğrulama tabloları referans olarak duruyor.
 
 ---
@@ -95,11 +97,14 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 | `06-v2.md` Sahte mağazalar | `06.md` (← eski 05.md) | Senaryo içinde |
 | — | — | `shorts_5-10_kasim-v2.md` (v1: `shorts_5-10_kasim.md`) |
 
+- `evergreen-01.md` … `evergreen-04.md`: kalıcı arama videoları ("Is this text a scam?", SSN verdim, linke tıkladım, dolandırıcıya para gönderdim). Shorts dosyanın içinde. Yayın tarihi esnek, takvimdeki boş haftalara yerleştir
+
 ### Araçlar (`arac/`)
 | Klasör | Ne işe yarar | Çalıştırma |
 |---|---|---|
 | `arac/gorsel_kutuphane/` | Wikimedia, NASA, Pexels ve Pixabay'de telifsiz görsel/video arama. Lisans kontrolü (sadece PD, CC0, CC BY, CC BY-SA, Pexels, Pixabay). Ken Burns ve parallax klip (1920x1080 + 1080x1920, ffmpeg). Proje başına `kaynaklar.txt`. API anahtarları `.env`'den | `python -m gorsel_kutuphane ara/indir/klip/kaynaklar`. Windows kurulumu klasörün README'sinde. Testler: `python -m unittest discover -s tests -t .` (45 test, ağ gerekmez) |
 | `arac/shorts_sablonlari/` | Shorts için 3 format tanımı (quiz, kısa hikâye, gerçek mi sahte mi), JSON şema, 4 doldurulmuş örnek ve kanal kurallarını kontrol eden doğrulayıcı | `python dogrula.py ornekler/*.json`. Testler: `python -m unittest test_dogrula` (11 test) |
+| `arac/kucuk_resim/` | 12 v2 videonun her biri için 2 küçük resim (A/B, 1280x720, Pillow, OFL font). Kanal temaları: Scam Engineer açık ve renkli, Hidden Systems koyu + kırmızı, Centworks koyu + altın/yeşil. Telefon boyutunda önizleme ızgarası | `python uret.py` → `cikti/`. Testler: `python -m unittest discover -s tests` (9 test) |
 
 ### Kanal operasyonu
 | Dosya | İçerik |
@@ -108,6 +113,15 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 | `topluluk-ve-yorum.md` | Her yayınlanmış ve planlanmış video için sabit yorum (soru, tartışma). Kasım–Aralık boyunca kanal başına haftalık topluluk gönderisi (çoğu anket) |
 | `kucuk-resim-ab.md` | Yayınlanmış 4 uzun video (Spain blackout, CrowdStrike, kredi kartı geç ödeme, caller ID spoofing) için 2'şer küçük resim ve 2'şer başlık alternatifi, test sırası |
 | `haftalik-analiz-sablonu.md` | Cumartesi analiz tablosu (gösterim, CTR, ortalama izlenme oranı, Shorts izlemeye devam, yeni abone). **13 Aralık karar kuralı:** 4 ölçütten 3'ü kötüyse kanal çevrilir, eşikler ve çevirme seçenekleri tanımlı |
+
+### Gelir (`gelir/`) ve çeviriler (`ceviriler/`)
+| Dosya | İçerik |
+|---|---|
+| `gelir/reklam-disi-gelir.md` | Kanal başına affiliate programları, Türkiye'den katılım ve ödeme alma, FTC/ASA kuralları, ücretli tanıtım işareti, ne zaman başlanır, açıklama şablonları |
+| `gelir/4000-saat-plani.md` | İzlenme saati matematiği, 1 Şubat 2027 eşik değişikliği uyarısı, uzun videolar, derlemeler, oynatma listeleri, Premiere, kanal başına haftalık hedefler |
+| `gelir/arama-icerigi-scam.md` | Scam Engineer için 15 kalıcı (evergreen) arama konusu. İlk 4'ü yazıldı: `scam_engineer/evergreen-01..04.md` |
+| `gelir/ceviri-ve-erisim.md` | Çok dilli başlık/açıklama, çoklu ses kanalı ve otomatik dublaj: kimlere açık, şartlar, politika notu, uygulama adımları |
+| `ceviriler/` | 16 planlanmış + 7 yayınlanmış video için ES, PT-BR, DE başlık ve açıklama (Studio'ya yapıştırmaya hazır, dosya başına bir video). `python ceviriler/_uret.py` ile yeniden üretilir |
 
 ### Planlama ve araştırma
 | Dosya | İçerik |
