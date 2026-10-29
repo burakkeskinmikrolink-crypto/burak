@@ -5,7 +5,8 @@ Senaryo metinleri İngilizce, notlar ve açıklamalar Türkçe. Sadece metin ür
 - **1. tur:** konu planı, 1.–2. hafta senaryoları, Scam Engineer Shorts serisi
 - **2. tur:** 3.–4. hafta senaryoları, Hidden Systems ve Centworks için ayrı Shorts dosyaları
 - **3. tur:** büyüme ve para kazanma oyun kitabı (`oyun-kitabi/`)
-- **4. tur (güncel):** tüm senaryoların **v2** sürümleri (`-v2.md`), Scam Engineer yayın sırasının değişmesi, Küba videosunun yedeğe alınması, Hidden Systems için yeni 2 Aralık konusu
+- **5. tur:** araçlar (`arac/`), kanal sayfaları, topluluk/yorum planı, yayınlanmış videolar için A/B planı, haftalık analiz şablonu
+- **4. tur:** tüm senaryoların **v2** sürümleri (`-v2.md`), Scam Engineer yayın sırasının değişmesi, Küba videosunun yedeğe alınması, Hidden Systems için yeni 2 Aralık konusu
 
 > **Yayına giren sürüm her zaman `-v2.md`.** v1 dosyaları ve doğrulama tabloları referans olarak duruyor.
 
@@ -93,6 +94,20 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 | `05-v2.md` Phantom Hacker | `05.md` (← eski 04.md) | Senaryo içinde |
 | `06-v2.md` Sahte mağazalar | `06.md` (← eski 05.md) | Senaryo içinde |
 | — | — | `shorts_5-10_kasim-v2.md` (v1: `shorts_5-10_kasim.md`) |
+
+### Araçlar (`arac/`)
+| Klasör | Ne işe yarar | Çalıştırma |
+|---|---|---|
+| `arac/gorsel_kutuphane/` | Wikimedia, NASA, Pexels ve Pixabay'de telifsiz görsel/video arama. Lisans kontrolü (sadece PD, CC0, CC BY, CC BY-SA, Pexels, Pixabay). Ken Burns ve parallax klip (1920x1080 + 1080x1920, ffmpeg). Proje başına `kaynaklar.txt`. API anahtarları `.env`'den | `python -m gorsel_kutuphane ara/indir/klip/kaynaklar`. Windows kurulumu klasörün README'sinde. Testler: `python -m unittest discover -s tests -t .` (45 test, ağ gerekmez) |
+| `arac/shorts_sablonlari/` | Shorts için 3 format tanımı (quiz, kısa hikâye, gerçek mi sahte mi), JSON şema, 4 doldurulmuş örnek ve kanal kurallarını kontrol eden doğrulayıcı | `python dogrula.py ornekler/*.json`. Testler: `python -m unittest test_dogrula` (11 test) |
+
+### Kanal operasyonu
+| Dosya | İçerik |
+|---|---|
+| `kanal-sayfalari.md` | Her kanal için fragman senaryosu (45–60 sn), "Hakkında" metni (anahtar kelimeli), oynatma listesi yapısı (isim, açıklama, videolar), kanal anahtar kelimeleri |
+| `topluluk-ve-yorum.md` | Her yayınlanmış ve planlanmış video için sabit yorum (soru, tartışma). Kasım–Aralık boyunca kanal başına haftalık topluluk gönderisi (çoğu anket) |
+| `kucuk-resim-ab.md` | Yayınlanmış 4 uzun video (Spain blackout, CrowdStrike, kredi kartı geç ödeme, caller ID spoofing) için 2'şer küçük resim ve 2'şer başlık alternatifi, test sırası |
+| `haftalik-analiz-sablonu.md` | Cumartesi analiz tablosu (gösterim, CTR, ortalama izlenme oranı, Shorts izlemeye devam, yeni abone). **13 Aralık karar kuralı:** 4 ölçütten 3'ü kötüyse kanal çevrilir, eşikler ve çevirme seçenekleri tanımlı |
 
 ### Planlama ve araştırma
 | Dosya | İçerik |
