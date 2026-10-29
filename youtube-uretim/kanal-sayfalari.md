@@ -144,6 +144,7 @@ Topics: scam awareness, phone scams, text message scams, caller id spoofing, sim
 | **Phone Scams** | Calls and texts that look real: how the phone network gets abused. | Caller ID spoofing (yayınlanmış) · SIM swap (yayınlanmış) · SE-03 toll text · SE-04 Medicare calls (18 Kas) |
 | **Protect Your Parents** | Calm, shareable explainers for older adults and the people who love them. | SE-04 Medicare (18 Kas) · SE-05 Phantom Hacker (25 Kas) · Caller ID spoofing (yayınlanmış) |
 | **Seasonal Scam Alerts** | Scams that spike at certain times of year — and what to do. | SE-04 Medicare open enrollment (18 Kas) · SE-06 holiday shopping (2 Ara) · Gift card draining (16 Ara, planlanan) |
+| **Is It a Scam?** | Quick, calm answers to the questions people search when something feels off: a text, a link, your Social Security number, money already sent. | EV-01 Is this text a scam? · EV-03 Clicked a link in a scam text? · EV-04 Sent money to a scammer? · EV-02 Gave your SSN to a scammer? |
 | **Real or Fake? (Shorts)** | 30-second quizzes: can you spot the scam? | Tüm "gerçek mi sahte mi" ve quiz Short'ları |
 
 ### Kanal anahtar kelimeleri

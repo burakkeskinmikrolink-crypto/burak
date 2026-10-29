@@ -104,6 +104,7 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 |---|---|---|
 | `arac/gorsel_kutuphane/` | Wikimedia, NASA, Pexels ve Pixabay'de telifsiz görsel/video arama. Lisans kontrolü (sadece PD, CC0, CC BY, CC BY-SA, Pexels, Pixabay). Ken Burns ve parallax klip (1920x1080 + 1080x1920, ffmpeg). Proje başına `kaynaklar.txt`. API anahtarları `.env`'den | `python -m gorsel_kutuphane ara/indir/klip/kaynaklar`. Windows kurulumu klasörün README'sinde. Testler: `python -m unittest discover -s tests -t .` (45 test, ağ gerekmez) |
 | `arac/shorts_sablonlari/` | Shorts için 3 format tanımı (quiz, kısa hikâye, gerçek mi sahte mi), JSON şema, 4 doldurulmuş örnek ve kanal kurallarını kontrol eden doğrulayıcı | `python dogrula.py ornekler/*.json`. Testler: `python -m unittest test_dogrula` (11 test) |
+| `arac/altyazi/` | Senaryodan YouTube'a "zamanlama olmadan" yüklenecek düz transkript çıkarır (ses işaretlerini temizler) | `python arac/altyazi/transkript.py <senaryo.md> -o arac/altyazi/cikti`. Testler: `cd arac/altyazi && python -m unittest discover -s tests -t .` (4 test) |
 | `arac/kucuk_resim/` | 12 v2 videonun her biri için 2 küçük resim (A/B, 1280x720, Pillow, OFL font). Kanal temaları: Scam Engineer açık ve renkli, Hidden Systems koyu + kırmızı, Centworks koyu + altın/yeşil. Telefon boyutunda önizleme ızgarası | `python uret.py` → `cikti/`. Testler: `python -m unittest discover -s tests` (9 test) |
 
 ### Kanal operasyonu
@@ -121,6 +122,7 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 | `gelir/4000-saat-plani.md` | İzlenme saati matematiği, 1 Şubat 2027 eşik değişikliği uyarısı, uzun videolar, derlemeler, oynatma listeleri, Premiere, kanal başına haftalık hedefler |
 | `gelir/arama-icerigi-scam.md` | Scam Engineer için 15 kalıcı (evergreen) arama konusu. İlk 4'ü yazıldı: `scam_engineer/evergreen-01..04.md` |
 | `gelir/ceviri-ve-erisim.md` | Çok dilli başlık/açıklama, çoklu ses kanalı ve otomatik dublaj: kimlere açık, şartlar, politika notu, uygulama adımları |
+| `gelir/hizli-kazanimlar.md` | Başka kanallarda işe yaramış, oyun kitabında olmayan 10 taktik: ne yapılır, nerede kanıtlandı, hangi kanalımıza nasıl uygulanır, beklenen etki, süre, güven düzeyi |
 | `ceviriler/` | 16 planlanmış + 7 yayınlanmış video için ES, PT-BR, DE başlık ve açıklama (Studio'ya yapıştırmaya hazır, dosya başına bir video). `python ceviriler/_uret.py` ile yeniden üretilir |
 
 ### Planlama ve araştırma
