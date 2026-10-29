@@ -16,8 +16,8 @@ VIDEOS = json.loads((HERE / "videolar.json").read_text(encoding="utf-8"))
 
 
 class SpecTests(unittest.TestCase):
-    def test_twelve_videos_two_variants(self):
-        self.assertEqual(len(VIDEOS), 12)
+    def test_all_videos_two_variants(self):
+        self.assertEqual(len(VIDEOS), 17)  # 12 v2 + CW-07 + 4 evergreen
         for v in VIDEOS:
             self.assertEqual(set(v["varyantlar"]), {"A", "B"}, v["id"])
 

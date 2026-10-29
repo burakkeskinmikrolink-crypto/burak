@@ -210,7 +210,7 @@ def kart_ucak(d, cx, cy, s, t):
                width=int(s * 0.012))
 
 
-def nakit(d, cx, cy, s, t, etiket="$149"):
+def nakit(d, cx, cy, s, t, etiket="$149", sonek="/YR"):
     for i in range(3):
         ox, oy = i * s * 0.05, -i * s * 0.05
         x0, y0 = cx - s * 0.4 + ox, cy - s * 0.18 + oy
@@ -219,8 +219,9 @@ def nakit(d, cx, cy, s, t, etiket="$149"):
         d.ellipse((x0 + s * 0.28, y0 + s * 0.08, x0 + s * 0.44, y0 + s * 0.28), outline=(20, 70, 30),
                   width=int(s * 0.01))
         _text_c(d, x0 + s * 0.36, y0 + s * 0.18, "$", s * 0.1, (20, 70, 30))
+    yazi = f"{etiket}{sonek}"
     _rr(d, (cx - s * 0.2, cy + s * 0.25, cx + s * 0.3, cy + s * 0.42), s * 0.03, t.vurgu)
-    _text_c(d, cx + s * 0.05, cy + s * 0.335, f"{etiket}/YR", s * 0.08, BLACK)
+    _text_c(d, cx + s * 0.05, cy + s * 0.335, yazi, s * (0.08 if len(yazi) <= 9 else 0.06), BLACK)
 
 
 def ev(d, cx, cy, s, t, etiket="+$284/MO"):
@@ -279,7 +280,7 @@ def _telefon_govde(d, cx, cy, s, t):
     return x0, y0, w, h
 
 
-def telefon_sms(d, cx, cy, s, t, satir1="Unpaid toll", satir2="$12.51"):
+def telefon_sms(d, cx, cy, s, t, satir1="Unpaid toll", satir2="$12.51", rozet="CARD"):
     x0, y0, w, h = _telefon_govde(d, cx, cy, s, t)
     bx0, by0 = x0 + w * 0.1, y0 + h * 0.25
     _rr(d, (bx0, by0, x0 + w * 0.9, by0 + h * 0.3), s * 0.03, (225, 228, 235))
@@ -287,8 +288,9 @@ def telefon_sms(d, cx, cy, s, t, satir1="Unpaid toll", satir2="$12.51"):
     _text_c(d, cx, by0 + h * 0.19, satir2, s * 0.1, t.vurgu2)
     _rr(d, (bx0, by0 + h * 0.36, x0 + w * 0.9, by0 + h * 0.44), s * 0.02, (200, 205, 215))
     _text_c(d, cx, by0 + h * 0.4, "tap link…", s * 0.04, (120, 120, 120), black=False)
-    _rr(d, (cx + s * 0.12, cy - s * 0.42, cx + s * 0.42, cy - s * 0.26), s * 0.04, t.vurgu)  # kart rozeti
-    _text_c(d, cx + s * 0.27, cy - s * 0.34, "CARD", s * 0.06, WHITE)
+    if rozet:  # köşe rozeti (boş verilirse çizilmez)
+        _rr(d, (cx + s * 0.12, cy - s * 0.42, cx + s * 0.42, cy - s * 0.26), s * 0.04, t.vurgu)
+        _text_c(d, cx + s * 0.27, cy - s * 0.34, rozet, s * 0.06, WHITE)
 
 
 def telefon_arama(d, cx, cy, s, t, ad="MEDICARE"):
@@ -356,6 +358,51 @@ def tarayici_magaza(d, cx, cy, s, t, etiket="11 DAYS OLD"):
     _text_c(d, cx + s * 0.21, y0 + h * 0.98, etiket, s * 0.06, WHITE)
 
 
+def kontrol_listesi(d, cx, cy, s, t, baslik="SSN", adim=4):
+    """Pano üzerinde numaralı onay kutuları (ilk ikisi işaretli)."""
+    w, h = s * 0.62, s * 0.86
+    x0, y0 = cx - w / 2, cy - h / 2
+    _rr(d, (x0, y0, x0 + w, y0 + h), s * 0.04, (120, 84, 50))                       # pano
+    _rr(d, (x0 + w * 0.06, y0 + h * 0.06, x0 + w * 0.94, y0 + h * 0.96), s * 0.02, PAPER)
+    _rr(d, (cx - w * 0.2, y0 - s * 0.03, cx + w * 0.2, y0 + h * 0.07), s * 0.02, (150, 155, 165))  # klips
+    _rr(d, (x0 + w * 0.14, y0 + h * 0.12, x0 + w * 0.86, y0 + h * 0.24), s * 0.02, t.vurgu)
+    _text_c(d, cx, y0 + h * 0.18, baslik, s * 0.07, WHITE)
+    for i in range(adim):
+        by = y0 + h * (0.32 + i * 0.16)
+        bx = x0 + w * 0.16
+        d.rectangle((bx, by, bx + s * 0.08, by + s * 0.08), outline=(40, 40, 40), width=int(s * 0.01))
+        if i < 2:
+            d.line((bx + s * 0.012, by + s * 0.04, bx + s * 0.035, by + s * 0.068, bx + s * 0.075, by + s * 0.01),
+                   fill=(30, 160, 80), width=int(s * 0.018))
+        _text_c(d, bx + s * 0.16, by + s * 0.04, str(i + 1), s * 0.06, (40, 40, 40))
+        d.line((bx + s * 0.22, by + s * 0.04, x0 + w * 0.84, by + s * 0.04), fill=(170, 175, 185),
+               width=int(s * 0.02))
+    _rr(d, (cx + s * 0.1, cy - s * 0.47, cx + s * 0.46, cy - s * 0.32), s * 0.04, t.vurgu2, outline=WHITE,
+        width=int(s * 0.01))
+    _text_c(d, cx + s * 0.28, cy - s * 0.395, "FREE", s * 0.075, WHITE)
+
+
+def odeme_yollari(d, cx, cy, s, t):
+    """Beş ödeme yolu: kart (yeşil onay), banka, havale, hediye kartı, kripto (gri). Üstte saat."""
+    etiketler = ("CARD", "BANK", "WIRE", "GIFT", "CRYPTO")
+    for i, lab in enumerate(etiketler):
+        col, row = i % 3, i // 3
+        px = cx - s * 0.32 + col * s * 0.32 + (s * 0.16 if row else 0)
+        py = cy - s * 0.02 + row * s * 0.3
+        fill = (30, 160, 80) if i == 0 else ((60, 110, 200) if i in (1, 2) else (150, 155, 165))
+        _rr(d, (px - s * 0.13, py - s * 0.11, px + s * 0.13, py + s * 0.11), s * 0.03, fill, outline=WHITE,
+            width=int(s * 0.008))
+        _text_c(d, px, py, lab, s * (0.055 if len(lab) <= 4 else 0.045), WHITE)
+        if i == 0:
+            d.ellipse((px + s * 0.07, py - s * 0.17, px + s * 0.17, py - s * 0.07), fill=WHITE)
+            d.line((px + s * 0.09, py - s * 0.12, px + s * 0.11, py - s * 0.095, px + s * 0.15, py - s * 0.145),
+                   fill=(30, 160, 80), width=int(s * 0.015))
+    ox, oy, r = cx, cy - s * 0.36, s * 0.1                                             # saat
+    d.ellipse((ox - r, oy - r, ox + r, oy + r), fill=WHITE, outline=(40, 40, 40), width=int(s * 0.012))
+    d.line((ox, oy, ox, oy - r * 0.7), fill=(40, 40, 40), width=int(s * 0.012))
+    d.line((ox, oy, ox + r * 0.55, oy), fill=t.vurgu2, width=int(s * 0.012))
+
+
 NESNELER: Dict[str, Callable] = {
     "jenerator": jenerator, "terminal": terminal, "fatura_kopya": fatura_kopya, "iki_cubuk": iki_cubuk,
     "termometre": termometre, "zonlar": zonlar, "ev_telefonu": ev_telefonu,
@@ -363,4 +410,5 @@ NESNELER: Dict[str, Callable] = {
     "merdiven": merdiven, "iki_buton": iki_buton, "fiyat_etiketi": fiyat_etiketi,
     "telefon_sms": telefon_sms, "telefon_arama": telefon_arama, "laptop_uc_telefon": laptop_uc_telefon,
     "asma_kilit": asma_kilit, "tarayici_magaza": tarayici_magaza,
+    "kontrol_listesi": kontrol_listesi, "odeme_yollari": odeme_yollari,
 }

@@ -86,6 +86,7 @@ New videos every Saturday.
 Series: Money Mechanics · What If… · A vs B · Credit Cards Decoded
 
 Educational content only — not financial advice. Sources are listed in every video description.
+We will never ask you to message us on WhatsApp, Telegram or any other app, and we never offer investment tips in the comments.
 
 Topics: personal finance explained, how banks work, credit cards, interest rates, inflation, the Federal Reserve, mortgages, buy now pay later, cash vs card, economics explained.
 ```
@@ -95,7 +96,7 @@ Topics: personal finance explained, how banks work, credit cards, interest rates
 |---|---|---|
 | **Money Mechanics** | The hidden plumbing of money, one system at a time. | How banks create money (yayınlanmış) · CW-03 penny and cash rounding (7 Kas) · CW-04 who pays for card rewards (14 Kas) |
 | **Credit Cards Decoded** | How credit cards really make money — from late fees to rewards. | Why card companies want you to pay late (yayınlanmış) · CW-04 rewards (14 Kas) · CW-06 BNPL vs credit card (28 Kas) |
-| **What If…** | Big money scenarios, followed through to your wallet. | CW-05 What if the Fed keeps raising rates? (21 Kas) · What if America stopped using cash? (5 Ara, planlanan) |
+| **What If…** | Big money scenarios, followed through to your wallet. | CW-05 What if the Fed keeps raising rates? (21 Kas) · CW-07 What if America stopped using cash? (5 Ara) |
 | **A vs B** | Two money choices, compared round by round. | CW-06 BNPL vs credit card (28 Kas) · Gift card vs cash (12 Ara, planlanan) |
 | **Centworks Shorts** | One money idea in 30 seconds. | Tüm CW Shorts |
 
@@ -129,10 +130,11 @@ Scam Engineer breaks down the phone, text and online scams targeting Americans �
 This channel is made by a telecom engineer.
 
 New videos every Wednesday.
-Series: Scam Anatomy · Phone Scams · Protect Your Parents · Real or Fake? (Shorts)
+Series: Scam Anatomy · Phone Scams · Protect Your Parents · Is It a Scam? · Real or Fake? (Shorts)
 
 Report scams: reportfraud.ftc.gov · ic3.gov · forward scam texts to 7726
 Sources are listed in every video description. Characters in reconstructions are composites.
+We will never ask you to message us on WhatsApp, Telegram or any other app, and we never offer to recover money. Anyone who does is not us.
 
 Topics: scam awareness, phone scams, text message scams, caller id spoofing, sim swap, elder fraud, medicare scams, tech support scams, online shopping scams, fraud prevention.
 ```

@@ -32,6 +32,10 @@
    "varyantlar": {
      "A": {"yazi": "0% vs 21%?", "vurgu": [0], "nesne": "iki_buton", "ayar": {}},
      "B": {"yazi": "47% PAID LATE", "vurgu": [0], "nesne": "fiyat_etiketi", "ayar": {"yazi": "PAY IN 4"}}}},
+  {"id": "CW-07", "kanal": "centworks", "tarih": "2026-12-05", "baslik": "What If America Stopped Using Cash?",
+   "varyantlar": {
+     "A": {"yazi": "CARD ONLY?", "vurgu": [1], "nesne": "nakit", "ayar": {"etiket": "NO CASH", "sonek": ""}},
+     "B": {"yazi": "WHO GETS LEFT OUT?", "vurgu": [2, 3], "nesne": "nakit", "ayar": {"etiket": "CARD ONLY", "sonek": ""}}}},
 
   {"id": "SE-03", "kanal": "scam_engineer", "tarih": "2026-11-11", "baslik": "The Unpaid Toll Text Isn't After Your $12. It's After This.",
    "varyantlar": {
@@ -48,5 +52,21 @@
   {"id": "SE-06", "kanal": "scam_engineer", "tarih": "2026-12-02", "baslik": "This Online Store Was 11 Days Old. Here's How to Tell.",
    "varyantlar": {
      "A": {"yazi": "STORE AGE: 11 DAYS", "vurgu": [2, 3], "nesne": "tarayici_magaza", "ayar": {}},
-     "B": {"yazi": "PADLOCK ISN'T SAFETY", "vurgu": [2], "nesne": "asma_kilit", "ayar": {}}}}
+     "B": {"yazi": "PADLOCK ISN'T SAFETY", "vurgu": [2], "nesne": "asma_kilit", "ayar": {}}}},
+  {"id": "EV-01", "kanal": "scam_engineer", "tarih": "esnek", "baslik": "Is This Text a Scam? The 30-Second Check",
+   "varyantlar": {
+     "A": {"yazi": "REAL OR SCAM?", "vurgu": [2], "nesne": "telefon_sms", "ayar": {"satir1": "Package on hold", "satir2": "REAL?", "rozet": ""}},
+     "B": {"yazi": "THE 30-SECOND CHECK", "vurgu": [1], "nesne": "telefon_sms", "ayar": {"satir1": "Fraud alert:", "satir2": "REPLY 1", "rozet": ""}}}},
+  {"id": "EV-02", "kanal": "scam_engineer", "tarih": "esnek", "baslik": "Gave Your SSN to a Scammer? Do These 4 Free Things",
+   "varyantlar": {
+     "A": {"yazi": "4 FREE STEPS", "vurgu": [1], "nesne": "kontrol_listesi", "ayar": {"baslik": "SSN"}},
+     "B": {"yazi": "SSN STOLEN? DO THIS", "vurgu": [1], "nesne": "kontrol_listesi", "ayar": {"baslik": "SSN"}}}},
+  {"id": "EV-03", "kanal": "scam_engineer", "tarih": "esnek", "baslik": "Clicked a Link in a Scam Text? Do This Next",
+   "varyantlar": {
+     "A": {"yazi": "CLICKED IT? DO THIS", "vurgu": [0], "nesne": "telefon_sms", "ayar": {"satir1": "Track parcel:", "satir2": "TAPPED", "rozet": ""}},
+     "B": {"yazi": "IS MY PHONE HACKED?", "vurgu": [3], "nesne": "telefon_sms", "ayar": {"satir1": "You tapped", "satir2": "NOW?", "rozet": ""}}}},
+  {"id": "EV-04", "kanal": "scam_engineer", "tarih": "esnek", "baslik": "Sent Money to a Scammer? How to Try to Get It Back",
+   "varyantlar": {
+     "A": {"yazi": "HOW DID YOU PAY?", "vurgu": [3], "nesne": "odeme_yollari", "ayar": {}},
+     "B": {"yazi": "CALL YOUR BANK FIRST", "vurgu": [2], "nesne": "odeme_yollari", "ayar": {}}}}
 ]
