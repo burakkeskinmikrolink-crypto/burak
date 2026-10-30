@@ -160,6 +160,7 @@ Dosyalar: `<kanal>/shorts-bagimsiz-hafta-<n>.md`.
 | Dosya | İçerik |
 |---|---|
 | `reklam-disi-gelir.md` | Affiliate programları, Türkiye'den ödeme alma (CJ + Payoneer), FTC/ASA kuralları, şablonlar |
+| `ypp-esik-dogrulama.md` | **YPP eşik doğrulaması (30 Ekim 2026):** 8.000 saat / 20 milyon Shorts kuralı 1 Şubat 2027'den itibaren yeni başvurular için resmi; bugün 4.000 geçerli; 500 abone kademesi değişmedi |
 | `4000-saat-plani.md` | İzlenme saati hesabı, **1 Şubat 2027 eşik değişikliği uyarısı**, haftalık hedefler |
 | `arama-icerigi-scam.md` | 15 kalıcı arama konusu (ilk 4'ü yazıldı) |
 | `ceviri-ve-erisim.md` | Çok dilli başlık/açıklama, çoklu ses, otomatik dublaj: kimlere açık, politika notu |

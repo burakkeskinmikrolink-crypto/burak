@@ -5,7 +5,9 @@
 
 ---
 
-## 0) Önce kritik haber: eşik 1 Şubat 2027'de ikiye katlanıyor olabilir
+## 0) Önce kritik haber: eşik 1 Şubat 2027'de ikiye katlanıyor (resmi olarak duyuruldu)
+
+> ✅ **30 Ekim 2026 doğrulaması:** Değişiklik Google/YouTube'un resmi blogunda ve YouTube'un Creator Insider kanalında (VP Amjad Hanif, 10 Ağustos 2026) duyuruldu. Ayrıntı ve kaynaklar: [`ypp-esik-dogrulama.md`](ypp-esik-dogrulama.md). Aşağıdaki "bildirilen değişiklik" satırının güveni artık **Yüksek**. Reklam geliri için gerçek hedefimiz **8.000 saat**; ara hedef genişletilmiş YPP (500 abone + 3.000 saat).
 
 | Bulgu | Kaynak | Güven |
 |---|---|---|
