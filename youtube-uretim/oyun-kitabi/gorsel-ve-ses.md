@@ -57,6 +57,8 @@ Bu bölüm teknik uygulama bilgisi. Bir araştırma bulgusu değil, zanaat prati
 
 ## C. Ücretsiz TTS seslerini daha doğal yapmak
 
+> 🔄 **Güncelleme (S5):** Aşağıdaki SSML örnekleri Polly/Azure/Google gibi motorlar içindir. **Kokoro SSML okumaz.** Kokoro için duraklama, hız ve telaffuz kuralları: [`../muzik-ve-ses.md`](../muzik-ve-ses.md) §3.
+
 > ⚠️ Önce [yapay-zeka-ve-politika.md](yapay-zeka-ve-politika.md) dosyasını oku. Centworks ve Scam Engineer'da yapay zekâ sesi, Temmuz 2026 netleştirmesindeki "finans konularını anlatan yapay zekâ personası" kategorisine yakın bir risk taşıyor. **Önerimiz: Bu iki kanalda gerçek insan sesi.** TTS en fazla Hidden Systems'te ve kimlik cümlesi olmadan kullanılmalı.
 
 | Bulgu | Kaynak | Güven |
