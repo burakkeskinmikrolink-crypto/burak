@@ -81,7 +81,7 @@ YouTube beyanı **gerçekçi** ve izleyicinin **gerçek bir kişi, yer veya olay
 
 ## E) Bilgi kartı planı
 
-**Kural:** Kart, senaryoda başka bir videodan bahsedilen ya da konunun doğal olarak başka bir videoya bağlandığı anda çıkar. Video başına en fazla 2 kart. Kart yalnızca **yayınlanmış** videoya bağlanabilir; hedef henüz yayınlanmadıysa "Sonradan ekle" sütununa bak. Zaman kodları senaryodaki bölüm başlıklarından; kurguya göre birkaç saniye kaydır.
+**Kural (20 video):** Kart, senaryoda başka bir videodan bahsedilen ya da konunun doğal olarak başka bir videoya bağlandığı anda çıkar. Video başına en fazla 2 kart. Kart yalnızca **yayınlanmış** videoya bağlanabilir; hedef henüz yayınlanmadıysa "Sonradan ekle" sütununa bak. Zaman kodları senaryodaki bölüm başlıklarından; kurguya göre birkaç saniye kaydır.
 
 | Video (yayın) | Kart 1 | Kart 2 | Sonradan ekle |
 |---|---|---|---|
@@ -89,15 +89,18 @@ YouTube beyanı **gerçekçi** ve izleyicinin **gerçek bir kişi, yer veya olay
 | HS-05 First Brands (18 Kas) | — (kanalda ilgili bir video yok) | — | Kart yok. Bitiş ekranı yeterli |
 | HS-06 AWS ısınma (25 Kas) | 3:05 "One zone or many?" → HS-04 | — | — |
 | HS-07 Bakır hat (2 Ara) | 0:45 "Why the old landline worked…" → Deprem/telefon şebekesi | 1:55 "The one-hour rule…" → Spain blackout | — |
+| HS-08 Winter Storm Elliott (9 Ara) | ~1:25 "…how close Texas came…" → Short "4 minutes and 37 seconds" (8 Ara) | ~6:15 "…switching to battery…" → Deprem/telefon şebekesi | — |
 | CW-03 Kuruş (7 Kas) | 3:15 "Can a store refuse your cash?" → "How banks create money" (yayınlanmış) | — | 5 Ara sonrası: 3:15'e CW-07 kartı |
 | CW-04 Ödüller (14 Kas) | 6:45 "The three kinds of shoppers" → "Why card companies want you to pay late" | — | — |
 | CW-05 Fed (21 Kas) | 2:00 "Branch 1" (kart faizi) → "Why card companies want you to pay late" | — | 28 Kas sonrası: CW-06 |
 | CW-06 BNPL (28 Kas) | 0:45 "Round 1" → CW-04 (ödülleri kim ödüyor) | 3:15 "Round 3" → CW-05 (faiz) | — |
 | CW-07 Nakit (5 Ara) | 3:18 "…the penny episode" → CW-03 | 4:17 "…the rewards episode" → CW-04 | — |
+| CW-08 Gift card vs cash (12 Ara) | 3:30 banka kartı ücretleri → CW-06 | 2:00 "Round 2" → CW-07 Nakit | — |
 | SE-03 Otoyol SMS'i (11 Kas) | 3:10 "Your card in a digital wallet" → SIM swap (yayınlanmış; tek kullanımlık kodlar) | 0:45 "reply Y" → Caller ID spoofing (yayınlanmış) | — |
 | SE-04 Medicare (18 Kas) | 0:45 "Why the screen says MEDICARE" → Caller ID spoofing | — | — |
 | SE-05 Phantom Hacker (25 Kas) | 2:00 "Door 2: the bank calls" → Caller ID spoofing | 3:10 "Door 3" → SE-04 Medicare | — |
 | SE-06 Sahte mağaza (2 Ara) | 2:00 "How the store found her" → SE-03 (link tuzakları) | — | Evergreen-04 yayınlanınca: 6:45 "If you already paid" → EV-04 |
+| SE-07 Tatil: hediye kartı + kargo SMS'i (9 Ara) | ~4:05 kargo SMS'ine geçiş → SE-03 | ~6:20 "IdentityTheft.gov" → SIM swap (yayınlanmış) | — |
 | EV-01 Is this text a scam? | 1:55 "The 4 signs" → SE-03 | 5:30 "Report, delete, filter" → EV-03 | — |
 | EV-02 SSN verdim | 1:55 "IdentityTheft.gov" → SIM swap | 6:35 "The checklist" → EV-04 | — |
 | EV-03 Linke tıkladım | 0:45 "What a link really does" → EV-01 | 2:55 "Door 2" → EV-02 | — |

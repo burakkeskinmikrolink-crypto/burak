@@ -32,10 +32,10 @@ Senaryo metinleri İngilizce, notlar ve açıklamalar Türkçe. Sadece metin ür
 | **2 Ara** | Çar | Hidden Systems | `hidden_systems/07-v2.md`: **YENİ** İngiltere bakır hat kapanışı (31 Ocak 2027) | `hidden_systems/shorts_07-v2.md` | 3, 5, 7 Ara |
 | **2 Ara** | Çar | Scam Engineer | `scam_engineer/06-v2.md`: **Sahte online mağazalar** (Cyber Monday ve tatil alışverişi) | Senaryo dosyasının içinde | 3, 5, 7 Ara |
 | **5 Ara** | Cmt | Centworks | `centworks/07-v2.md`: **YENİ** What if America stopped using cash? | `centworks/shorts_07-v2.md` | 6, 8, 10 Ara |
-| 9 Ara | Çar | Hidden Systems | S3'te yazılacak (kış fırtınası, şebeke ve tatil yükü) | — | — |
-| 9 Ara | Çar | Scam Engineer | S3'te yazılacak (tatil dolandırıcılıkları ve kargo SMS'i) | — | — |
-| 12 Ara | Cmt | Centworks | S3'te yazılacak (yıl sonu alışverişi: hediye kartı vs nakit) | — | — |
-| 16 Ara | Çar | Hidden Systems | 13 Aralık kararından sonra (konu: `konular.md`) | — | — |
+| **9 Ara** | Çar | Hidden Systems | `hidden_systems/08-v2.md`: **YENİ (S3)** Winter Storm Elliott, Noel arifesinde planlı kesinti | `hidden_systems/shorts_08-v2.md` | 10, 12, 14 Ara |
+| **9 Ara** | Çar | Scam Engineer | `scam_engineer/07-v2.md`: **YENİ (S3)** Hediye kartı boşaltma + sahte kargo SMS'i | Senaryo dosyasının içinde | 10, 12, 14 Ara |
+| **12 Ara** | Cmt | Centworks | `centworks/08-v2.md`: **YENİ (S3)** Gift card vs cash (A vs B) | `centworks/shorts_08-v2.md` | 13, 15, 17 Ara |
+| 16 Ara | Çar | Hidden Systems | 13 Aralık kararından sonra. Konu: Azure West US (HS-08 kapanışında duyuruluyor, `konular.md`) | — | — |
 | 16 Ara | Çar | Scam Engineer | Öneri: `scam_engineer/evergreen-04.md` (para gönderdim) | Senaryo dosyasının içinde | 17, 19, 21 Ara |
 
 ### 📱 Bağımsız Shorts takvimi (9 Kasım – 13 Aralık)
@@ -97,6 +97,7 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 | `05-v2.md` | `05.md` | `shorts_05-v2.md` (v1: `shorts_05.md`) |
 | `06-v2.md` | `06.md` | `shorts_06-v2.md` (v1: `shorts_06.md`) |
 | `07-v2.md` (yeni konu, doğrulama tablosu dosyanın içinde) | — | `shorts_07-v2.md` |
+| `08-v2.md` (S3 tatil, 9 Ara) | — | `shorts_08-v2.md` |
 | — | `yedek-kuba.md` (eski 07) | `yedek-kuba-shorts.md` (eski shorts_07) |
 
 ### Centworks (`centworks/`)
@@ -107,6 +108,7 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 | `05-v2.md` | `05.md` | `shorts_05-v2.md` |
 | `06-v2.md` | `06.md` | `shorts_06-v2.md` |
 | `07-v2.md` (yeni, 5 Ara) | — | `shorts_07-v2.md` |
+| `08-v2.md` (S3 tatil, 12 Ara) | — | `shorts_08-v2.md` |
 
 ### Scam Engineer (`scam_engineer/`)
 | v2 | v1 (yeni dosya adı ← eski) | Shorts |
@@ -115,6 +117,7 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 | `04-v2.md` Medicare | `04.md` (← eski 06.md) | Senaryo içinde |
 | `05-v2.md` Phantom Hacker | `05.md` (← eski 04.md) | Senaryo içinde |
 | `06-v2.md` Sahte mağazalar | `06.md` (← eski 05.md) | Senaryo içinde |
+| `07-v2.md` Tatil: hediye kartı + kargo SMS'i (S3, 9 Ara) | — | Senaryo içinde |
 | — | — | `shorts_5-10_kasim-v2.md` (v1: `shorts_5-10_kasim.md`) |
 
 - `evergreen-01.md` … `evergreen-04.md`: kalıcı arama videoları ("Is this text a scam?", SSN verdim, linke tıkladım, dolandırıcıya para gönderdim). Shorts dosyanın içinde. Yayın tarihi esnek, takvimdeki boş haftalara yerleştir
@@ -125,7 +128,7 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 | `arac/gorsel_kutuphane/` | Wikimedia, NASA, Pexels ve Pixabay'de telifsiz görsel/video arama. Lisans kontrolü (sadece PD, CC0, CC BY, CC BY-SA, Pexels, Pixabay). Ken Burns ve parallax klip (1920x1080 + 1080x1920, ffmpeg). Proje başına `kaynaklar.txt`. API anahtarları `.env`'den | `python -m gorsel_kutuphane ara/indir/klip/kaynaklar`. Windows kurulumu klasörün README'sinde. Testler: `python -m unittest discover -s tests -t .` (45 test, ağ gerekmez) |
 | `arac/shorts_sablonlari/` | Shorts için 3 format tanımı (quiz, kısa hikâye, gerçek mi sahte mi), JSON şema, 4 doldurulmuş örnek ve kanal kurallarını kontrol eden doğrulayıcı | `python dogrula.py ornekler/*.json`. Testler: `python -m unittest test_dogrula` (11 test) |
 | `arac/altyazi/` | Senaryodan YouTube'a "zamanlama olmadan" yüklenecek düz transkript çıkarır (ses işaretlerini temizler) | `python arac/altyazi/transkript.py <senaryo.md> -o arac/altyazi/cikti`. Testler: `cd arac/altyazi && python -m unittest discover -s tests -t .` (4 test) |
-| `arac/kucuk_resim/` | 17 videonun (12 v2 + CW-07 + 4 evergreen) her biri için 2 küçük resim (A/B, 1280x720, Pillow, OFL font). Kanal temaları: Scam Engineer açık ve renkli, Hidden Systems koyu + kırmızı, Centworks koyu + altın/yeşil. Telefon boyutunda önizleme ızgarası | `python uret.py` → `cikti/`. Testler: `python -m unittest discover -s tests` (9 test) |
+| `arac/kucuk_resim/` | 20 videonun (12 v2 + CW-07 + 4 evergreen + 3 tatil) her biri için 2 küçük resim (A/B, 1280x720, Pillow, OFL font). Kanal temaları: Scam Engineer açık ve renkli, Hidden Systems koyu + kırmızı, Centworks koyu + altın/yeşil. Telefon boyutunda önizleme ızgarası | `python uret.py` → `cikti/`. Testler: `python -m unittest discover -s tests` (9 test) |
 
 ### Kanal operasyonu
 | Dosya | İçerik |
@@ -147,8 +150,9 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 | `gelir/arama-icerigi-scam.md` | Scam Engineer için 15 kalıcı (evergreen) arama konusu. İlk 4'ü yazıldı: `scam_engineer/evergreen-01..04.md` |
 | `gelir/ceviri-ve-erisim.md` | Çok dilli başlık/açıklama, çoklu ses kanalı ve otomatik dublaj: kimlere açık, şartlar, politika notu, uygulama adımları |
 | `gelir/hizli-kazanimlar.md` | Başka kanallarda işe yaramış, oyun kitabında olmayan 10 taktik: ne yapılır, nerede kanıtlandı, hangi kanalımıza nasıl uygulanır, beklenen etki, süre, güven düzeyi |
+| `gelir/q4-firsati.md` | Q4 reklam fiyatı artışı ve Ocak düşüşü (kaynaklı), bizim için anlamı, kanal başına 3 tatil konusu ve seçilen 3 senaryo |
 | `gelir/pdf-icerikleri.md` | E-posta listesi için tek sayfalık PDF metinleri: "The Scam Check Card" ve "Before You Swipe" |
-| `ceviriler/` | 17 planlanmış + 7 yayınlanmış video için ES, PT-BR, DE başlık ve açıklama (Studio'ya yapıştırmaya hazır, dosya başına bir video) + kanal Hakkında metinleri (`kanal-hakkinda.md`). `python ceviriler/_uret.py` ile yeniden üretilir |
+| `ceviriler/` | 20 planlanmış + 7 yayınlanmış video için ES, PT-BR, DE başlık ve açıklama (Studio'ya yapıştırmaya hazır, dosya başına bir video) + kanal Hakkında metinleri (`kanal-hakkinda.md`). `python ceviriler/_uret.py` ile yeniden üretilir |
 
 ### Planlama ve araştırma
 | Dosya | İçerik |

@@ -25,8 +25,9 @@
 | HS-05 First Brands | 18 Kas | Every lender saw its own slice; nobody saw the whole. Should invoice sales be registered in one public database, like property? Or would that kill a useful form of finance? (Reminder: the criminal case is ongoing; the defendants have pleaded not guilty.) |
 | HS-06 AWS cooling failure | 25 Kas | Two zones or three? If you run systems in the cloud, how many zones does your most critical service really survive? Engineers: what's the worst single point of failure you've found in production? |
 | HS-07 UK copper switch-off | 2 Ara | Quick check: does your landline plug into your router now? Reply with "copper", "digital" or "no landline" — and tell us if your provider offered you a battery backup. |
-| Azure West US routes (planlanan) | 9 Ara | One maintenance tool, five hours offline. Who should be allowed to run changes that can take down a whole region — and how many people should have to approve them? |
-| Microsoft 365 certificates (planlanan) | 16 Ara | The certificates expired *and* the alarm was broken. What's the most important alarm in your life that you've never tested? |
+| HS-08 Winter Storm Elliott | 9 Ara | If your power went out tonight for four hours, what would you miss first — heat, light, or your phone? And in the UK: did you know 105 is the number for a power cut? |
+| Azure West US routes (planlanan) | 16 Ara | One maintenance tool, five hours offline. Who should be allowed to run changes that can take down a whole region — and how many people should have to approve them? |
+| Microsoft 365 certificates (planlanan) | 2027 Ocak | The certificates expired *and* the alarm was broken. What's the most important alarm in your life that you've never tested? |
 
 ### Centworks
 | Video | Durum | Sabit yorum |
@@ -38,7 +39,7 @@
 | CW-05 What if the Fed keeps raising rates | 21 Kas | Which branch do you think we'll be on by spring: hike, hold or cut? And which of your debts is variable-rate? |
 | CW-06 BNPL vs credit card | 28 Kas | Black Friday weekend check-in: did you use pay-in-four, a credit card, or cash/debit for your biggest purchase? Tell us what you bought — and whether you'd make the same choice again. |
 | CW-07 What if America stopped using cash? | 5 Ara | Who would be hurt most by a cashless America — and who would gain? Is there anything you still *only* pay for in cash? |
-| Gift card vs cash (planlanan) | 12 Ara | Gift card or cash: which do you actually prefer to *receive*? And be honest — how many half-used gift cards are in your drawer right now? |
+| CW-08 Gift card vs cash | 12 Ara | Gift card or cash: which do you actually prefer to *receive*? And be honest — how many half-used gift cards are in your drawer right now? |
 
 ### Scam Engineer
 | Video | Durum | Sabit yorum |
@@ -49,8 +50,9 @@
 | SE-04 Medicare calls | 18 Kas | If someone called today saying they were from Medicare, what would you say? Write your one-sentence reply below. Ours: "I'll call Medicare myself." Please never post your Medicare number. |
 | SE-05 Phantom Hacker | 25 Kas | Seeing family this Thanksgiving? Which one sentence would you want your parents to remember? Share it below — and share this video with someone who'd pick up that call. |
 | SE-06 Fake online stores | 2 Ara | Have you ever bought from a store that turned out to be fake? What gave it away — and did your bank help? (No store links, please.) |
-| Voice-clone "grandparent" call + courier (planlanan) | 9 Ara | Does your family have a code word for emergency calls? If not, what would yours be? (Don't post the real one!) |
-| Gift card draining (planlanan) | 16 Ara | Do you check gift cards on the rack before buying? What do you look for? |
+| SE-07 Gift card draining + package texts | 9 Ara | Before you buy a gift card this week, what will you check first: the packaging, the PIN area, or buying online instead? And how many delivery texts did you get this month? (Please don't post links.) |
+| Voice-clone "grandparent" call + courier (Short olarak 8 Ara; uzun video 2027) | — | Does your family have a code word for emergency calls? If not, what would yours be? (Don't post the real one!) |
+| Gift card draining (SE-07'ye dahil edildi) | — | Do you check gift cards on the rack before buying? What do you look for? |
 | EV-01 Is this text a scam? | Esnek (kalıcı) | Which of the 4 signs shows up most in the texts you get: surprise, hurry, a path, or an ask? Describe the text in your own words — please don't paste links or numbers. |
 | EV-02 Gave your SSN to a scammer | Esnek (kalıcı) | Which of the four free steps had you never heard of before today? If you've done a credit freeze, how long did it take you? (Never post your SSN or any account details.) |
 | EV-03 Clicked a link in a scam text | Esnek (kalıcı) | Which door were you in: only opened it, typed something, or installed something? What did you do first? Your answer might help the next person who panics. |

@@ -47,7 +47,7 @@ Topics: cloud outages, data centre failures, power outages, blackouts, telecom o
 | Liste adı | Açıklama (YouTube'a girilecek) | Videolar (sırayla) |
 |---|---|---|
 | **Outage Files** | The biggest outages of our time, told minute by minute — and the one hidden failure behind each. | HS-04 Google Cloud London generator (11 Kas) · HS-06 AWS us-east-1 cooling failure (25 Kas) · HS-07 UK copper switch-off (2 Ara) · CrowdStrike (yayınlanmış) |
-| **How the Grid Fails** | Blackouts explained: how power grids balance, cascade and restart. | Spain blackout (yayınlanmış) · HS-07 copper switch-off and power cuts (2 Ara) · (yedek: Cuba) |
+| **How the Grid Fails** | Blackouts explained: how power grids balance, cascade and restart. | Spain blackout (yayınlanmış) · HS-07 copper switch-off and power cuts (2 Ara) · (yedek: Cuba) · HS-08 Winter Storm Elliott (9 Ara) |
 | **Phone Networks Explained** | What happens inside phone networks when disaster strikes — explained by the people who keep them running. | Earthquake phone network failure (yayınlanmış) · HS-07 copper switch-off (2 Ara) |
 | **Company Collapses** | How big companies fail quietly, then all at once. | HS-05 First Brands (18 Kas) |
 | **Hidden Systems Shorts** | 30-second explainers from every episode. | Tüm HS Shorts (yayın sırasıyla) |
@@ -97,7 +97,7 @@ Topics: personal finance explained, how banks work, credit cards, interest rates
 | **Money Mechanics** | The hidden plumbing of money, one system at a time. | How banks create money (yayınlanmış) · CW-03 penny and cash rounding (7 Kas) · CW-04 who pays for card rewards (14 Kas) |
 | **Credit Cards Decoded** | How credit cards really make money — from late fees to rewards. | Why card companies want you to pay late (yayınlanmış) · CW-04 rewards (14 Kas) · CW-06 BNPL vs credit card (28 Kas) |
 | **What If…** | Big money scenarios, followed through to your wallet. | CW-05 What if the Fed keeps raising rates? (21 Kas) · CW-07 What if America stopped using cash? (5 Ara) |
-| **A vs B** | Two money choices, compared round by round. | CW-06 BNPL vs credit card (28 Kas) · Gift card vs cash (12 Ara, planlanan) |
+| **A vs B** | Two money choices, compared round by round. | CW-06 BNPL vs credit card (28 Kas) · CW-08 Gift card vs cash (12 Ara) |
 | **Centworks Shorts** | One money idea in 30 seconds. | Tüm CW Shorts |
 
 ### Kanal anahtar kelimeleri
@@ -145,7 +145,7 @@ Topics: scam awareness, phone scams, text message scams, caller id spoofing, sim
 | **Scam Anatomy** | One scam, taken apart piece by piece — and the check that stops it. | SE-03 unpaid toll text (11 Kas) · SE-05 Phantom Hacker (25 Kas) · SE-06 fake online stores (2 Ara) |
 | **Phone Scams** | Calls and texts that look real: how the phone network gets abused. | Caller ID spoofing (yayınlanmış) · SIM swap (yayınlanmış) · SE-03 toll text · SE-04 Medicare calls (18 Kas) |
 | **Protect Your Parents** | Calm, shareable explainers for older adults and the people who love them. | SE-04 Medicare (18 Kas) · SE-05 Phantom Hacker (25 Kas) · Caller ID spoofing (yayınlanmış) |
-| **Seasonal Scam Alerts** | Scams that spike at certain times of year — and what to do. | SE-04 Medicare open enrollment (18 Kas) · SE-06 holiday shopping (2 Ara) · Gift card draining (16 Ara, planlanan) |
+| **Seasonal Scam Alerts** | Scams that spike at certain times of year — and what to do. | SE-04 Medicare open enrollment (18 Kas) · SE-06 holiday shopping (2 Ara) · SE-07 gift card draining + package texts (9 Ara) |
 | **Is It a Scam?** | Quick, calm answers to the questions people search when something feels off: a text, a link, your Social Security number, money already sent. | EV-01 Is this text a scam? · EV-03 Clicked a link in a scam text? · EV-04 Sent money to a scammer? · EV-02 Gave your SSN to a scammer? |
 | **Real or Fake? (Shorts)** | 30-second quizzes: can you spot the scam? | Tüm "gerçek mi sahte mi" ve quiz Short'ları |
 

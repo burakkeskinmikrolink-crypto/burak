@@ -57,7 +57,7 @@ def jenerator(d, cx, cy, s, t, etiket="OFF"):
     tw, th = s * 0.42, s * 0.16                                                                     # OFF etiketi
     tx, ty = cx + s * 0.08, y0 - s * 0.2
     _rr(d, (tx, ty, tx + tw, ty + th), s * 0.03, t.vurgu, outline=WHITE, width=int(s * 0.01))
-    _text_c(d, tx + tw / 2, ty + th / 2, etiket, s * 0.11, WHITE)
+    _text_c(d, tx + tw / 2, ty + th / 2, etiket, s * (0.11 if len(etiket) <= 4 else 0.075), WHITE)
 
 
 def terminal(d, cx, cy, s, t, ekran="DECLINED"):
@@ -255,7 +255,7 @@ def iki_buton(d, cx, cy, s, t, sol="0%", sag="21%"):
     for i, (txt, col) in enumerate(((sol, t.vurgu2), (sag, t.vurgu))):
         x0 = cx - s * 0.45 + i * s * 0.48
         _rr(d, (x0, cy - s * 0.2, x0 + s * 0.42, cy + s * 0.2), s * 0.05, col, outline=WHITE, width=int(s * 0.012))
-        _text_c(d, x0 + s * 0.21, cy, txt, s * 0.16, BLACK)
+        _text_c(d, x0 + s * 0.21, cy, txt, s * (0.16 if len(txt) <= 3 else 0.11), BLACK)
     _text_c(d, cx + s * 0.005, cy - s * 0.32, "VS", s * 0.1, WHITE)
 
 
@@ -403,6 +403,33 @@ def odeme_yollari(d, cx, cy, s, t):
     d.line((ox, oy, ox + r * 0.55, oy), fill=t.vurgu2, width=int(s * 0.012))
 
 
+def hediye_karti(d, cx, cy, s, t, etiket="CHECK"):
+    """Askıda bir hediye kartı ambalajı; barkod etiketinin köşesi kalkık, yanında büyüteç."""
+    w, h = s * 0.5, s * 0.78
+    x0, y0 = cx - w / 2 - s * 0.08, cy - h / 2
+    d.rounded_rectangle((x0 + w * 0.35, y0 - s * 0.08, x0 + w * 0.65, y0 + s * 0.02), radius=s * 0.03,
+                        outline=(120, 125, 135), width=int(s * 0.015))                       # askı deliği
+    _rr(d, (x0, y0, x0 + w, y0 + h), s * 0.03, WHITE, outline=(60, 70, 90), width=int(s * 0.01))  # ambalaj
+    _rr(d, (x0 + w * 0.1, y0 + h * 0.12, x0 + w * 0.9, y0 + h * 0.5), s * 0.03, t.vurgu)          # kart
+    _text_c(d, cx - s * 0.08, y0 + h * 0.31, "GIFT", s * 0.08, WHITE)
+    bx0, by0 = x0 + w * 0.12, y0 + h * 0.6                                                      # barkod
+    for i in range(14):
+        bw = s * (0.008 if i % 3 else 0.014)
+        bx = bx0 + i * w * 0.055
+        d.rectangle((bx, by0, bx + bw, by0 + h * 0.18), fill=(30, 30, 30))
+    sx0, sy0 = x0 + w * 0.55, by0 - h * 0.02                                                     # kalkık etiket
+    d.polygon([(sx0, sy0), (x0 + w * 0.92, sy0), (x0 + w * 0.92, sy0 + h * 0.22), (sx0 + w * 0.12, sy0 + h * 0.22)],
+              fill=(235, 235, 220), outline=(150, 150, 150))
+    d.polygon([(x0 + w * 0.92, sy0), (x0 + w * 1.02, sy0 - h * 0.06), (x0 + w * 0.92, sy0 + h * 0.08)],
+              fill=(210, 210, 195))
+    mx, my, r = cx + s * 0.22, cy + s * 0.12, s * 0.13                                          # büyüteç
+    d.ellipse((mx - r, my - r, mx + r, my + r), outline=(40, 40, 40), width=int(s * 0.022))
+    d.line((mx + r * 0.7, my + r * 0.7, mx + r * 1.7, my + r * 1.7), fill=(40, 40, 40), width=int(s * 0.04))
+    _rr(d, (cx + s * 0.02, cy - s * 0.47, cx + s * 0.44, cy - s * 0.32), s * 0.04, t.vurgu2, outline=WHITE,
+        width=int(s * 0.01))
+    _text_c(d, cx + s * 0.23, cy - s * 0.395, etiket, s * 0.07, WHITE)
+
+
 NESNELER: Dict[str, Callable] = {
     "jenerator": jenerator, "terminal": terminal, "fatura_kopya": fatura_kopya, "iki_cubuk": iki_cubuk,
     "termometre": termometre, "zonlar": zonlar, "ev_telefonu": ev_telefonu,
@@ -410,5 +437,5 @@ NESNELER: Dict[str, Callable] = {
     "merdiven": merdiven, "iki_buton": iki_buton, "fiyat_etiketi": fiyat_etiketi,
     "telefon_sms": telefon_sms, "telefon_arama": telefon_arama, "laptop_uc_telefon": laptop_uc_telefon,
     "asma_kilit": asma_kilit, "tarayici_magaza": tarayici_magaza,
-    "kontrol_listesi": kontrol_listesi, "odeme_yollari": odeme_yollari,
+    "kontrol_listesi": kontrol_listesi, "odeme_yollari": odeme_yollari, "hediye_karti": hediye_karti,
 }

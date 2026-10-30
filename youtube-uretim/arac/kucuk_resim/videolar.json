@@ -16,6 +16,11 @@
      "A": {"yazi": "SWITCHED OFF: 31 JAN", "vurgu": [2, 3], "nesne": "ev_telefonu", "ayar": {}},
      "B": {"yazi": "WORKS IN POWER CUTS?", "vurgu": [2, 3], "nesne": "ev_telefonu", "ayar": {}}}},
 
+  {"id": "HS-08", "kanal": "hidden_systems", "tarih": "2026-12-09", "baslik": "The Christmas the Lights Went Out on Purpose",
+   "varyantlar": {
+     "A": {"yazi": "CUT ON CHRISTMAS EVE", "vurgu": [0], "nesne": "ev", "ayar": {"etiket": "POWER CUT"}},
+     "B": {"yazi": "90,500 MW GONE", "vurgu": [0, 1], "nesne": "jenerator", "ayar": {"etiket": "FROZEN"}}}},
+
   {"id": "CW-03", "kanal": "centworks", "tarih": "2026-11-07", "baslik": "America Killed the Penny. Here's Who Pays the Difference.",
    "varyantlar": {
      "A": {"yazi": "$4.93 → $4.95?", "vurgu": [2], "nesne": "fis", "ayar": {}},
@@ -37,6 +42,11 @@
      "A": {"yazi": "CARD ONLY?", "vurgu": [1], "nesne": "nakit", "ayar": {"etiket": "NO CASH", "sonek": ""}},
      "B": {"yazi": "WHO GETS LEFT OUT?", "vurgu": [2, 3], "nesne": "nakit", "ayar": {"etiket": "CARD ONLY", "sonek": ""}}}},
 
+  {"id": "CW-08", "kanal": "centworks", "tarih": "2026-12-12", "baslik": "Gift Card vs Cash: Which Is Actually the Better Gift?",
+   "varyantlar": {
+     "A": {"yazi": "GIFT CARD OR CASH?", "vurgu": [3], "nesne": "iki_buton", "ayar": {"sol": "GIFT", "sag": "CASH"}},
+     "B": {"yazi": "$27B UNUSED", "vurgu": [0], "nesne": "nakit", "ayar": {"etiket": "UNSPENT", "sonek": ""}}}},
+
   {"id": "SE-03", "kanal": "scam_engineer", "tarih": "2026-11-11", "baslik": "The Unpaid Toll Text Isn't After Your $12. It's After This.",
    "varyantlar": {
      "A": {"yazi": "IT'S NOT THE $12", "vurgu": [3], "nesne": "telefon_sms", "ayar": {}},
@@ -53,6 +63,10 @@
    "varyantlar": {
      "A": {"yazi": "STORE AGE: 11 DAYS", "vurgu": [2, 3], "nesne": "tarayici_magaza", "ayar": {}},
      "B": {"yazi": "PADLOCK ISN'T SAFETY", "vurgu": [2], "nesne": "asma_kilit", "ayar": {}}}},
+  {"id": "SE-07", "kanal": "scam_engineer", "tarih": "2026-12-09", "baslik": "Two Holiday Scams Hiding in Plain Sight",
+   "varyantlar": {
+     "A": {"yazi": "EMPTY BEFORE YOU BUY", "vurgu": [0], "nesne": "hediye_karti", "ayar": {"etiket": "CHECK"}},
+     "B": {"yazi": "CHECK THE PACKAGE FIRST", "vurgu": [2], "nesne": "telefon_sms", "ayar": {"satir1": "Package on hold", "satir2": "$1.99?", "rozet": ""}}}},
   {"id": "EV-01", "kanal": "scam_engineer", "tarih": "esnek", "baslik": "Is This Text a Scam? The 30-Second Check",
    "varyantlar": {
      "A": {"yazi": "REAL OR SCAM?", "vurgu": [2], "nesne": "telefon_sms", "ayar": {"satir1": "Package on hold", "satir2": "REAL?", "rozet": ""}},
