@@ -1,0 +1,4 @@
+A generator didn't start. [pause 400]
+And across Britain, people couldn't reach their money. One of Google's London data-centre zones lost grid power. The batteries took over, which is normal. The generators were supposed to come next.
+Google's preliminary report says both the main and the backup automation failed to start them. A backup for the backup, and both failed together.
+Network engineers have a rule for this: don't test whether the backup exists. Test whether it starts. Because on that October morning, in London…

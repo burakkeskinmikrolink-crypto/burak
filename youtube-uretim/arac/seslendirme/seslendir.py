@@ -18,6 +18,7 @@ Kullanım:
     python seslendir.py ../../hidden_systems/04-v2.md --plan          # sadece planı yazdır (Kokoro gerekmez)
     python seslendir.py ../../hidden_systems/04-v2.md -o cikti/hs04.wav --ses bm_george --dil b
     python seslendir.py ../../centworks/03-v2.md  -o cikti/cw03.wav --ses am_michael --dil a
+    python seslendir.py ../../yukleme/<klasör>/seslendirme.txt -o ../../yukleme/<klasör>/ses.wav --dil a --ses <ses>
 
 Kurulum (Windows/Mac/Linux): pip install kokoro soundfile numpy
 """
@@ -85,7 +86,7 @@ def _cumlelere_bol(metin: str) -> List[str]:
     return [c.strip() for c in re.split(r"(?<=[.?!…])\s+", metin) if c.strip()]
 
 
-def paragraf_segmentleri(paragraf: str, sozluk: dict) -> List[Segment]:
+def paragraf_segmentleri(paragraf: str, sozluk: dict, oto_soru: bool = True) -> List[Segment]:
     """Bir paragrafı [slow] ve [pause] işaretlerine göre segmentlere böler."""
     parcalar, son = [], 0
     for m in SLOW_RE.finditer(paragraf):
@@ -100,19 +101,19 @@ def paragraf_segmentleri(paragraf: str, sozluk: dict) -> List[Segment]:
         for m in PAUSE_RE.finditer(metin):
             onceki = metin[konum:m.start()]
             ms = int(m.group(1)) if m.group(1) else VARSAYILAN_PAUSE
-            segler += _cumle_seg(onceki, hiz, sozluk)
+            segler += _cumle_seg(onceki, hiz, sozluk, oto_soru)
             if segler:
                 segler[-1].sonra_ms += ms
             konum = m.end()
-        segler += _cumle_seg(metin[konum:], hiz, sozluk)
+        segler += _cumle_seg(metin[konum:], hiz, sozluk, oto_soru)
     return segler
 
 
-def _cumle_seg(metin: str, hiz: float, sozluk: dict) -> List[Segment]:
+def _cumle_seg(metin: str, hiz: float, sozluk: dict, oto_soru: bool = True) -> List[Segment]:
     out = []
     for c in _cumlelere_bol(metin):
         c = telaffuz_uygula(c, sozluk)
-        out.append(Segment(c, hiz, SORU_PAUSE if c.endswith("?") else 0))
+        out.append(Segment(c, hiz, SORU_PAUSE if (oto_soru and c.endswith("?")) else 0))
     return out
 
 
@@ -127,6 +128,20 @@ def plan(md: str, sozluk: dict | None = None) -> List[Segment]:
             segler += ps
         if segler:
             segler[-1].sonra_ms = max(segler[-1].sonra_ms, SAHNE_PAUSE)
+    return segler
+
+
+def plan_txt(metin: str) -> List[Segment]:
+    """yukleme/<klasör>/seslendirme.txt için: işaretler dosyada açıkça yazılıdır.
+    Boş satır = paragraf sonu (600 ms). Soru ve sahne duraklamaları [pause N] olarak dosyada.
+    Telaffuz değişiklikleri dosyaya zaten uygulanmıştır."""
+    segler: List[Segment] = []
+    for p in re.split(r"\n\s*\n", metin.strip()):
+        p = " ".join(x.strip() for x in p.splitlines() if x.strip())
+        ps = paragraf_segmentleri(p, {}, oto_soru=False)
+        if ps:
+            ps[-1].sonra_ms = max(ps[-1].sonra_ms, PARAGRAF_PAUSE)
+        segler += ps
     return segler
 
 
@@ -158,7 +173,8 @@ def main():
     ap.add_argument("--plan", action="store_true", help="sadece segment planını yazdır")
     a = ap.parse_args()
     sozluk = json.load(open(a.telaffuz, encoding="utf-8")) if os.path.exists(a.telaffuz) else {}
-    segler = plan(open(a.senaryo, encoding="utf-8").read(), sozluk)
+    girdi = open(a.senaryo, encoding="utf-8").read()
+    segler = plan_txt(girdi) if a.senaryo.endswith(".txt") else plan(girdi, sozluk)
     if a.plan:
         toplam = 0
         for s in segler:

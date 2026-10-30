@@ -1,0 +1,6 @@
+dil: b
+ses: <seçilecek bm_… sesi>
+hız: 0.97
+
+Komut (youtube-uretim/ klasöründen):
+python arac/seslendirme/seslendir.py yukleme/2026-11-28_hidden-systems_short-why-not-turn-it-back-on/seslendirme.txt -o yukleme/2026-11-28_hidden-systems_short-why-not-turn-it-back-on/ses.wav --dil b --ses <ses> --hiz 0.97

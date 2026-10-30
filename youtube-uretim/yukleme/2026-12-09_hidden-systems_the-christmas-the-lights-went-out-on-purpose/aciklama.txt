@@ -1,0 +1,32 @@
+On Christmas Eve 2022, power companies in the eastern United States switched off electricity to their own customers — on purpose. Here's the hidden rule every power grid lives by, why 90,500 megawatts of generation vanished in the cold, how rotating outages work, and whether the same thing could happen in Britain this winter.
+
+This channel is made by someone who works inside a mobile network operations center.
+
+CHAPTERS
+0:00 The lights went out on purpose
+0:17 The cold arrives (reconstruction)
+0:53 The one rule every grid lives by
+1:56 90,500 megawatts unavailable
+2:56 The gas trap: one cause, both sides
+4:04 Who decides whose lights go out
+5:09 Could it happen in Britain?
+6:08 Design for the day nobody wants
+
+SOURCES
+- FERC & NERC – Inquiry into Bulk-Power System Operations During December 2022 Winter Storm Elliott (final report, Oct 2023): https://www.ferc.gov/media/winter-storm-elliott-report-inquiry-bulk-power-system-operations-during-december-2022
+- Power Engineering – FERC-NERC final report: natural gas struggled the most during Winter Storm Elliott: https://www.power-eng.com/policy-regulation/ferc-nerc-final-report-natural-gas-struggled-the-most-during-winter-storm-elliott/
+- Power Engineering – FERC-NERC staff find "unprecedented" outages from Winter Storm Elliott: https://www.power-eng.com/news/ferc-nerc-staff-find-unprecedented-outages-from-winter-storm-elliott/
+- NERC – Elliott report release: https://www.nerc.com/news/Headlines%20DL/Elliott%20report%20release%20092123.pdf
+- KUT – Texas power grid was 4 minutes and 37 seconds away from collapsing: https://www.kut.org/energy-environment/2021-02-24/texas-power-grid-was-4-minutes-and-37-seconds-away-from-collapsing-heres-how-it-happened
+- NESO – Britain's electricity supplies expected to remain secure this winter: https://www.neso.energy/news/britains-electricity-supplies-expected-remain-secure-winter
+- Solar Power Portal – GB to have 9.5% buffer over peak demand this winter: https://www.solarpowerportal.co.uk/energy-policy/-sufficient-supplies-gb-to-have-9-5-buffer-over-peak-demand-this-winter-neso-says-in-annual-outlook
+- Ofgem – Storm Arwen review and compensation: https://www.ofgem.gov.uk/publications/ofgem-announces-review-networks-response-storm-arwen-and-secures-agreement-companies-provide-more-compensation-those-affected
+- Ofgem – Storm Arwen report (June 2022): https://ofgem.gov.uk/node/172985
+- US NRC glossary – Common-cause failure: https://www.nrc.gov/reading-rm/basic-ref/glossary/common-cause-failure.html
+
+VISUAL CREDITS
+- Wikimedia Commons files as credited on screen (Title, Author, Source, Licence)
+- U.S. government public-domain materials; Natural Earth; Pexels; Pixabay
+Scenes marked "Reconstruction" are dramatised and do not depict real individuals.
+
+Narration uses a synthetic voice.

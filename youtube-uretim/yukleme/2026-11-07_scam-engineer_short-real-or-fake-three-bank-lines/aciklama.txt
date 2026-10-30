@@ -1,0 +1,15 @@
+Real or fake? Three bank lines.
+"We'll text you a code. Read it back so we can verify you." Fake. That code is your key. Never read it to a caller. "Please hang up and call the number on your card." Real. A genuine bank is always fine with that.
+
+Sources:
+- FCC – Caller ID Spoofing: https://www.fcc.gov/spoofing
+- FCC – Caller ID Authentication (STIR/SHAKEN): https://www.fcc.gov/call-authentication
+- FCC SIM swap and port-out rules (Nov 2023), summaries: https://therecord.media/fcc-new-rules-stop-sim-swapping · https://www.tlp.law/2023/11/23/fcc-releases-adopted-sim-swapping-port-out-fraud-ro-fnprm/
+- FBI IC3 PSA – SIM swap schemes (Feb 2022): https://www.ic3.gov/PSA/2022/PSA220208
+- FTC – Phishing: https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams
+
+This channel is made by a telecom engineer.
+
+#scamawareness #scams #fraudprevention #scamengineer
+
+Narration uses a synthetic voice.

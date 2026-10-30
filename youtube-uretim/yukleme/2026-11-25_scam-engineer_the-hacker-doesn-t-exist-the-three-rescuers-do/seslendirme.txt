@@ -1,0 +1,75 @@
+In this scam, the hacker doesn't exist — yet three fake rescuers take people's savings anyway. One sentence stops it at any stage. [pause 900]
+
+This channel is made by a telecom engineer. [pause 900]
+
+Frank, sixty-eight, is careful with money. His laptop freezes. A window fills the screen: "Security alert. Your computer has been compromised. Call support immediately." And a phone number.
+
+He's not reckless. He's worried about his retirement, so he calls.
+
+A real security warning wants to fix a problem. Why would this one need you to call? [pause 1000]
+
+A calm, friendly man answers, and asks Frank to install a small program, "to take a look." [pause 900]
+
+Here's what was actually on Frank's screen: a webpage. Just a webpage, designed to look like a system alert, sometimes coded to make the browser hard to close. It didn't scan anything. It can't.
+
+And the phone number? [pause 1000] Inside phone networks, a number on a screen proves nothing about who answers it. Getting one today can take minutes online.
+
+The FBI calls this the "Phantom Hacker" scam, and describes it in three phases. Think of them as three doors. Door one is the fake tech support agent. Once Frank installs that program, the caller can see and control his computer. He scrolls through ordinary system logs and calls them evidence. Then he asks Frank to log into his bank account, "to check for unauthorized charges."
+
+That's how he learns which bank Frank uses, and how much is there.
+
+"I'm sorry, sir," he says. "A foreign hacker has accessed your accounts. Your bank's fraud department will contact you."
+
+So why would Frank believe the next call? [pause 1000]
+
+Because it comes exactly as promised. A woman calls, says she's from his bank's fraud department. If you've seen our video on caller ID spoofing, you already know the number on his screen can look like the bank's real one.
+
+She confirms the "technician's" story. The hacker is still inside. Then she gives the instruction this whole scam is built around: to protect his savings, Frank must move them into a "safe" account — one the FBI says scammers often claim is connected to the Federal Reserve or another government agency.
+
+One more thing, she adds. "Don't tell the staff at your branch. We think someone there may be involved."
+
+That's the most important line in the entire script. So why would a careful person believe his own bank teller might be in on it? [pause 1000]
+
+Because each door confirms the last one. The technician predicted the bank's call. The bank confirmed the technician. Two "institutions," agreeing with each other. It feels like the system is working.
+
+And the warning about the branch staff does something clever: it cuts Frank off from the one person who might stop him. Isolation is the engine of this scam. Bank staff are often trained to notice unusual withdrawals and ask gentle questions. The scammers know that, so they make sure the victim walks in already suspicious of the very person trying to help.
+
+Door three opens if there's doubt. Someone calls claiming to be from a U.S. government agency. The FBI says scammers in this scheme may even send letters on what looks like official government letterhead.
+
+In some versions, victims are told to withdraw cash or buy gold, and a courier comes to the house to collect it "for safekeeping." The FBI warned about this in early 2024, reporting over 55 million dollars in losses from May to December 2023 alone. An FBI field office later counted at least 1,737 such cases nationwide, with losses of about 186 million dollars, between 2023 and May 2025.
+
+So how big is this, really? [pause 1000]
+
+When the FBI first named the Phantom Hacker scam in 2023, it said that in just the first half of that year, it received over 19,000 complaints about tech-support scams, with estimated losses over 542 million dollars. Nearly half of the victims were over sixty, and they accounted for about two-thirds of the losses.
+
+It hasn't slowed down. In its 2025 report, the FBI's Internet Crime Complaint Center said Americans aged sixty and over filed more than 201,000 complaints, reporting about 7.7 billion dollars in losses — a rise of nearly sixty percent from the year before.
+
+And those are only the losses people reported. Many victims never report at all, out of embarrassment, so the real figures are almost certainly higher.
+
+Those numbers aren't about foolish people. Many victims are exactly like Frank: careful, responsible, and trying to protect what they've built.
+
+So where's the weak point — the place anyone can stop it? [pause 1000]
+
+Each door has a fact that breaks it.
+
+Door one: Microsoft says its real error and warning messages never include a phone number to call. If a pop-up gives you a number, close the browser, or restart the computer. And never let someone you don't know take control of your computer.
+
+Door two: your bank won't ask you to move your money to a "safe account" to protect it. And the Federal Reserve doesn't hold accounts for individuals.
+
+Door three: the FBI says the U.S. government will never ask you to send money by wire, cryptocurrency or gift cards, or to buy gold.
+
+Notice what all three facts have in common: no real institution needs you to act alone, in secret, and right now.
+
+But you don't need three lists. [slow]One sentence closes every door: "I'm going to hang up and call you back on a number I look up myself."[/slow]
+
+Real banks, companies and agencies are fine with that. The scam isn't. If anyone says hanging up is dangerous, or that you mustn't call anyone else, that tells you exactly who's on the other end. [pause 900]
+
+If you, or someone you love, is already in the middle of it, it's not too late to act. Disconnect the computer from the internet. Call the bank using the number on the card or statement. Report it at ic3.gov. [slow]And for help talking it through, the Justice Department runs a National Elder Fraud Hotline: 1-833-FRAUD-11.[/slow]
+
+Frank's story ends differently from many real ones, because he said one sentence on the second call: "I'll call you back on the number on my card." His bank had never called him.
+
+If you're seeing parents or grandparents this Thanksgiving, this is a good conversation to have over the table. Not to scare anyone, just to give them one sentence they can use.
+
+The hacker in this story never existed. [slow]The only real connection was a phone line, and you're always allowed to hang up.[/slow]
+
+That's how this scam works — so it never works on you. [pause 900]

@@ -1,0 +1,3 @@
+$7.48 in cash. You pay? [pause 400]
+A: seven forty-five. B: seven fifty. C: seven forty-eight.
+It's B. With no pennies, cash totals round to the nearest nickel, and eight rounds up. One and two go down, three and four go to five, six and seven go to five, eight and nine go up. Pay by card, and it's still exactly seven forty-eight. So next time the cashier asks for cash on…

@@ -1,0 +1,3 @@
+The lights went out. It worked. [pause 400]
+That was the old landline's hidden superpower. Its electricity came down the copper wire from the telephone exchange, not from your plug.
+Digital landlines run through your broadband router, and the router needs mains power. Without a battery backup, a power cut can silence them. On the thirty-first of January 2027, Britain's copper network switches off. So remember the old promise, while it lasts:

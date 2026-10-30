@@ -1,0 +1,79 @@
+The same four-hundred-thousand-dollar mortgage now costs about 280 dollars more a month than a year ago. Here's what another rate hike would do to your money. [pause 900]
+
+This channel is made by an engineer, not a banker. [pause 900]
+
+Ana and Chris found the house. In early October, they asked for a rate. Freddie Mac's average that week: 7.40 percent. A year earlier: about 6.2.
+
+On their loan, that's roughly 280 dollars a month — for the same house, at the same price.
+
+"It's the Fed," Chris says. But the Fed doesn't set mortgage rates. So why did theirs jump? [pause 1000]
+
+To answer that, we need to follow one interest rate through the whole economy. [pause 900]
+
+The Fed controls one thing directly: a target for the federal funds rate, the interest rate banks charge each other for overnight loans. That's it. One short-term rate.
+
+On September 16th, 2026, the Fed raised that target by a quarter of a percentage point, to a range of 3.75 to 4 percent — its first increase since 2023. In late October, it held steady, but some officials signaled they were open to another hike.
+
+The reason was inflation. Prices in September were 3.7 percent higher than a year earlier, with energy costs doing a lot of the pushing.
+
+Mortgages don't follow the Fed directly. They mostly track long-term bond yields, like the ten-year Treasury, which move on what investors expect inflation and the Fed to do over years, not days. When markets started to expect more hikes, long-term rates rose, and mortgage rates rose with them.
+
+So for Ana and Chris, the Fed mattered — just indirectly. Now, the real what-if: if the Fed keeps going, what happens to your money? [pause 1000]
+
+Branch one: the Fed raises rates again.
+
+Start with the debt that reacts fastest: your credit card. Most American credit cards have a variable rate — the prime rate plus a margin. And the prime rate typically moves in lockstep with the Fed. So when the Fed raises rates by a quarter point, most card APRs go up by about a quarter point within a billing cycle or two.
+
+Here's where the math surprises people. On a 6,000-dollar balance, a quarter-point hike adds about fifteen dollars a year in interest. Three more hikes? [pause 1000] About forty-five.
+
+That's not nothing. But look at the level, not the change. According to Federal Reserve data, the average card rate across accounts was around 21 percent this year. On 6,000 dollars, that's roughly 1,270 dollars a year in interest — already.
+
+In this branch, new mortgages likely stay expensive, and savers with high-yield accounts usually see their rates nudge up.
+
+So more hikes make card debt worse. But the real damage was done long before September. Which leads to branch two. [pause 900]
+
+Branch two: the Fed holds where it is.
+
+If you have a fixed-rate mortgage, nothing changes. That's the whole point of fixed. If you have a card balance, your rate stays high — around that 21 percent average — so the clock keeps ticking.
+
+For savers, this branch is quietly important. When the Fed's rate is high, online high-yield savings accounts and certificates of deposit usually pay more. But two catches apply.
+
+First, not every bank passes it on. Many big banks pay far less than the Fed's rate on standard savings accounts. If you've never compared, check what yours actually pays.
+
+Second, inflation. If prices rise 3.7 percent a year and your savings earn 4, your real gain — what your money can actually buy — is close to zero.
+
+There's a simple test: find the interest rate on your savings account, then compare it with the latest inflation figure. If the first number is smaller, your savings are losing buying power every month — even though the balance looks like it's growing.
+
+So savers do better than borrowers here. But better isn't always winning. [pause 900]
+
+Branch three: the Fed eventually cuts.
+
+Cuts usually make borrowing cheaper, and can lower mortgage rates over time. Card APRs would drift down a little, and savings rates would usually follow them down. For Ana and Chris, a cut might eventually mean refinancing to a lower rate — though nobody can promise when. But the Fed only cuts when it believes inflation is under control. Cut too early, and prices can take off again.
+
+That fear has a history. In the late 1970s, inflation spiralled. To break it, the Fed pushed short-term rates to around 20 percent in 1981. That October, Freddie Mac's average thirty-year mortgage rate hit 18.63 percent. Inflation did come down — at the price of a deep recession.
+
+Nobody is predicting a repeat. But it explains why central banks would rather move too firmly than too softly.
+
+And right now, the minutes of the September meeting showed most officials saw a need for at least one more hike this year. Markets were expecting a December move, though forecasts keep shifting with every inflation report. [pause 900]
+
+So which branch will it be? [pause 1000] Nobody knows. But here's what's true in all three.
+
+If you already have a fixed-rate mortgage, a Fed decision doesn't change your payment.
+
+If you have variable-rate debt — a credit card, a home-equity line, an adjustable-rate mortgage — that's the debt the Fed reaches fastest. Paying it down is the one move that helps in every branch.
+
+If you have an emergency fund, keep it somewhere safe and easy to reach. That matters more than squeezing out the last tenth of a percent.
+
+If you have savings, compare rates. FDIC-insured high-yield accounts and CDs often pay far more than a standard account.
+
+And if you're shopping for a home, remember the house price and the rate are two different decisions. You can't control the Fed. You can control your down payment, your credit score, and how many lenders you compare.
+
+Don't let a scary headline rush you into anything. Rates move week to week. A good plan shouldn't have to. [pause 900]
+
+Back to Ana and Chris. Their rate jumped because mortgages follow long-term bond yields, and those rose as markets expected more Fed hikes. The Fed didn't set their rate. It set the mood.
+
+And the real what-if? [pause 1000] If the Fed keeps going, borrowing gets more expensive and the economy slows — because that's the intention. The Fed raises rates to cool things down. The only question is how much cooling it takes.
+
+Whichever branch we end up on, the moves that protect your wallet are the same: keep fixed debt fixed, shrink variable debt, and make your savings earn their keep.
+
+This is educational, not financial advice. Next week on Centworks, for Black Friday weekend: buy now, pay later versus a credit card. Which one actually costs more? [pause 1000]

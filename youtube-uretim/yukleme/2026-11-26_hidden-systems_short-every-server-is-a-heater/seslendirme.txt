@@ -1,0 +1,4 @@
+Every server is a heater. [pause 400]
+Almost all the electricity a server uses turns into heat. So a data centre is really a giant heater that happens to do maths.
+When cooling fails, servers have one safe move: switch themselves off. That's what happened in an Amazon data hall in Virginia in May 2026, and Coinbase's core trading was disrupted for hours.
+Heat, not hackers. Because, whatever the cloud feels like…

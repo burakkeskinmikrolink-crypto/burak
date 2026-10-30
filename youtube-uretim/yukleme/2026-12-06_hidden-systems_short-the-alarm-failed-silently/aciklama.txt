@@ -1,0 +1,10 @@
+The alarm failed silently.
+August 2003, Ohio. In a utility control room, the software that should have warned operators about problems stopped working, and nobody realised. Power lines sagged into trees and tripped, one after another, while the screens looked calm. Within hours, a cascade cut power to about 50 million people across the northeastern United States and Ontario. The US–Canada investigation listed the silent alarm among the causes, alongside tree trimming and training. In a control room, the worst sound is no sound. Because sometimes…
+
+Source: U.S.–Canada Power System Outage Task Force – Final Report on the August 14, 2003 Blackout (April 2004); FERC – Blackout presentation
+
+This channel is made by someone who works inside a mobile network operations center.
+
+#blackout2003 #powergrid #engineering #controlroom #hiddensystems
+
+Narration uses a synthetic voice.

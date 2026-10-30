@@ -144,6 +144,6 @@ Kaynak videolar (yayınlanmış):
 ## Kaynaklar (açıklamaya eklenecek)
 - FCC – Caller ID Spoofing: https://www.fcc.gov/spoofing
 - FCC – Caller ID Authentication (STIR/SHAKEN): https://www.fcc.gov/call-authentication
-- FCC SIM swap / port-out kuralları (Kasım 2023) özetleri: https://therecord.media/fcc-new-rules-stop-sim-swapping · https://www.tlp.law/2023/11/23/fcc-releases-adopted-sim-swapping-port-out-fraud-ro-fnprm/
+- FCC SIM swap and port-out rules (Nov 2023), summaries: https://therecord.media/fcc-new-rules-stop-sim-swapping · https://www.tlp.law/2023/11/23/fcc-releases-adopted-sim-swapping-port-out-fraud-ro-fnprm/
 - FBI IC3 PSA – SIM swap schemes (Feb 2022): https://www.ic3.gov/PSA/2022/PSA220208
 - FTC – Phishing: https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams

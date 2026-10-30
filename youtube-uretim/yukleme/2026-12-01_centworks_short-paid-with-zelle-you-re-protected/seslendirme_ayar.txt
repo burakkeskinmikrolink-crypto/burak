@@ -1,0 +1,6 @@
+dil: a
+ses: <seçilecek am_/af_ sesi>
+hız: 1.0
+
+Komut (youtube-uretim/ klasöründen):
+python arac/seslendirme/seslendir.py yukleme/2026-12-01_centworks_short-paid-with-zelle-you-re-protected/seslendirme.txt -o yukleme/2026-12-01_centworks_short-paid-with-zelle-you-re-protected/ses.wav --dil a --ses <ses> --hiz 1.0

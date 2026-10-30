@@ -1,0 +1,73 @@
+A generator in London didn't start — and for most of a working day, Britons couldn't reach their money. Here's the one switch that should have saved it. [pause 900]
+
+This channel is made by someone who works inside a mobile network operations center. [pause 900]
+
+Just after seven in the morning, inside a London data centre, the mains supply fails. That should be routine. Batteries take the load instantly, and diesel generators are meant to start within moments.
+
+The batteries took the load. The generators stayed silent.
+
+So how does a building designed for power cuts lose to… a power cut? [pause 1000]
+
+The batteries were never meant to last. And somewhere in that building, the clock had started. [pause 900]
+
+First, we need to strip away a word. "The cloud." It sounds weightless. It isn't. It's buildings — full of servers, cooling plant, and very large batteries.
+
+Google sells computing in what it calls regions. Its London region has the code name europe west two. Each region is split into zones — separate deployment areas, so that if one fails, the others carry on. Google's own documentation tells customers that if they want to stay up, they should spread across more than one zone.
+
+At about eight minutes past seven, one of London's three zones — europe west two B — lost power.
+
+Now follow the electricity. Power arrives from the grid. If it drops, an uninterruptible power supply — a U P S — bridges the gap with batteries. Those batteries are a bridge, not a destination: sized for minutes, not hours. Their only job is to keep everything alive until the generators take over.
+
+And the generators don't decide for themselves. They're started by automation: industrial controllers called PLCs, programmable logic controllers. Small grey boxes. When the supply fails, they give the order — start, synchronise, transfer.
+
+But here's a bigger puzzle. The whole point of three zones is that you can lose one. So why did banking apps, court hearings and parcel firms all fall over together? [pause 1000]
+
+Back inside the zone, the batteries are draining. The generators still haven't started.
+
+According to Google's preliminary report, as summarised by independent monitoring firms, when the U P S batteries ran down, the servers, network equipment and storage in that zone lost power.
+
+Outside, the effects spread. Revolut reported problems with card payments, transfers, cash withdrawals and logging in. Other banks and businesses reported trouble too. HM Courts and Tribunals Service said the video platform used for remote hearings was disrupted. Delivery companies, including Royal Mail and DPD, were reported among those affected. Google's status page eventually listed dozens of its own cloud products as impacted.
+
+In a network operations centre, this is the moment the screens turn red — not one alarm, but hundreds, as every system that depended on that building reports it can't reach something.
+
+And here's the part that should worry regulators more than any generator: why were so many different British institutions relying on the same piece of infrastructure in the first place? [pause 1000]
+
+Let's take the first mystery. Why didn't the generators start? [pause 1000]
+
+Google's preliminary report — the company's best understanding at the time, and explicitly subject to change — says both the primary and the backup automation systems failed to start the generators. So backup power never reached the load.
+
+Read that again. There was a backup. And there was a backup for the backup. Both failed to do the one thing they exist for.
+
+Engineers have a name for this: a common-cause failure — when supposedly independent safety systems fail together because they share something. A design, a piece of software, a setting, a sensor. Google hasn't yet published what that shared weakness was. Its final report is still pending, and this video won't guess.
+
+But it isn't a freak event. The Uptime Institute, which studies data-centre failures, has repeatedly found on-site power problems to be among the most common causes of serious outages. Not hackers. Not software. Electricity. [pause 900]
+
+So why did losing one zone hurt so much? [pause 1000]
+
+When one zone dies, the theory is simple: traffic moves to the other two. Mobile networks behave the same way. When a mast goes down, neighbouring cells absorb its phones. If those neighbours were already busy, they start to struggle too.
+
+Google's preliminary account, as reported, describes something similar: as workloads failed over, they overloaded other zones in the region. Every system tried to restart, reconnect and catch up — all at once.
+
+Then there's geography. Many British firms keep their data in the UK for legal, contractual or customer reasons. Google has one cloud region in the UK. So if the London region is struggling, there's no second British region to escape to. Some firms were resilient against losing a zone — but not against a bad day for the whole region. [pause 900]
+
+Which brings us to the third question: why was everyone in the same place? [pause 1000]
+
+Banks, courts and couriers didn't choose the same building on purpose. They each chose a cloud provider — and there are only a handful of big ones. Separate decisions, the same hidden dependency.
+
+British regulators have been worried about exactly this. Since January 2025, the UK has had a regime for so-called critical third parties: it lets the Treasury designate firms like cloud providers so that the Bank of England, the Prudential Regulation Authority and the Financial Conduct Authority can oversee their resilience directly.
+
+After this outage, the FCA said it was engaging with Google and affected firms. Reuters reported that European financial regulators also questioned Google. Google apologised and said it would investigate.
+
+It's not enough for each bank to be resilient. The system they all lean on has to be resilient too. And right now, for much of British finance, that system is a handful of cloud regions and a set of automated switches most customers will never see. [pause 900]
+
+There's a rule in network operations that this story makes painfully clear: don't test whether the backup exists. Test whether it starts — under load, on a bad day, with the real switch, not the theory.
+
+That was the one switch. Not the grid, not the batteries — the automation that should have woken the generators, and its backup, failing together.
+
+For everyone else, the lesson is smaller but practical. Keep a second way to pay: a card from a different bank, and a little cash. When one hidden system fails, a Tuesday morning should depend on two of them, not one.
+
+Google's final report will tell us what that shared weakness really was. When it lands, Hidden Systems will come back to it.
+
+Until then, remember what this outage revealed. The cloud is a building. And buildings need their generators to start.
+
+Next on Hidden Systems: an auto-parts giant that owed nine billion dollars — and had twelve million in the bank. [pause 900]

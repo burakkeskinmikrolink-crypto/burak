@@ -1,0 +1,6 @@
+dil: b
+ses: <seçilecek bm_… sesi>
+hız: 0.97
+
+Komut (youtube-uretim/ klasöründen):
+python arac/seslendirme/seslendir.py yukleme/2026-12-13_hidden-systems_short-the-internet-lives-under-the-sea/seslendirme.txt -o yukleme/2026-12-13_hidden-systems_short-the-internet-lives-under-the-sea/ses.wav --dil b --ses <ses> --hiz 0.97

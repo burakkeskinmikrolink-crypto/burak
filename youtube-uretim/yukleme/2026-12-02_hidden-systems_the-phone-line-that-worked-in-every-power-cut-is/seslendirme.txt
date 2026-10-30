@@ -1,0 +1,77 @@
+Britain's old phone network — the one that kept working in power cuts — switches off in sixty days. Here's what replaces it, and what happens when the power goes. [pause 900]
+
+This channel is made by someone who works inside a mobile network operations center. [pause 900]
+
+October, on the Isle of Anglesey. Crews installing poles for a new full-fibre network accidentally damage fibre cables.
+
+Broadband drops. So do many landlines — the new digital kind, carried over broadband. Some households are cut off for over a day.
+
+Why would damage to a broadband cable silence a landline? [pause 1000]
+
+Because, quietly, the landline has changed. [pause 900]
+
+For more than a century, Britain's landlines ran on copper — the public switched telephone network. And it had a hidden superpower.
+
+A classic landline phone gets its electricity from the line itself. The power comes down the copper from the telephone exchange, which has its own batteries and backup power. That's why the old phone on the hall table kept working when the lights went out.
+
+Digital landlines work differently. Your voice travels as data over your broadband, through a router in your home. And that router needs mains electricity. No power at home, no router. No router, no phone — unless there's a battery backup.
+
+The copper network is closing. The deadline has already moved once, from the end of 2025, to protect vulnerable customers. It's now the thirty-first of January 2027, and Openreach, which runs most of the network, said in July: "there is no extension to the deadline." At that point, around one and a half million lines were still on copper.
+
+So when the power goes, what's supposed to keep 999 working? [pause 1000]
+
+The regulator, off-com, has an answer — with a number attached.
+
+Phone providers must take measures to make sure customers can reach emergency services for at least an hour during a power cut. That could be a battery backup unit, or a mobile phone. And if you don't have a working mobile or a reliable mobile signal, off-com says your provider must offer you a backup solution for free.
+
+One hour. Some critics say that's too low, and some operators have promised to go further.
+
+Openreach is also piloting a temporary fallback for households that haven't moved yet, called Emergency Voice Access: a basic, voice-only service so nobody is suddenly left with a dead line.
+
+But many people's real backup is their mobile — and mobile masts need power too. Many carry batteries, and some have generators. Batteries buy hours, not days. When a long power cut outlasts them, coverage starts to fade.
+
+There is one built-in safety net: in Britain, if your own mobile network is down, your phone can use another network to call 999.
+
+So who gets hurt most when this hidden system goes wrong? [pause 1000]
+
+People who depend on telecare: personal alarms that use the phone line to call for help after a fall.
+
+Many older alarms were designed for copper lines. They don't just make a call; they send coded tones down the line to a monitoring centre. On a digital connection, those signals have to be carried correctly, and the alarm still needs the router — and the power — to be working. Not every older alarm copes reliably. According to the consumer group Which?, two people died in 2023 after their telecare devices failed following the switchover. The government later said it didn't hold information on whether those failures were a significant cause.
+
+In December 2023, after those incidents, major providers agreed to pause forced migrations wherever a telecare user might be at risk. In November 2024, a further agreement meant vulnerable customers would be offered an engineer visit to test their alarm in person.
+
+And in December 2025, off-com fined Virgin Media 23.8 million pounds after it disconnected telecare customers during its move to digital landlines, putting thousands at risk.
+
+Is this just a British problem? [pause 1000]
+
+Not at all. In the United States, AT&T has said it plans to retire its copper network by the end of 2029. It's happening in stages, wire centre by wire centre, with approval from the Federal Communications Commission.
+
+The same trade-off applies. Copper landlines have kept working when storms knock out power. Fibre and internet-based replacements generally need power at home, which means battery backup for phones, alarms and medical alert devices.
+
+American consumer groups have raised concerns, especially for rural areas where mobile coverage is weaker. And the notice period customers get before copper is retired has reportedly been shortened.
+
+So two countries are making the same move, for the same reasons. Which raises an honest question: is digital simply worse? [pause 1000]
+
+No. And it's important to be fair here.
+
+The copper network is decades old, and keeping a second, ageing network alive alongside fibre costs money. In Britain, wholesale prices for the remaining legacy lines were set to double in October 2026, a clear signal that the old system is on its way out. Running one modern network, instead of an old one and a new one side by side, is simply easier to maintain.
+
+The real change isn't quality. It's where the resilience lives.
+
+With copper, resilience lived in the exchange: big batteries, maintained by engineers, protecting everyone at once. With digital, much of that resilience moves into your hallway — into a router, a plug socket and, if you have one, a small battery box.
+
+That's a hidden system being handed back to each household. And most households don't know they're now responsible for it. [pause 900]
+
+So here's what to check before the power next goes out.
+
+First: find out what kind of line you have. If your phone now plugs into the back of your router, or your provider has told you about a switch to digital, you're already on the new system.
+
+If it does, assume it won't work in a power cut without a battery backup.
+
+Second: if you don't have a reliable mobile signal, or depend on your landline, ask your provider about a battery backup. In Britain, off-com says eligible customers should be offered one free.
+
+Third: if you, or a relative, use a telecare alarm, tell your provider and ask for the alarm to be tested on the new line.
+
+Fourth: keep a mobile phone charged, and a power bank too. And remember that 999 calls can use any available mobile network.
+
+In network operations, one question gets asked about every system: what happens when the power goes? [pause 1000] For a hundred years, the landline answered that question on its own. From the thirty-first of January, in Britain, it's a question each household has to answer for itself. [pause 900]

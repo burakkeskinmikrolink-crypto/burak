@@ -1,0 +1,6 @@
+dil: b
+ses: <seçilecek bm_… sesi>
+hız: 0.97
+
+Komut (youtube-uretim/ klasöründen):
+python arac/seslendirme/seslendir.py yukleme/2026-11-18_hidden-systems_the-10-billion-company-that-was-built-on-invoice/seslendirme.txt -o yukleme/2026-11-18_hidden-systems_the-10-billion-company-that-was-built-on-invoice/ses.wav --dil b --ses <ses> --hiz 0.97

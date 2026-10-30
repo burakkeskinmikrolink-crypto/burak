@@ -1,0 +1,20 @@
+{
+  "_aciklama": "Bir kez doldur, sonra 'python arac/yukleme_paketi/paketle.py' çalıştır. Boş bırakılanlar paketlerde <…> olarak kalır ve README'de ⚠️ ile işaretlenir.",
+  "yayinlanmis_basliklar": {
+    "Spain blackout": "",
+    "CrowdStrike": "",
+    "deprem": "",
+    "geç ödeme": "",
+    "para yaratma": "",
+    "caller ID spoofing": "",
+    "SIM swap": ""
+  },
+  "linkler": {
+    "SE-07": ""
+  },
+  "sesler": {
+    "hidden_systems": "",
+    "centworks": "",
+    "scam_engineer": ""
+  }
+}

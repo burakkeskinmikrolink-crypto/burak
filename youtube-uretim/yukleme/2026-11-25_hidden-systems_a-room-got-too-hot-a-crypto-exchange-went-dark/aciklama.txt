@@ -1,0 +1,29 @@
+In May 2026, cooling failed in an Amazon Web Services data hall in Northern Virginia. Servers shut themselves down to survive the heat — and Coinbase's core trading was disrupted for hours. Here's the hidden system of data-centre cooling, why recovery takes so long, and why Coinbase rebuilt around three zones instead of two.
+
+This channel is made by someone who works inside a mobile network operations center.
+
+CHAPTERS
+0:00 A room got too hot
+0:17 The cooling fails (reconstruction)
+0:45 Why every server is a heater
+1:55 Why you can't just switch it back on
+3:05 One zone or many? Backup vs quorum
+4:20 Why so much of the internet lives in Virginia
+5:30 Is the cloud getting hotter?
+6:40 The thermostat won
+
+SOURCES
+- Network World – AWS hit by US-East-1 outage after thermal event: https://www.networkworld.com/article/4168878/aws-hit-by-us-east-1-outage-after-data-center-thermal-event.html
+- Quartz – AWS data center outage knocks out Coinbase: https://qz.com/aws-data-center-outage-coinbase-northern-virginia-050826
+- CoinDesk – Coinbase disruption tied to AWS outage: https://www.coindesk.com/business/2026/05/08/coinbase-disruption-tied-to-aws-outage-draws-criticism-amid-staff-layoffs-and-q1-losses
+- Cointelegraph – Coinbase restores trading: https://cointelegraph.com/news/coinbase-restores-trading-aws-linked-outage
+- FX News Group – Coinbase statement on May 7, 2026 outage: https://fxnewsgroup.com/forex-news/cryptocurrency/coinbase-issues-statement-on-may-7-2026-outage/
+- The Register – AWS power failure in us-east-1 (Dec 2021): https://www.theregister.com/2021/12/22/aws_outage/
+- Nebius – us-central1 post-mortem, 19 Aug 2026: https://nebius.com/blog/posts/incident-post-mortem-analysis-us-central1-service-disruption-on-august-19
+- ASHRAE TC 9.9 thermal guidelines: https://www.ashrae.org/technical-resources/bookstore/datacom-series
+- Uptime Institute research: https://uptimeinstitute.com/resources/research-and-reports
+- AWS Health Dashboard: https://health.aws.amazon.com/health/status
+
+Visual credits: Wikimedia Commons (as credited on screen), NASA/NOAA (public domain), Natural Earth, Pexels, Pixabay. Scenes marked "Reconstruction" are dramatised.
+
+Narration uses a synthetic voice.

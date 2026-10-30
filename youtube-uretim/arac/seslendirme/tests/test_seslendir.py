@@ -50,5 +50,15 @@ class TestPlan(unittest.TestCase):
         self.assertFalse(any("<" in x.metin for x in segs))
 
 
+class TestTxt(unittest.TestCase):
+    def test_txt_modu(self):
+        metin = "Is this a question? [pause 1000] Yes.\n\n[slow]Call 7726.[/slow] [pause 900]\n"
+        segs = s.plan_txt(metin)
+        self.assertEqual(segs[0].sonra_ms, 1000)          # otomatik soru duraklaması çift sayılmaz
+        self.assertEqual(segs[1].sonra_ms, s.PARAGRAF_PAUSE)
+        self.assertAlmostEqual(segs[2].hiz, s.YAVAS_CARPAN)
+        self.assertEqual(segs[2].sonra_ms, 900)
+
+
 if __name__ == "__main__":
     unittest.main()

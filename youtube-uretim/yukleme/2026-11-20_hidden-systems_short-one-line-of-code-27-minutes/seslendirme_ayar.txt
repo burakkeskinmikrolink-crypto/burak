@@ -1,0 +1,6 @@
+dil: b
+ses: <seçilecek bm_… sesi>
+hız: 0.97
+
+Komut (youtube-uretim/ klasöründen):
+python arac/seslendirme/seslendir.py yukleme/2026-11-20_hidden-systems_short-one-line-of-code-27-minutes/seslendirme.txt -o yukleme/2026-11-20_hidden-systems_short-one-line-of-code-27-minutes/ses.wav --dil b --ses <ses> --hiz 0.97

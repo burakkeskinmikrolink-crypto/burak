@@ -1,0 +1,79 @@
+On Christmas Eve 2022, power companies in the eastern United States switched off electricity to their own customers, on purpose. Here's why that was the safest choice they had. [pause 900]
+
+This channel is made by someone who works inside a mobile network operations center. [pause 900]
+
+The cold arrived fast, and millions of heaters came on at once. In control rooms, operators watched power stations drop off, one after another.
+
+So why would anyone choose darkness on Christmas Eve? [pause 1000]
+
+They had a choice to make, and none of the options were good. Ask for more power, and there was none to give. Wait, and risk losing everything. Or cut some customers now, so everyone else stayed on.
+
+To understand why the third option was the safe one, we need one rule that every power grid lives by. [pause 900]
+
+Electricity is made at the same instant it's used. There's almost no storage in the wires. So supply and demand have to match, second by second.
+
+When they don't, the frequency of the grid moves. In America, the grid runs at sixty hertz. If demand outruns supply for too long, frequency falls, and protection systems start disconnecting power stations to save their own equipment. Each one that trips makes the shortfall bigger. That's how a shortage becomes a collapse.
+
+We saw how close Texas came to that in February 2021: within minutes.
+
+So operators have one last tool before that point. It's called load shedding. They deliberately cut power to some customers, in planned blocks, so that the rest of the system survives.
+
+It's controlled, and it's temporary. And on Christmas Eve 2022, it was used on a scale the eastern United States had never seen. But why was there so little power in the first place? [pause 1000]
+
+After the storm, the federal energy regulator and the body that sets reliability standards for North America ran a joint investigation. Their numbers are hard to read calmly.
+
+At the worst moment, about 90,500 megawatts of generation was unavailable at the same time, through unplanned outages, reduced output, or units that failed to start. That's roughly thirteen percent of the generating resources in the US part of the eastern grid.
+
+Some units shut down. Some kept running at reduced output. And some were called on and simply didn't start.
+
+The causes were not exotic. Freezing equipment, fuel problems and mechanical failures together explained ninety-six percent of those outages.
+
+And one finding stands out. Of the units that failed because of freezing, nearly eighty percent did so at temperatures above the minimum their own owners said they could operate in.
+
+So how does a power station fail in weather it was rated for? [pause 1000]
+
+Part of the answer is in the fuel. Much of the eastern grid's power comes from gas. And gas has to travel from the well, through processing plants and pipelines, to the power station, all in the open air.
+
+In the cold, water in wells and equipment froze. Engineers call these "freeze-offs". Roads were too dangerous to reach the equipment and fix it. In two of the biggest gas-producing areas, the mar-SELL-us and the Utica, production fell by between about a quarter and a half.
+
+Processing plants were disrupted too, so even gas that came out of the ground had trouble reaching the power stations.
+
+Here's the trap. The same cold that cuts gas supply also raises demand for it, because millions of homes heat with gas too. One cause, hitting both sides of the balance at once.
+
+Reliability engineers call this a common-cause failure. Your backups don't help if the same thing breaks them all.
+
+So, with power short and the frequency at risk, who decides whose lights go out? [pause 1000]
+
+The grid operators do. In the Southeast, two large utilities began rotating outages on the twenty-third and twenty-fourth of December.
+
+One of them, the Tennessee Valley Authority, shed load for almost eight hours in total, cutting as much as three thousand megawatts at its worst point. Duke Energy's systems in the Carolinas shed load for about three hours, peaking at over nineteen hundred megawatts.
+
+Across the whole event, more than five thousand megawatts of customer demand was deliberately disconnected. The investigation called it the largest controlled firm load shed recorded in the history of the eastern grid.
+
+Rotating means blocks of homes go dark for a period, then come back while the next block goes out, so no one area carries all of it. Utilities try to keep critical services, like hospitals, connected.
+
+It was dark, and it was cold, and for many families, it was Christmas Eve. But it worked. The grid didn't collapse.
+
+So could the same thing happen in Britain? [pause 1000]
+
+Britain's grid is smaller and connected to its neighbours by undersea cables. Its national system operator, nee-so, plans each winter around a safety buffer. For this winter, its outlook expects about 5.9 gigawatts more supply than needed at the peak, a buffer of around nine and a half percent. It calls that adequate.
+
+But in Britain, winter blackouts have mostly come from damage, not shortage.
+
+In November 2021, Storm Arwen brought unusual northerly winds that brought down trees across power lines. Around forty thousand customers were off supply for more than three days. Nearly four thousand were without power for over a week. The regulator, off-jem, called parts of the response unacceptable, and network companies agreed to lift the cap on compensation.
+
+Different country, different cause. But the lesson rhymes: the system is designed for an average winter, and the hardest days are the ones nobody designed for. [pause 900]
+
+So, why did the lights go out on purpose on Christmas Eve? [pause 1000] Because the alternative was worse. Cutting some customers for hours protected everyone from a collapse that could have lasted days.
+
+Why was power so short? [pause 1000] Because cold froze equipment and cut gas supply at the same time it pushed demand to a record. One cause, both sides.
+
+And who decided? [pause 1000] Trained operators, following plans written for exactly that moment.
+
+Since then, the investigators have pushed for stricter cold-weather standards for power stations and better winter reliability for gas infrastructure.
+
+From inside a network operations centre, a rotating outage looks like a wave of mobile masts switching to battery, then back again, block by block. Most ride through a few hours. That's exactly what the batteries are there for.
+
+In network operations, we have a phrase for this: design for the day nobody wants. At home, that means a torch, a charged power bank, and knowing who to call. In Great Britain, the number for a power cut is one-oh-five.
+
+Next on Hidden Systems: a cloud region that disappeared for five hours, because a maintenance tool did exactly what it was told. [pause 900]

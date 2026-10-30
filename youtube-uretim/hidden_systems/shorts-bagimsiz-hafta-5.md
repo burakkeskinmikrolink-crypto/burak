@@ -68,7 +68,7 @@
 
 **Döngü:** "…often called…" → "The biggest blackout in history?"
 **Kaynak:** Bloomberg – India blackout underscores grid vulnerabilities (1 Aug 2012); Renewable Energy World – India blackout panel blames grid overload; Lok Sabha document on the Enquiry Committee report (16 Aug 2012)
-**Açıklama notu:** Related video bağlantısı: *<HS-08 kış/şebeke videosunun başlığı>* (S3)
+**Açıklama notu:** Related video bağlantısı: *The Christmas the Lights Went Out on Purpose* (HS-08)
 **Hashtag:** #india #blackout #powergrid #history #hiddensystems
 
 ---

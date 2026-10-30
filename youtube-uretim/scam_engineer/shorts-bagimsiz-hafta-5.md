@@ -68,7 +68,7 @@
 
 **Döngü:** "…a message says:" → "You won! Just pay the fees?"
 **Kaynak:** FTC – Fake prize, sweepstakes, and lottery scams (consumer.ftc.gov)
-**Açıklama notu:** Related video bağlantısı: *<SE-07 tatil dolandırıcılığı videosunun başlığı>* (S3)
+**Açıklama notu:** Related video bağlantısı: *Two Holiday Scams Hiding in Plain Sight* (SE-07)
 **Hashtag:** #prizescam #sweepstakes #holidays #scamawareness #scamengineer
 
 ---

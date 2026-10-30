@@ -1,0 +1,5 @@
+One zone. Two systems. Dozens. [pause 400]
+One: one zone, out of three in Google's London region, lost power.
+Two: two automation systems, a primary and a backup, and neither started the generators.
+Dozens: the cloud products Google listed as affected. Banks, court hearings and parcel firms all felt it.
+And Google's final report still hasn't said why. Until it does, the story comes down to three numbers:

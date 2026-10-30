@@ -1,0 +1,3 @@
+Best defense against sim swap? [pause 400]
+A: a stronger email password. B: moving important accounts from text-message codes to an authenticator app or security key, where available. C: turning your phone off at night.
+It's B. A sim swap steals your number, and your text codes with it. App and key codes live on your device, not your number. Add your carrier's account lock, and you've closed both doors. So, one more time — what's the…

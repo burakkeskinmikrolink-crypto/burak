@@ -1,0 +1,38 @@
+For a hundred years, the landline kept working when the power went out — because its electricity came down the copper wire from the exchange. On 31 January 2027, Britain's copper phone network switches off. Here's the hidden system that's disappearing, what replaces it, what Ofcom requires in a power cut, why telecare users are most at risk, and the four things to check at home. (The US is making the same move: AT&T plans to retire its copper network by the end of 2029.)
+
+This channel is made by someone who works inside a mobile network operations center.
+
+CHAPTERS
+0:00 60 days until switch-off
+0:17 Anglesey: a cable cut silences landlines
+0:45 Why the old landline worked in power cuts
+1:55 The one-hour rule and emergency fallbacks
+3:05 Telecare: who gets hurt most
+4:20 America's copper retirement
+5:30 Is digital worse?
+6:40 Four things to check before the next power cut
+
+SOURCES
+- ISPreview – Openreach: 1.5 million analogue lines yet to switch (July 2026): https://www.ispreview.co.uk/index.php/2026/07/openreach-says-1-5-million-uk-analogue-phone-lines-yet-to-make-digital-switch.html
+- Fibre Provider – Act now ahead of switch-off deadline, warns Openreach: https://www.fibreprovider.net/news/act-now-ahead-switch-deadline-warns-openreach
+- House of Commons Library – The switch to digital landlines (CBP-9471): https://commonslibrary.parliament.uk/research-briefings/cbp-9471/
+- ISPreview – Virgin Media UK fined £23.8m over poorly handled digital phone migrations (Dec 2025): https://www.ispreview.co.uk/index.php/2025/12/virgin-media-uk-fined-23-8m-over-poorly-handled-digital-phone-migrations.html
+- Ofcom – Your landline is going digital: https://www.ofcom.org.uk/phones-and-broadband/landline-phones/future-of-landline-calls
+- Ofcom – Stay connected in severe weather: https://www.ofcom.org.uk/phones-and-broadband/vulnerable-customers/stay-connected-in-severe-weather
+- Which? – Protecting telecare users in the shift to digital: https://www.which.co.uk/policy-and-insight/article/closing-the-gaps-protecting-telecare-users-in-the-shift-from-analogue-to-digital-azmhv4i4Uknj
+- Digital Health – Digital switchover paused after personal alarms failed: https://www.digitalhealth.net/2024/04/digital-switchover-paused-after-failure-of-personal-alarms-led-to-deaths/
+- UKAuthority – Telcos promise protections for telecare: https://www.ukauthority.com/articles/telcos-promise-protections-for-telecare-in-digital-switchover/
+- North Wales Chronicle – Cause of Anglesey broadband issues revealed: https://www.northwaleschronicle.co.uk/news/26656484.cause-anglesey-broadband-connectivity-issues-revealed/
+- Daily Post – Broadband and mobile outage hit thousands across Anglesey and Gwynedd: https://www.dailypost.co.uk/news/north-wales-news/broadband-mobile-outage-hit-thousands-34790336
+- Telecompetitor – AT&T plans copper retirement by 2029: https://www.telecompetitor.com/att-plans-copper-retirement-by-2029-heres-how/
+- AARP – Phasing out copper phone lines: https://www.aarp.org/personal-technology/phasing-out-copper-phone-lines/
+- UK Government Be Ready – Phone and broadband outages: https://beready.campaign.gov.uk/be-informed-about-hazards/phone-broadband-outages/
+
+VISUAL CREDITS
+- Wikimedia Commons files as credited on screen (Title, Author, Source, Licence)
+- Map data: Natural Earth
+- Contains public sector information licensed under the Open Government Licence v3.0.
+- Stock footage: Pexels, Pixabay
+Scenes marked "Reconstruction" are dramatised and do not depict real individuals.
+
+Narration uses a synthetic voice.

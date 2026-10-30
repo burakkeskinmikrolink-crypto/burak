@@ -1,0 +1,69 @@
+One in seven payments in America is still made in cash. For millions of people, it's almost all of them. Here's who wins and who gets left out if cash disappears. [pause 900]
+
+This channel is made by an engineer, not a banker. [pause 900]
+
+Denise is seventy-one. She pays for groceries in cash, every week. One Friday, her usual café puts up a sign: card only.
+
+For most people, that sign is nothing. For Denise, it's a locked door. So who actually loses if the last cash register closes? [pause 1000]
+
+Denise has a debit card, somewhere in a drawer. She just doesn't trust it. She likes to see what she spends. Her bank branch closed two years ago, so once a month she drives twenty minutes into town for the ATM, takes out the month's money, and splits it into envelopes.
+
+To understand what a cashless America would mean for her, we first need to know who still uses cash. And the answer isn't who most people think. [pause 900]
+
+Every year, the Federal Reserve asks thousands of Americans to record every payment they make. In 2025, credit cards came first, at about thirty-four percent of payments. Debit cards were next, at about thirty-one. Cash came third, at about fourteen percent. A decade earlier, it was about a third.
+
+So cash is shrinking. But it hasn't vanished. Three out of four consumers still used cash at least once in 2025. And cash isn't only for spending. Nearly half of consumers said they keep some cash tucked away for savings or emergencies, a few hundred dollars on average.
+
+Who? [pause 1000] Age makes the biggest difference. Consumers fifty-five and older made about ten cash payments a month. Those aged eighteen to twenty-four made about two. Rural consumers made more cash payments than people in cities and suburbs. And lower-income households paid cash more often than high-income ones.
+
+So far, that's people who choose cash. But what about people who don't have a choice? [pause 1000]
+
+The F D I C surveys American households about bank accounts. In 2023, about four percent of households, roughly five point six million, had no bank account at all. Two-thirds of those households relied entirely on cash.
+
+Another fourteen percent had a bank account but also used services like check cashers or payday lenders. The F D I C calls them underbanked.
+
+Why would anyone not have a bank account? [pause 1000] In the F D I C's survey, the most common answer was simple: not having enough money to meet minimum balance requirements. Others said they don't trust banks, or that fees are too high and unpredictable.
+
+Without a bank account, getting a debit card is hard. Without a debit card, a card-only store is closed to you. Prepaid cards exist, but many come with fees, and you still need cash to load them.
+
+And there's a quieter group: people who have a card but choose cash to stay on budget. When the cash in the envelope is gone, the spending stops.
+
+So if a store refuses cash, is that even legal? [pause 1000]
+
+We touched on this in the penny episode, and it still surprises people. Under federal law, there is no general rule that a private business must accept cash. The Federal Reserve says so plainly: a store can set its own payment policy, as long as no state or local law says otherwise.
+
+But some states and cities do say otherwise. Massachusetts has required stores to accept cash since the 1970s. New Jersey and Rhode Island passed laws in 2019, and Colorado in 2021. New York City, San Francisco, Philadelphia and Washington, D.C. require most stores to take cash too.
+
+In Congress, a bill called the Payment Choice Act would require retailers to accept cash for in-person purchases of five hundred dollars or less, and stop them charging cash payers more. Versions of it have been introduced several times. None has become law so far.
+
+So in most of America, "card only" is legal. Why would a store want it? [pause 1000]
+
+Cash isn't free for a business. It has to be counted, stored, guarded and carried to the bank. Card-only means faster lines and nothing in the till to steal.
+
+But cards aren't free either. Every card payment carries a fee, which we followed in the rewards episode. In a cashless world, every sale carries that fee, and it's built into the price for everyone.
+
+Then there's privacy. A cash payment leaves no record of who bought what. A card payment does.
+
+And the biggest question an engineer would ask: what happens when the network goes down? [pause 1000]
+
+It happens. On the first of June, 2018, a partial failure of one switch in a Visa data center in Europe caused about five point two million card transactions to fail. Shoppers across Britain stood at tills with working cards that wouldn't work.
+
+Sweden is the closest thing to a cashless country. Only about one in ten in-store purchases there is paid in cash. And yet its central bank has argued that cash still matters, for people who can't use digital payments and for when systems fail. Sweden already requires big banks to provide cash services. The central bank has also backed a rule that shops selling essentials, like food and medicine, should have to take cash.
+
+Compare that with the euro area, where about half of in-store purchases are still paid in cash. America sits in between: cards dominate, but cash hasn't gone anywhere.
+
+That's the twist. The country furthest down the cashless road is the one building guardrails to keep cash alive. Once the cash machines, the counting rooms and the armored trucks are gone, bringing them back is slow and expensive. Cash infrastructure is easy to remove and hard to rebuild. [pause 900]
+
+So, what if America stopped using cash? [pause 1000]
+
+Who wins: card networks and banks, which earn a fee on every payment, and stores, which save on handling cash. Most people with a card and a phone would barely notice the change.
+
+Who's left out: the roughly five point six million households without a bank account, many older and rural Americans, and anyone who budgets in cash.
+
+And what's lost: the backup. Cash works when the power is out, the network is down, or your card is frozen. That's why emergency checklists, including the federal government's Ready.gov list, suggest keeping some cash at home.
+
+As for Denise: her café is in a city with no cash law. The sign is legal. She now keeps a prepaid card for that café, and cash for everything else.
+
+For most households, the practical takeaway is small: find out whether your state or city has a cash law, keep a little cash at home for emergencies, and if someone you love pays only in cash, help them set up a backup before they need it.
+
+This is educational, not financial advice. Next week on Centworks, just in time for holiday shopping: a gift card or cash. Which is the better present? [pause 1000]

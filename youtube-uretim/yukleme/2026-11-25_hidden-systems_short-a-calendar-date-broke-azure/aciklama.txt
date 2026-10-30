@@ -1,0 +1,10 @@
+A calendar date broke Azure.
+29 February 2012. Microsoft's cloud created security certificates that were valid for one year. To work out the end date, the code simply added one to the year. On leap day, that produced 29 February 2013, a date that doesn't exist. Certificate creation failed, servers were marked unhealthy, and the problem spread across parts of Azure. Microsoft published a detailed account afterwards. The fix was simple. Finding it at scale wasn't. Every four years, engineers remember the day…
+
+Source: Microsoft Azure Blog – Summary of Windows Azure service disruption on Feb 29th, 2012
+
+This channel is made by someone who works inside a mobile network operations center.
+
+#leapyear #azure #softwarebug #cloud #hiddensystems
+
+Narration uses a synthetic voice.

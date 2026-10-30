@@ -1,0 +1,6 @@
+dil: a
+ses: <seçilecek am_/af_ sesi>
+hız: 0.93
+
+Komut (youtube-uretim/ klasöründen):
+python arac/seslendirme/seslendir.py yukleme/2026-12-06_scam-engineer_short-paid-to-like-videos-what-s-next/seslendirme.txt -o yukleme/2026-12-06_scam-engineer_short-paid-to-like-videos-what-s-next/ses.wav --dil a --ses <ses> --hiz 0.93

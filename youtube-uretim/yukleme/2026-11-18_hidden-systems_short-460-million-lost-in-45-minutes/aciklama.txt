@@ -1,0 +1,10 @@
+$460 million lost in 45 minutes.
+August 2012. Knight Capital, one of the biggest traders of US shares, switched on new software. On one of its eight servers, old code that should have been retired woke up instead. In the first 45 minutes of trading, its system sent more than four million orders while trying to fill just 212 customer orders. The SEC later said the firm lost more than 460 million dollars. Automated warnings had gone out before the market opened. That's the price of one forgotten switch:
+
+Source: U.S. SEC – Knight Capital settlement, 16 Oct 2013 (sec.gov/news/digest/2013/dig101613.htm); Knight Capital Form 10-Q, Q2 2012
+
+This channel is made by someone who works inside a mobile network operations center.
+
+#knightcapital #stockmarket #software #companycollapse #hiddensystems
+
+Narration uses a synthetic voice.
