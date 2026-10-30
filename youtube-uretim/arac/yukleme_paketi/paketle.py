@@ -65,7 +65,7 @@ TAKVIM = [
     ("HS-08", "hidden_systems", "hidden_systems/08-v2.md", "2026-12-09", "hidden_systems/shorts_08-v2.md", {1: "2026-12-10", 2: "2026-12-12", 3: "2026-12-14"}),
     ("CW-03", "centworks", "centworks/03-v2.md", "2026-11-07", "centworks/shorts_03-v2.md", {1: "2026-11-08", 2: "2026-11-10", 3: "2026-11-12"}),
     ("CW-04", "centworks", "centworks/04-v2.md", "2026-11-14", "centworks/shorts_04-v2.md", {1: "2026-11-15", 2: "2026-11-17", 3: "2026-11-19"}),
-    ("CW-05", "centworks", "centworks/05-v2.md", "2026-11-21", "centworks/shorts_05-v2.md", {1: "2026-11-22", 2: "2026-11-24", 3: "2026-11-26"}),
+    ("CW-05", "centworks", "centworks/05-v3-uzun.md", "2026-11-21", "centworks/shorts_05-v2.md", {1: "2026-11-22", 2: "2026-11-24", 3: "2026-11-26"}),
     ("CW-06", "centworks", "centworks/06-v2.md", "2026-11-28", "centworks/shorts_06-v2.md", {1: "2026-11-29", 3: "2026-11-30", 2: "2026-12-02"}),
     ("CW-07", "centworks", "centworks/07-v2.md", "2026-12-05", "centworks/shorts_07-v2.md", {1: "2026-12-06", 2: "2026-12-08", 3: "2026-12-10"}),
     ("CW-08", "centworks", "centworks/08-v2.md", "2026-12-12", "centworks/shorts_08-v2.md", {1: "2026-12-13", 2: "2026-12-15", 3: "2026-12-17"}),

@@ -123,7 +123,7 @@
 | **14 Kas** | Cmt | Centworks | `centworks/04-v2.md` Kredi kartı ödüllerini kim ödüyor? | `centworks/shorts_04-v2.md` | 15, 17, 19 Kas |
 | **18 Kas** | Çar | Hidden Systems | `hidden_systems/05-v3-uzun.md` First Brands — **uzun versiyon testi (~13 dk)**; 8 dk'lık `05-v2.md` yedek | `hidden_systems/shorts_05-v2.md` | 19, 21, 23 Kas |
 | **18 Kas** | Çar | Scam Engineer | `scam_engineer/04-v2.md` Medicare aramaları (açık kayıt 7 Ara'da biter) | senaryo içinde | 19, 21, 23 Kas |
-| **21 Kas** | Cmt | Centworks | `centworks/05-v2.md` What if the Fed keeps raising rates? | `centworks/shorts_05-v2.md` | 22, 24, 26 Kas |
+| **21 Kas** | Cmt | Centworks | `centworks/05-v3-uzun.md` What if the Fed keeps raising rates? — **uzun versiyon testi (~13 dk)**; 7,5 dk'lık `05-v2.md` yedek | `centworks/shorts_05-v2.md` | 22, 24, 26 Kas |
 | **25 Kas** | Çar | Hidden Systems | `hidden_systems/06-v2.md` AWS us-east-1 soğutma arızası | `hidden_systems/shorts_06-v2.md` | 26, 28, 30 Kas |
 | **25 Kas** | Çar | Scam Engineer | `scam_engineer/05-v2.md` Phantom Hacker (Şükran Günü arifesi) | senaryo içinde | 26, 28, 30 Kas |
 | **28 Kas** | Cmt | Centworks | `centworks/06-v2.md` BNPL vs kredi kartı (Black Friday) | `centworks/shorts_06-v2.md` | 29, 30 Kas, 2 Ara |
@@ -188,6 +188,7 @@ Dosyalar: `<kanal>/shorts-bagimsiz-hafta-<n>.md`.
 | Dosya | İçerik |
 |---|---|
 | `03-v2.md` … `08-v2.md` | **Yayın senaryoları:** CW-03 kuruş · CW-04 ödüller · CW-05 Fed · CW-06 BNPL · CW-07 nakitsiz Amerika · CW-08 hediye kartı vs nakit |
+| `05-v3-uzun.md` | **CW-05'in yayınlanacak sürümü** (uzun video testi, ~13 dk, 1.925 kelime): giriş, kontrol listesi ve kapanış v2 ile aynı; yeni bölümler: Fed faizi nasıl taşır, 1994 yumuşak iniş, gecikmeler ve işler |
 | `shorts_03-v2.md` … `shorts_08-v2.md` | Her videonun 3 Short'u |
 | `shorts-bagimsiz-hafta-1..5.md` | 20 bağımsız Short (72 kuralı, FICO %35, FDIC 250 bin $, 2 $ banknot…) |
 | `03.md` … `06.md`, `shorts_0x.md` | v1 + doğrulama tabloları |
@@ -271,3 +272,4 @@ Dosyalar: `<kanal>/shorts-bagimsiz-hafta-<n>.md`.
 | 6 (G1–G6) | Küçük resim üreticisi, reklam dışı gelir, 4.000 saat planı, Scam evergreen, çeviriler, hızlı kazanımlar, altyazı aracı |
 | 7 (S1–S7) | Eksik analizi ve kapatılan eksikler (CW-07, marka rehberi, yükleme listesi, moderasyon), 60 bağımsız Short, Q4 analizi + 3 tatil senaryosu, yayınlanmış video iyileştirme, müzik/ses rehberi + seslendirme aracı, doğrulama turu, bu README |
 | 8 | YPP eşik doğrulaması (8.000 saat resmi), yükleme paketi üreticisi ve 126 paket, Kokoro'ya hazır seslendirme metinleri |
+| 9 | Uzun video testi: HS-05 ve CW-05'in ~13 dakikalık sürümleri (`05-v3-uzun.md`), paketler ve çeviriler bu sürümlerden |

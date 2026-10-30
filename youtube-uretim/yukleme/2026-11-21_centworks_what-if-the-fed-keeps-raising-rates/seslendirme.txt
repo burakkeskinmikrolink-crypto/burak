@@ -18,7 +18,21 @@ The reason was inflation. Prices in September were 3.7 percent higher than a yea
 
 Mortgages don't follow the Fed directly. They mostly track long-term bond yields, like the ten-year Treasury, which move on what investors expect inflation and the Fed to do over years, not days. When markets started to expect more hikes, long-term rates rose, and mortgage rates rose with them.
 
-So for Ana and Chris, the Fed mattered — just indirectly. Now, the real what-if: if the Fed keeps going, what happens to your money? [pause 1000]
+So for Ana and Chris, the Fed mattered — just indirectly. But how does a committee in Washington change a number at your bank in the first place? [pause 1000]
+
+The Fed's rate-setting body, the Federal Open Market Committee, meets eight times a year. At each meeting, it picks a target range for the federal funds rate: the rate banks charge each other to borrow overnight.
+
+But the Fed doesn't phone every bank and order a new price. It changes what it pays. Banks keep reserves at the Federal Reserve, and the Fed pays interest on those reserve balances. If the Fed pays, say, four percent on money parked safely with it, no bank will lend that money to another bank overnight for much less. So the market rate follows.
+
+There's a floor, too, for big cash investors like money market funds, which can't earn that interest directly. They can lend to the Fed overnight through what's called the reverse repo facility. Between the two, the overnight rate stays inside the Fed's target range.
+
+So how does one overnight rate reach your credit card? [pause 1000]
+
+Through the prime rate. Banks set prime — the rate for their most creditworthy customers — usually three percentage points above the top of the Fed's range. Credit cards and home-equity lines are priced as prime plus a margin. So when the range moves, prime moves the same day, and your card follows within a billing cycle or two. Savings accounts and CDs respond too, though more slowly, and not always fully.
+
+Long-term rates play by different rules. Ten-year Treasury yields, and the mortgages that follow them, respond to expectations: where investors think rates and inflation will be over years. That's why a single Fed meeting can move mortgage rates before it changes anything else — or barely move them at all.
+
+Now, the real what-if: if the Fed keeps going, what happens to your money? [pause 1000]
 
 Branch one: the Fed raises rates again.
 
@@ -36,7 +50,11 @@ Branch two: the Fed holds where it is.
 
 If you have a fixed-rate mortgage, nothing changes. That's the whole point of fixed. If you have a card balance, your rate stays high — around that 21 percent average — so the clock keeps ticking.
 
+So who comes out ahead if rates simply sit still? [pause 1000]
+
 For savers, this branch is quietly important. When the Fed's rate is high, online high-yield savings accounts and certificates of deposit usually pay more. But two catches apply.
+
+A certificate of deposit can lock in today's rate for a fixed term, which helps if rates later fall. The trade-off: you usually pay a penalty if you need the money early.
 
 First, not every bank passes it on. Many big banks pay far less than the Fed's rate on standard savings accounts. If you've never compared, check what yours actually pays.
 
@@ -46,15 +64,47 @@ There's a simple test: find the interest rate on your savings account, then comp
 
 So savers do better than borrowers here. But better isn't always winning. [pause 900]
 
-Branch three: the Fed eventually cuts.
+Branch three: what if the Fed eventually cuts? [pause 1000]
 
 Cuts usually make borrowing cheaper, and can lower mortgage rates over time. Card APRs would drift down a little, and savings rates would usually follow them down. For Ana and Chris, a cut might eventually mean refinancing to a lower rate — though nobody can promise when. But the Fed only cuts when it believes inflation is under control. Cut too early, and prices can take off again.
 
-That fear has a history. In the late 1970s, inflation spiralled. To break it, the Fed pushed short-term rates to around 20 percent in 1981. That October, Freddie Mac's average thirty-year mortgage rate hit 18.63 percent. Inflation did come down — at the price of a deep recession.
+How bad can that get? [pause 1000] That fear has a history. In the late 1970s, inflation spiralled. To break it, the Fed pushed short-term rates to around 20 percent in 1981. That October, Freddie Mac's average thirty-year mortgage rate hit 18.63 percent. Inflation did come down — at the price of a deep recession.
 
 Nobody is predicting a repeat. But it explains why central banks would rather move too firmly than too softly.
 
-And right now, the minutes of the September meeting showed most officials saw a need for at least one more hike this year. Markets were expecting a December move, though forecasts keep shifting with every inflation report. [pause 900]
+And right now, the minutes of the September meeting showed most officials saw a need for at least one more hike this year. Markets were expecting a December move, though forecasts keep shifting with every inflation report.
+
+So does a run of rate hikes always end in a recession? [pause 1000]
+
+History has at least one famous counterexample.
+
+In February 1994, the Fed began raising rates. Over the following year, it raised them seven times and roughly doubled the federal funds rate, from three percent to around six.
+
+Borrowers felt it. Freddie Mac's thirty-year mortgage rate started that year a little above seven percent and finished it above nine. For a new buyer, that's hundreds of dollars more a month, for the same house.
+
+Bond investors felt it too. When new bonds start paying more, older bonds paying less become worth less, and long-term bond prices fell sharply that year.
+
+And yet there was no recession. The economy kept growing, inflation stayed under control, and in 1995 the Fed cut rates three times. Economists often call it the textbook soft landing. Alan Blinder, a former vice chair of the Fed, called it a perfect one.
+
+Two lessons for your money. First, rising rates and a recession are not the same thing. Second, rate cycles turn. The people hurt most in 1994 were those who had to borrow at the peak with no room to wait, or who had to sell long-term bonds in a hurry.
+
+So if a soft landing is possible, why does it take the Fed so long to know whether it has worked? [pause 1000]
+
+Because rate hikes work with what economists call "long and variable lags", a phrase that goes back to the economist Milton Friedman.
+
+A hike reaches some things almost immediately: card APRs, savings rates, and expectations in the bond market. But spending, hiring and prices adjust slowly. In 2022, the president of the Atlanta Fed, Raphael Bostic, wrote that a large body of research suggests tighter policy can take eighteen months to two years or more to have its full effect on inflation.
+
+The housing market usually feels it first, because it runs on borrowing. Then businesses delay investments, and hiring slows.
+
+So what does that mean for jobs? [pause 1000]
+
+It's the part of a rate hike that rarely makes the headline. Cooling the economy is the goal, and a cooler economy usually means fewer job openings and slower raises. The Fed is trying to slow things just enough, without tipping into a downturn.
+
+For your household, that changes the order of priorities. The first defence against a slowdown isn't squeezing out the best savings rate. It's an emergency fund you can actually reach, and debt payments you could keep making if your income dipped for a few months.
+
+It also means today's headline doesn't tell you where the economy will be when it matters. The decisions made this autumn will still be working their way through the system next year, and the year after.
+
+Which brings us back to the three branches. [pause 900]
 
 So which branch will it be? [pause 1000] Nobody knows. But here's what's true in all three.
 
