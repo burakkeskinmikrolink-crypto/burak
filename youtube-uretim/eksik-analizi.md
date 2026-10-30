@@ -85,6 +85,8 @@
 
 ## 4) Senin kararın gereken konu: şeffaflık cümlesi
 
+> ✅ **Karar verildi (30 Ekim 2026):** "Narration uses a synthetic voice." satırı tüm yükleme paketlerinin açıklamasının en sonuna eklendi (`yukleme/`). Kanal "Hakkında" metinlerine eklemek hâlâ istersen yapılabilir.
+
 **Durum:** Centworks ve Scam Engineer finans ve dolandırıcılık konularında TTS anlatım kullanıyor. YouTube Temmuz 2026'da "hassas konularda yapay zekâ personaları"nı inauthentic content kapsamında saydı (`oyun-kitabi/yapay-zeka-ve-politika.md`). Kimlik cümleleri gerçek bir kişiyi tarif ediyor ve bu bizim en güçlü savunmamız.
 
 **Seçenek:** Kanalların "Hakkında" metnine ve video açıklamalarının sonuna şu cümleyi eklemek:
