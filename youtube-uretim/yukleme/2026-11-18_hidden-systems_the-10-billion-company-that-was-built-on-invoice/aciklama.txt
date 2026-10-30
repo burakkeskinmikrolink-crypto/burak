@@ -1,18 +1,21 @@
-A US auto-parts giant owed more than $9 billion — and had about $12 million in the bank when it filed for bankruptcy. This is the hidden system of invoice finance, told as a timeline, and how it can fail silently.
+A US auto-parts giant owed more than $9 billion — and had about $12 million in the bank when it filed for bankruptcy. This is the hidden system of invoice finance, told as a timeline: how one invoice can be financed twice, why lenders' checks missed it, a twin collapse the same month (Tricolor), Britain's Greensill lesson, and whether it could happen again — and reach your pension.
 
-All criminal allegations described in this video are allegations; Patrick James and Edward James have pleaded not guilty and are presumed innocent.
+All criminal allegations described in this video are allegations; Patrick James and Edward James have pleaded not guilty and are presumed innocent, as are the Tricolor defendants.
 
 This channel is made by someone who works inside a mobile network operations center.
 
 CHAPTERS
 0:00 Nine billion owed, twelve million left
 0:17 15 Sep 2025: the money stops
-0:45 The invoice: the hidden system under every business
-2:05 28 Sep 2025 – Mar 2026: bankruptcy and indictment
-3:20 How billions of debt can be invisible
-4:35 Aug 2026: liquidation, and who holds the losses
-5:45 Greensill: Britain has seen this before
-6:55 The silent alarm
+0:40 The invoice: the hidden system under every business
+2:21 28 Sep 2025 – Mar 2026: bankruptcy and indictment
+3:17 How billions of debt can be invisible
+4:50 Why didn't any lender catch it? (the examiner's report)
+6:34 Aug 2026: liquidation, and who holds the losses
+7:32 Greensill: Britain has seen this before
+8:42 A twin, the same month: Tricolor
+10:04 Could it happen again — and reach your pension?
+11:58 The silent alarm
 
 SOURCES
 - US Attorney's Office SDNY – First Brands executives charged: https://www.justice.gov/usao-sdny/pr/first-brands-executives-charged-multibillion-dollar-fraud
@@ -25,6 +28,16 @@ SOURCES
 - Truck Parts & Service – Chapter 7 liquidation: https://www.truckpartsandservice.com/business/finance/article/15833339/judge-orders-chapter-7-liquidation-for-first-brands-group
 - Insurance Journal (Reuters) – Plan rejected: https://www.insurancejournal.com/news/national/2026/08/25/882767.htm
 - UK Treasury Committee – Lessons from Greensill Capital: https://committees.parliament.uk/work/1134/lessons-from-greensill-capital/
+- GTR – Weaknesses in US factoring programmes "critical" to First Brands alleged fraud (examiner's report, Apr 2026): https://www.gtreview.com/?p=123188
+- Reuters / Yahoo Finance – Court orders independent probe into First Brands fraud allegations: https://finance.yahoo.com/news/court-orders-independent-probe-first-231002076.html
+- Rithm Capital – What First Brands and Tricolor reveal about asset-based finance oversight: https://www.rithmcap.com/insights/what-first-brands-and-tricolor-reveal-about-abf-oversight/
+- Willkie Farr – First Brands: how to avoid being two-timed by your collateral: https://www.willkie.com/publications/2026/01/first-brands-how-to-avoid-being-two-timed-by-your-collateral
+- GTR – Katsumi owed over US$1.7bn from First Brands bankruptcy: https://www.gtreview.com/?p=118178
+- Banking Dive – JPMorgan's Dimon on Tricolor charge-off: https://www.bankingdive.com/news/jpmorgan-dimon-tricolor-chargeoff-earnings/802740/
+- Banking Dive – JPMorgan, Barclays, Fifth Third sued over Tricolor: https://www.bankingdive.com/news/jpmorgan-barclays-fifth-third-sued-tricolor-fraud/813504/
+- Fox Business – Jamie Dimon warns of "cockroaches": https://www-ak-ms.foxbusiness.com/economy/jamie-dimon-warns-cockroaches-us-economy-credit-concerns-grow
+- IMF – Global Financial Stability Report, April 2024, Ch. 2 "The Rise and Risks of Private Credit": https://www.imf.org/-/media/files/publications/gfsr/2024/april/english/ch2execsum.pdf
+- UK legislation – Electronic Trade Documents Act 2023 (explanatory notes): https://www.legislation.gov.uk/ukpga/2023/38/notes/division/2/index.htm
 
 Visual credits: Wikimedia Commons (as credited on screen), Pexels, Pixabay. Scenes marked "Reconstruction" are dramatised.
 

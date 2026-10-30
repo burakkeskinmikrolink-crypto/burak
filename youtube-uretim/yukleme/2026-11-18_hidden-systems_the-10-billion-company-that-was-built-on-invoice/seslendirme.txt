@@ -18,6 +18,8 @@ That's called factoring. A specialist buys the invoice today, at a small discoun
 
 To make it concrete — with illustrative numbers, not First Brands' — imagine a retailer owes a hundred thousand dollars in ninety days. A finance firm pays ninety-seven thousand today. Three months later, the retailer pays the full hundred, and the finance firm keeps three thousand. Repeat that thousands of times a month, and you've built a machine that turns future payments into cash right now.
 
+Why would a company give up three percent of its own money? [pause 1000] Because cash today pays wages, steel and shipping today. Waiting ninety days can cost more than the discount.
+
 It's old, normal and legal. But there's a detail that matters enormously. In many arrangements, the retailer never learns the invoice was sold. It keeps paying the supplier — and the supplier is trusted to forward the money.
 
 The money owed to the lender travels through the hands of the company that owes it.
@@ -38,15 +40,29 @@ Here's the trick of the system — not of the alleged fraud, of the system itsel
 
 When a company borrows from a bank, that's debt. It sits on the balance sheet where everyone can see it. But when a company sells its invoices, that can be treated as a sale, not a loan. Cash comes in, but the debt line doesn't grow.
 
-Done honestly, that's fine. But it means a company can be financed far more heavily than its accounts suggest. The company's own bankruptcy estate has since alleged that the founder used fake invoices to run up at least 2.3 billion dollars in factoring liabilities, and separate special-purpose vehicles to take on at least 2.3 billion more. He disputes that.
+Done honestly, that's fine. But it means a company can be financed far more heavily than its accounts suggest. How much more? [pause 1000] The company's own bankruptcy estate has since alleged that the founder used fake invoices to run up at least 2.3 billion dollars in factoring liabilities, and separate special-purpose vehicles to take on at least 2.3 billion more. He disputes that.
 
 Network engineers would call this a monitoring gap. Every lender saw its own slice. Nobody saw the whole network. In a phone network, each piece of equipment can report that it's healthy while the service as a whole is broken — which is why operations centres watch the end-to-end picture, not just the boxes.
 
 And there's an uncomfortable irony here. The more lenders a company uses, the safer each one feels — its own slice looks small and well-secured. But the more lenders there are, the harder it becomes for anyone to see the whole.
 
+So with that much money moving, why didn't any lender catch it? [pause 1000]
+
+In late April 2026, an examiner appointed by the bankruptcy court published a report on exactly that question. It said there was evidence of widespread fraud against the firms that had financed First Brands' invoices. And it described how the checks worked in practice.
+
+Lenders, it found, typically did not see the actual invoices, or verify the data against the invoices in the company's own database. Much of the information arrived as spreadsheets, prepared by the company and uploaded to a finance platform. The repayments ran through the company too — which, the examiner said, let it control both the money and the data that lenders saw.
+
+There's a structural gap as well. In the United States, a lender announces its claim on a company's assets by filing a public notice, called a UCC-1 financing statement. But those notices usually describe whole categories — "all receivables", for example — not individual invoices. Industry analysts point out that there's no national register where a lender can look up one invoice and see whether someone else has already financed it.
+
+Why not simply ring the retailer and ask? [pause 1000] In many of these arrangements, the retailer was never told its invoice had been sold. It kept paying First Brands, and First Brands was trusted to pass the money on.
+
+Patrick James disputes the examiner's account, and calls parts of it one-sided. A court will weigh it.
+
+From an operations point of view, it's a familiar failure: the monitoring trusted the very device it was meant to be monitoring.
+
 So who was left holding the losses? [pause 1000]
 
-The list reads like a who's who of finance. The Jefferies-affiliated fund Point Bonita had around 715 million dollars tied to First Brands receivables — roughly a quarter of its trade-finance book. Court filings showed funds linked to UBS with more than 500 million dollars of exposure. A specialist trade-finance firm, Raistone, appeared among the creditors.
+The list reads like a who's who of finance. The Jefferies-affiliated fund Point Bonita had around 715 million dollars tied to First Brands receivables — roughly a quarter of its trade-finance book. Court filings showed funds linked to UBS with more than 500 million dollars of exposure. A specialist trade-finance firm, Raistone, appeared among the creditors. Another fund, Katsumi, was reported to be owed more than 1.7 billion dollars.
 
 Jefferies says it was a victim of fraud. Investors in its fund have sued, alleging they were misled about who controlled the cash.
 
@@ -60,7 +76,29 @@ Different company, different country, different details. But the same hidden sys
 
 And the lesson wasn't only for bankers. GREEN-sill's collapse rippled into steelworks and suppliers that depended on its funding. When invoice finance breaks, the shock travels down the supply chain to factories, jobs and, eventually, the parts on a shop shelf.
 
-Trade finance is meant to be one of the safest kinds of lending, because it's backed by real goods. But it's only as safe as the paperwork is true — and as the system's ability to notice when the same paper turns up twice. [pause 900]
+Trade finance is meant to be one of the safest kinds of lending, because it's backed by real goods. But it's only as safe as the paperwork is true — and as the system's ability to notice when the same paper turns up twice.
+
+And in September 2025, First Brands wasn't even the only American company accused of exactly that. So who else? [pause 1000]
+
+Days before Jefferies' fund noticed its missing payments, another company had already gone down. Tricolor was a Texas-based subprime car lender. It made loans to drivers, then borrowed against those loans from big banks. On the tenth of September 2025, it filed for Chapter 7 — straight to liquidation.
+
+Federal prosecutors later charged its executives with fraud. Their allegation has a familiar shape: that the same car loans were pledged to more than one lender. By August 2025, prosecutors say, Tricolor had about 1.4 billion dollars of real collateral — but had pledged around 2.2 billion.
+
+JPMorgan Chase took a 170-million-dollar charge-off. Barclays and Fifth Third reported losses too. Investors in bonds backed by Tricolor's loans have since sued those banks, accusing them of missing red flags. On JPMorgan's earnings call in October, its chief executive, Jamie Dimon, put it bluntly: "When you see one cockroach, there are probably more."
+
+Two collapses in one month. Two different industries — car parts and car loans. And the same alleged trick: one piece of collateral, more than one lender. These are still allegations, and the defendants are presumed innocent.
+
+So is this a pattern, or just a bad month? [pause 1000] And could any of it reach your money? [pause 1000]
+
+Start with the size of the system. A lot of this financing doesn't come from traditional bank loans at all. It comes from what's called private credit: funds that lend directly to companies. In 2024, the International Monetary Fund put the global private credit market at more than two trillion dollars, about three-quarters of it in the United States.
+
+The IMF's worry wasn't that private credit is bad. It was that it's hard to see into. These loans are rarely traded and usually not rated, and their values are often estimated with models rather than market prices. The Fund warned of "severe data gaps", and said that, at the time, the risks didn't threaten the wider financial system — but that vulnerabilities could build.
+
+Who carries that risk? [pause 1000] Among the biggest investors are pension funds and insurers. So losses from a collapse like this don't only land on Wall Street. They can end up, in small slices, in the retirement savings of people who have never heard of First Brands. And when a supplier this size fails, the shock reaches the factories and repair shops that depend on it.
+
+Can the paperwork itself be fixed? [pause 1000] Britain has already changed the law for one corner of trade. Since September 2023, the Electronic Trade Documents Act has let documents like bills of lading exist in digital form — but only if a reliable system can tell the original apart from copies. It doesn't cover every invoice, and it isn't a cure for fraud. But it points at the real fix: making a promise impossible to sell twice without anyone noticing.
+
+Until that's normal, the question for every lender is the one network engineers ask every day. [pause 900]
 
 In a network operations centre, the most dangerous alarm is the one that never fires: a link that keeps reporting "all fine" while nothing is moving through it.
 

@@ -121,7 +121,7 @@
 | **11 Kas** | Çar | Hidden Systems | `hidden_systems/04-v2.md` Google Cloud Londra, çalışmayan jeneratör | `hidden_systems/shorts_04-v2.md` | 12, 14, 16 Kas |
 | **11 Kas** | Çar | Scam Engineer | `scam_engineer/03-v2.md` "Unpaid toll" SMS'i | senaryo içinde | 12, 14, 16 Kas |
 | **14 Kas** | Cmt | Centworks | `centworks/04-v2.md` Kredi kartı ödüllerini kim ödüyor? | `centworks/shorts_04-v2.md` | 15, 17, 19 Kas |
-| **18 Kas** | Çar | Hidden Systems | `hidden_systems/05-v2.md` First Brands | `hidden_systems/shorts_05-v2.md` | 19, 21, 23 Kas |
+| **18 Kas** | Çar | Hidden Systems | `hidden_systems/05-v3-uzun.md` First Brands — **uzun versiyon testi (~13 dk)**; 8 dk'lık `05-v2.md` yedek | `hidden_systems/shorts_05-v2.md` | 19, 21, 23 Kas |
 | **18 Kas** | Çar | Scam Engineer | `scam_engineer/04-v2.md` Medicare aramaları (açık kayıt 7 Ara'da biter) | senaryo içinde | 19, 21, 23 Kas |
 | **21 Kas** | Cmt | Centworks | `centworks/05-v2.md` What if the Fed keeps raising rates? | `centworks/shorts_05-v2.md` | 22, 24, 26 Kas |
 | **25 Kas** | Çar | Hidden Systems | `hidden_systems/06-v2.md` AWS us-east-1 soğutma arızası | `hidden_systems/shorts_06-v2.md` | 26, 28, 30 Kas |
@@ -178,6 +178,7 @@ Dosyalar: `<kanal>/shorts-bagimsiz-hafta-<n>.md`.
 | Dosya | İçerik |
 |---|---|
 | `04-v2.md` … `08-v2.md` | **Yayın senaryoları:** HS-04 Google jeneratör · HS-05 First Brands · HS-06 AWS ısınma · HS-07 bakır hat · HS-08 Winter Storm Elliott |
+| `05-v3-uzun.md` | **HS-05'in yayınlanacak sürümü** (uzun video testi, ~13 dk, 1.943 kelime): giriş ve kapanış v2 ile aynı; yeni bölümler: bilirkişi raporu, Tricolor, "bir daha olur mu" |
 | `shorts_04-v2.md` … `shorts_08-v2.md` | Her videonun 3 Short'u |
 | `shorts-bagimsiz-hafta-1..5.md` | 20 bağımsız Short (50 Hz, TV pickup, Facebook BGP, Knight Capital, Teksas 4:37, Heathrow…) |
 | `04.md`, `05.md`, `06.md`, `shorts_0x.md` | v1 + doğrulama tabloları (referans) |

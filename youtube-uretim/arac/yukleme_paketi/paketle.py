@@ -59,7 +59,7 @@ UZUN_SAAT = "21:00"
 # Uzun videolar ve Short günleri (README takvimi; Short numarası → tarih)
 TAKVIM = [
     ("HS-04", "hidden_systems", "hidden_systems/04-v2.md", "2026-11-11", "hidden_systems/shorts_04-v2.md", {1: "2026-11-12", 2: "2026-11-14", 3: "2026-11-16"}),
-    ("HS-05", "hidden_systems", "hidden_systems/05-v2.md", "2026-11-18", "hidden_systems/shorts_05-v2.md", {1: "2026-11-19", 2: "2026-11-21", 3: "2026-11-23"}),
+    ("HS-05", "hidden_systems", "hidden_systems/05-v3-uzun.md", "2026-11-18", "hidden_systems/shorts_05-v2.md", {1: "2026-11-19", 2: "2026-11-21", 3: "2026-11-23"}),
     ("HS-06", "hidden_systems", "hidden_systems/06-v2.md", "2026-11-25", "hidden_systems/shorts_06-v2.md", {1: "2026-11-26", 2: "2026-11-28", 3: "2026-11-30"}),
     ("HS-07", "hidden_systems", "hidden_systems/07-v2.md", "2026-12-02", "hidden_systems/shorts_07-v2.md", {1: "2026-12-03", 2: "2026-12-05", 3: "2026-12-07"}),
     ("HS-08", "hidden_systems", "hidden_systems/08-v2.md", "2026-12-09", "hidden_systems/shorts_08-v2.md", {1: "2026-12-10", 2: "2026-12-12", 3: "2026-12-14"}),
