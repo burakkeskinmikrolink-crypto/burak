@@ -103,6 +103,25 @@ def video_dosyasi(v):
     return "\n".join(o)
 
 
+S4_BOLUM = {  # yayinlanmis-video-iyilestirme.md içindeki bölüm başlıkları
+    "P-HS-ispanya": "## 1) Hidden Systems: Spain blackout",
+    "P-HS-crowdstrike": "## 2) Hidden Systems: CrowdStrike",
+    "P-CW-gec-odeme": "## 3) Centworks: Kredi kartı",
+    "P-SE-spoofing": "## 4) Scam Engineer: Bankanın gerçek numarasından",
+}
+
+
+def s4_kaynaklar(vid):
+    """S4 dosyasındaki ilgili bölümün açıklama bloğundan SOURCES ve rapor satırlarını döndürür."""
+    if vid not in S4_BOLUM:
+        return [], []
+    md = open(os.path.join(KOK, "yayinlanmis-video-iyilestirme.md"), encoding="utf-8").read()
+    bas = md.index(S4_BOLUM[vid])
+    son = md.find("\n## ", bas + 5)
+    blok = aciklama_blogu("## YouTube açıklaması\n" + md[bas:son].split("### Açıklama", 1)[1].lstrip())
+    return bolum(blok, ("SOURCES",)), bolum(blok, YARDIM_BASLIKLARI)
+
+
 def yayinlanmis_dosyasi(v):
     o = [f"# {v['id']} — çeviriler (ES, PT-BR, DE) — yayınlanmış video", "",
          f"**Video:** {v['konu']}", "",
@@ -110,14 +129,20 @@ def yayinlanmis_dosyasi(v):
          "- Başlık, `kucuk-resim-ab.md`'deki arama odaklı alternatifin (yoksa konunun) çevirisidir. "
          "Studio'daki başlık farklıysa onun anlamına göre uyarla.",
          "- Özet genel tutuldu. Videoda geçmeyen bir iddia varsa sil.",
-         "- Bölüm (chapter) ve kaynak listesi `yayinlanmis-video-iyilestirme.md` (S4) hazır olunca eklenecek. "
-         "O zamana kadar sadece başlık ve özeti yapıştır.", ""]
+         "- Kaynak listesi `yayinlanmis-video-iyilestirme.md` (S4) dosyasından otomatik alındı. "
+         "Bölüm (chapter) zaman kodları videoya göre doldurulmalı; İngilizce bölümleri doldurduktan sonra "
+         "çevirilerini bu açıklamanın ortasına ekle.", ""]
+    kaynak, yardim = s4_kaynaklar(v["id"])
     for d, ad, _ in DILLER:
         t = v[d]
         assert len(t["baslik"]) <= 100, (v["id"], d)
         govde = [t["ozet"], "", KIMLIK[v["kanal"]][d]]
         if v["kanal"] == "scam_engineer":
             govde += ["", ETIKET[d]["not_us"]]
+        if yardim:
+            govde += ["", YARDIM_ETIKET[d]] + [yardim_cevir(x, d) for x in yardim]
+        if kaynak:
+            govde += ["", ETIKET[d]["kaynak"]] + kaynak
         o += [f"## {ad}", "", "**Başlık:**", "```", t["baslik"], "```", "",
               "**Açıklama (geçici):**", "```", *govde, "```", ""]
     return "\n".join(o)

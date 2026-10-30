@@ -318,6 +318,10 @@ YARDIM_IFADE = {
         "es": "Informes de crédito gratuitos",
         "pt": "Relatórios de crédito gratuitos",
         "de": "Kostenlose Kreditauskünfte"},
+    "FCC complaints": {
+        "es": "FCC, quejas",
+        "pt": "FCC, reclamações",
+        "de": "FCC, Beschwerden"},
     "Report scams": {
         "es": "Denunciar estafas",
         "pt": "Denunciar golpes",

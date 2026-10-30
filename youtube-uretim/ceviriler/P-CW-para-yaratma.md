@@ -5,7 +5,7 @@
 **Dikkat:** Bu videonun gerçek İngilizce başlığı ve açıklaması depoda yok.
 - Başlık, `kucuk-resim-ab.md`'deki arama odaklı alternatifin (yoksa konunun) çevirisidir. Studio'daki başlık farklıysa onun anlamına göre uyarla.
 - Özet genel tutuldu. Videoda geçmeyen bir iddia varsa sil.
-- Bölüm (chapter) ve kaynak listesi `yayinlanmis-video-iyilestirme.md` (S4) hazır olunca eklenecek. O zamana kadar sadece başlık ve özeti yapıştır.
+- Kaynak listesi `yayinlanmis-video-iyilestirme.md` (S4) dosyasından otomatik alındı. Bölüm (chapter) zaman kodları videoya göre doldurulmalı; İngilizce bölümleri doldurduktan sonra çevirilerini bu açıklamanın ortasına ekle.
 
 ## Español (İspanyolca)
 

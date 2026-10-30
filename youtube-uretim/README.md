@@ -135,6 +135,7 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 |---|---|
 | `kanal-sayfalari.md` | Her kanal için fragman senaryosu (45–60 sn), "Hakkında" metni (anahtar kelimeli), oynatma listesi yapısı (isim, açıklama, videolar), kanal anahtar kelimeleri |
 | `topluluk-ve-yorum.md` | Her yayınlanmış ve planlanmış video için sabit yorum (soru, tartışma). Kasım–Aralık boyunca kanal başına haftalık topluluk gönderisi (çoğu anket) |
+| `yayinlanmis-video-iyilestirme.md` | Yayınlanmış 4 uzun video (Spain blackout, CrowdStrike, geç ödeme, spoofing) ve 4 Short için yapıştırmaya hazır arama odaklı açıklama (ilk 2 satır anahtar kelimeli, bölüm şablonu, doğrulanmış kaynaklar), etiketler, sabit yorum, oynatma listesi. Ekte diğer 3 yayınlanmış video için kısa öneri |
 | `kucuk-resim-ab.md` | Yayınlanmış 4 uzun video (Spain blackout, CrowdStrike, kredi kartı geç ödeme, caller ID spoofing) için 2'şer küçük resim ve 2'şer başlık alternatifi, test sırası |
 | `yukleme-kontrol-listesi.md` | Her uzun video ve Short için yükleme sırası: Studio ayarları (çocuklara özel, sentetik içerik, kategori, dil), yayın sonrası 48 saat, 17 video için bilgi kartı planı |
 | `marka-rehberi.md` | Üç kanalın kimlik tablosu, renk kodları, yazı tipi, kapanış cümleleri, yasak kelimeler, seri adları, bitiş ekranı şablonu, banner metni, filigran |
