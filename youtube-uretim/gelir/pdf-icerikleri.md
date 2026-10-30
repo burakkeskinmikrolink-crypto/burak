@@ -97,7 +97,7 @@ Five questions that decide what a purchase really costs.
    Compare your savings rate with high-yield accounts at insured banks.
 
 5. DO I HAVE A LITTLE CASH AT HOME?
-   Card networks can go down. Emergency checklists say: keep some cash.
+   Card networks can go down. Emergency checklists suggest keeping some cash.
 
 If a store refuses cash: it's legal in most places — unless your state or city
 has a cash law. Look it up once.

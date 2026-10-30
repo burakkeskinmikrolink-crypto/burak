@@ -144,7 +144,7 @@ sent money to a scammer, how to get money back from a scammer, scammed on zelle,
 | İddia | Kaynak | Durum |
 |---|---|---|
 | Ödeme yöntemine göre adımlar (kart, banka/Zelle, havale, hediye kartı, kripto). Hediye kartı ve fişi sakla. Kripto genelde geri alınamaz | FTC "What to do if you were scammed" | Doğrulandı (arama özetleri) |
-| Postayla gönderilen nakit için USPIS'le iletişime geçip paketin durdurulmasını iste | FTC aynı sayfa | **Orta.** Sayfadaki ifadeyi kontrol et |
+| Postayla gönderilen nakit için USPIS'le iletişime geçip paketin durdurulmasını iste | FTC "What to do if you were scammed" (USPIS 877-876-2455; teslim edilmemiş yurt içi paket ücret karşılığı durdurulabilir) | **Doğrulandı (S6)** |
 | Recovery (geri alma) dolandırıcılıkları uyarısı | FTC Refund and recovery scams | Orta (bu oturumda doğrudan aranmadı) |
 | Düzenli bir borsaya ulaşan fonların bazen dondurulabilmesi | Genel bilgi | "Occasionally" diye yumuşatıldı |
 | Walter'ın hediye kartı bakiyesinin dondurulması | **Kurgusal örnek** | Ekranda "Illustrative" yazar |

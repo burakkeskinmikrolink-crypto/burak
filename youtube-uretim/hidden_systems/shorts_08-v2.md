@@ -37,7 +37,7 @@
 
 **VO:**
 > 90,500 megawatts gone at once.
-> That's how much generation was unavailable at the worst moment of Winter Storm Elliott, in December 2022. Roughly thirteen percent of the eastern US grid's resources. Investigators found that nearly eighty percent of the units that failed did so in temperatures they were supposed to handle. And the gas that fuels many of them froze at the wells. One cold snap, and suddenly:
+> That's how much generation was unavailable at the worst moment of Winter Storm Elliott, in December 2022. Roughly thirteen percent of the eastern US grid's resources. Investigators found that of the units that froze, nearly eighty percent failed in temperatures they were supposed to handle. And the gas that fuels many of them froze at the wells. One cold snap, and suddenly:
 
 **Döngü:** "…and suddenly:" → "90,500 megawatts gone at once."
 **Kaynak:** FERC & NERC – Winter Storm Elliott inquiry, final report (2023)

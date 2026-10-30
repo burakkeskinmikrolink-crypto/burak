@@ -164,7 +164,7 @@ is this text a scam, scam text, how to tell if a text is a scam, fake text messa
 |---|---|---|
 | 2024'te 470 milyon $, 2020'nin 5 katından fazla, en yaygın türler | FTC basın bülteni ve Data Spotlight | Doğrulandı |
 | "Wrong number" mesajları yatırım ve romantik dolandırıcılığa dönüşebiliyor | FTC Data Spotlight | Doğrulandı |
-| USPS, takip için kayıt olunmadıkça linkli SMS göndermez | USPIS Smishing sayfası | **Orta.** Sayfadan ifadeyi kontrol et |
+| USPS, takip için kayıt olunmadıkça linkli SMS göndermez | USPIS Smishing sayfası; TIME ve yerel haberler USPIS açıklamasını aktarıyor | **Doğrulandı (S6)** |
 | İşletme SMS'lerinin çoğu kısa kod veya kayıtlı numaralardan gelir | Genel telekom bilgisi | "often" diye yumuşatıldı |
 | iPhone "Filter Unknown Senders" ayarı | Singapur CSA (SE-03 kaynakları) | Doğrulandı |
 

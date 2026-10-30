@@ -12,13 +12,13 @@
 |---|---|---|
 | 0–2 sn | **Hareketli:** Banknot kafe kapısındaki "CARD ONLY" levhasına doğru kayıyor ve duruyor | STORES MUST TAKE CASH? |
 | 2–12 sn | Banknot üzerinde "legal tender" vurgusu (vektör çizim) | NO GENERAL FEDERAL RULE |
-| 12–24 sn | ABD haritası: NJ, MA, CO, RI, CT ve şehir pinleri | SOME STATES AND CITIES: YES |
+| 12–24 sn | ABD haritası: MA, NJ, RI, CO ve şehir pinleri | SOME STATES AND CITIES: YES |
 | 24–32 sn | Telefonda arama çubuğu: "cash law + your state" | CHECK YOUR STATE |
 
 **VO:**
 > Stores must take cash?
 > Not under federal law. The Federal Reserve says a private business can set its own payment policy, unless a state or local law says otherwise.
-> And some do. New Jersey, Massachusetts, Colorado, Rhode Island and Connecticut have rules, and so do New York City, San Francisco, Philadelphia and D.C. Everywhere else, card only is legal. So before you argue at the counter, ask yourself: do…
+> And some do. Massachusetts, New Jersey, Rhode Island and Colorado have rules, and so do New York City, San Francisco, Philadelphia and D.C. Everywhere else, card only is legal. So before you argue at the counter, ask yourself: do…
 
 **Döngü:** "…ask yourself: do…" → "Stores must take cash?"
 **Açıklama notu:** Related video bağlantısı: *What If America Stopped Using Cash?* (CW-07 v2)
@@ -58,7 +58,7 @@
 **VO:**
 > What if the network fails?
 > It has happened. In June 2018, a partial failure of one switch in a Visa data center in Europe caused about five point two million card payments to fail.
-> Sweden, where only about one in ten store purchases is paid in cash, still argues for keeping cash as a backup. That's why emergency checklists say: keep a little cash at home. Because one day you'll ask:
+> Sweden, where only about one in ten store purchases is paid in cash, still argues for keeping cash as a backup. That's why emergency checklists suggest keeping a little cash at home. Because one day you'll ask:
 
 **Döngü:** "…you'll ask:" → "What if the network fails?"
 **Açıklama notu:** Related video bağlantısı: *What If America Stopped Using Cash?* (CW-07 v2)

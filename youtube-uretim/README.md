@@ -142,6 +142,7 @@ Kaynak: `oyun-kitabi/ozet-ve-kurallar.md` ve `oyun-kitabi/senaryo-revizyon-oneri
 | `yukleme-kontrol-listesi.md` | Her uzun video ve Short için yükleme sırası: Studio ayarları (çocuklara özel, sentetik içerik, kategori, dil), yayın sonrası 48 saat, 17 video için bilgi kartı planı |
 | `marka-rehberi.md` | Üç kanalın kimlik tablosu, renk kodları, yazı tipi, kapanış cümleleri, yasak kelimeler, seri adları, bitiş ekranı şablonu, banner metni, filigran |
 | `yorum-moderasyonu.md` | Studio moderasyon ayarları, engellenen kelime listeleri, sahte "kurtarma uzmanı" yorumlarına hazır yanıtlar, taklitçi hesaplar |
+| `dogrulama-turu.md` | S6 doğrulama turu (30 Ekim 2026): 30 madde tekrar arandı; 7 metin düzeltmesi, 1 yeni gelişme (Durbin tavanı istinaf kararı), 15 doğrulama, 7 açık madde ve yayın öncesi tarihleri |
 | `eksik-analizi.md` | Kanal × 8 başlık (var/eksik/zayıf), bu turda kapatılan 10 eksik, senin yapman gereken 8 iş, şeffaflık cümlesi kararı |
 | `haftalik-analiz-sablonu.md` | Cumartesi analiz tablosu (gösterim, CTR, ortalama izlenme oranı, Shorts izlemeye devam, yeni abone). **13 Aralık karar kuralı:** 4 ölçütten 3'ü kötüyse kanal çevrilir, eşikler ve çevirme seçenekleri tanımlı |
 

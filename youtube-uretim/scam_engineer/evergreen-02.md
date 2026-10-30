@@ -29,7 +29,7 @@
 > The answer is better than most people expect. But the order matters.
 
 ### [SAHNE 4 | Animasyon: SSN kartından dört ok çıkıyor: "new credit", "tax refund", "benefits", "jobs" (kendi grafik) | 0:45–1:55]
-> First, the "suspended number" story. The Social Security Administration's own fraud warnings say your number cannot be suspended, and that real officials won't threaten you or demand immediate payment. That call was the scam, not a warning about one.
+> First, the "suspended number" story. The Social Security Administration's own fraud warnings say it will never call to tell you your number has been suspended, and that real officials won't threaten you or demand immediate payment. That call was the scam, not a warning about one.
 >
 > It's also worth knowing why the caller asked you to "confirm" the number. Often they already have part of it, from old data breaches, and need you to fill the gaps. Saying it out loud completes their file. That isn't foolish; the script is designed to sound like routine verification.
 >
@@ -159,10 +159,10 @@ what to do if you gave your social security number to a scammer, gave ssn to sca
 | İddia | Kaynak | Durum |
 |---|---|---|
 | IdentityTheft.gov (FTC) kişisel kurtarma planı, Identity Theft Report | FTC | Doğrulandı (arama özetleri) |
-| Kredi dondurma üç büroda ücretsiz, skoru etkilemez, geçici olarak kaldırılabilir | FTC credit freeze sayfası | Orta (bu oturumda doğrudan aranmadı, yaygın olarak doğrulanmış bilgi). Sayfayı kontrol et |
+| Kredi dondurma üç büroda ücretsiz, skoru etkilemez, geçici olarak kaldırılabilir | [FTC – Free credit freezes are here (2018)](https://consumer.ftc.gov/consumer-alerts/2018/09/free-credit-freezes-are-here) | **Doğrulandı (S6)** (ücretsiz, geçici kaldırma, 1 iş günü/1 saat kuralı). "Skoru etkilemez" FTC dışı kaynaklarda. Sayfayı kontrol et |
 | Dolandırıcılık uyarısı: bir büroya başvurulur, o diğerlerine bildirir | Identity Guard, Aura özetleri | Doğrulandı. Süre (1 yıl) metinde verilmedi |
 | IRS IP PIN 2021'den beri kimliğini doğrulayabilen herkese açık, her yıl yeni PIN | IRS basın bülteni | Doğrulandı |
-| SSA: numara "askıya alınamaz", gerçek görevliler tehdit etmez ve acil ödeme istemez | SSA OIG scam awareness | **Orta.** Sayfadan ifadeyi kontrol et |
+| SSA, numaranın askıya alındığını söylemek için **asla aramaz**; gerçek görevliler tehdit etmez ve acil ödeme istemez | SSA OIG scam awareness, ABD Savcılığı duyuruları | **Düzeltildi (S6).** "Numara askıya alınamaz" ifadesi resmi kaynakta birebir bulunamadı; "SSA bunun için aramaz" olarak değiştirildi (senaryo, Short VO ve ekran yazısı) |
 | Yeni SSN almak nadir ve zor | SSA (genel bilgi) | "rare and difficult" diye yumuşatıldı |
 | AnnualCreditReport.com'da üç bürodan ücretsiz rapor | AnnualCreditReport.com | Sıklık (haftalık) metinde belirtilmedi |
 
@@ -176,12 +176,12 @@ what to do if you gave your social security number to a scammer, gave ssn to sca
 | 0–2 sn | **Hareketli:** Telefon çalıyor, ekranda "SSA" (kurgusal) | YOUR SSN IS "SUSPENDED"? |
 | 2–12 sn | Şıklar | A) CONFIRM IT B) PAY THE FEE C) HANG UP |
 | 12–15 sn | Sayaç | 3… 2… 1… |
-| 15–32 sn | "C" yeşil | NUMBERS CAN'T BE SUSPENDED |
+| 15–32 sn | "C" yeşil | SSA WON'T CALL ABOUT THIS |
 
 **VO:**
 > Your SSN is "suspended"?
 > The caller says your Social Security number is suspended. A: confirm your number so they can fix it. B: pay a fee to reactivate it. C: hang up.
-> It's C. Social Security's own fraud warnings say your number can't be suspended, and real officials don't threaten you or demand payment. If you already shared it, there's a four-step fix. And if the phone rings again saying…
+> It's C. Social Security says it will never call to tell you your number is suspended, and real officials don't threaten you or demand payment. If you already shared it, there's a four-step fix. And if the phone rings again saying…
 
 **Döngü:** "…saying…" → "Your SSN is 'suspended'?"
 **Açıklama notu:** Related video bağlantısı: *What to Do If You Gave Your Social Security Number to a Scammer (4 Free Steps)* (Evergreen-02)
