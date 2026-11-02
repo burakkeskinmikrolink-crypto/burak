@@ -1,0 +1,10 @@
+One typo took down the internet?
+Not all of it. But a lot. In February 2017, an engineer at Amazon Web Services was debugging a slow billing system in northern Virginia. One command was meant to remove a small number of servers. One input was wrong, and it removed far more. Core systems behind Amazon's S3 storage had to restart from scratch, and for hours, sites and apps that kept files there broke. Even Amazon's status page couldn't update, because it relied on S3 too. So, did one typo…
+
+Source: Amazon Web Services – Summary of the Amazon S3 Service Disruption in the Northern Virginia (US-EAST-1) Region (aws.amazon.com/message/41926)
+
+This channel is made by someone who works inside a mobile network operations center.
+
+#aws #cloudoutage #engineering #techhistory #hiddensystems
+
+Narration uses a synthetic voice.

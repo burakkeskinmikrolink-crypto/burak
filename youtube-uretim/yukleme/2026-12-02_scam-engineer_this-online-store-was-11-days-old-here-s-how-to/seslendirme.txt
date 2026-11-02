@@ -1,0 +1,73 @@
+The store Carol bought from on Cyber Monday looked perfect — and its web address was eleven days old. Here are three checks that expose a fake shop. [pause 900]
+
+This channel is made by a telecom engineer. [pause 900]
+
+Carol, fifty-seven, wanted one pair of winter boots for her daughter. On Cyber Monday, an ad showed them at seventy percent off.
+
+The site was beautiful: photos, five-star reviews, a padlock. She paid with her debit card. "Thank you!"
+
+How can a fake store look better than a real one? [pause 1000]
+
+Because, as Carol was about to find out, looking good is the cheapest part. [pause 900]
+
+Building an online store today takes no programming. Templates are everywhere. Product photos can be copied from a real brand's website. Reviews can be invented. A countdown timer is a few lines of code. And the FBI has warned that scammers now use AI tools to mimic legitimate websites and retailers even more convincingly.
+
+Then there's the address. A web address — a domain name — works a lot like a phone number. It's an entry in a global directory, the Domain Name System. And just like a phone number, anyone can rent one, in minutes, for a few dollars. When it gets reported, they rent another.
+
+Real retailers spend years building a reputation, a returns department and a customer service line. A fake shop skips all of that. It only needs to survive long enough to take orders — and the weeks between Black Friday and Christmas are plenty.
+
+So the scammer's costs are tiny, and the store can be ready in an afternoon.
+
+But out of millions of shoppers, how did this store find Carol? [pause 1000]
+
+It paid to. In April 2026, the Federal Trade Commission published new data on scams that start on social media. In 2025, people reported losing 2.1 billion dollars to them — about eight times as much as in 2020.
+
+The most reported type of scam on social media? [pause 1000] Shopping. More than forty percent of people who lost money to a social media scam told the F T C it started when they ordered something they saw in an ad.
+
+The F T C says many of those ads led to unfamiliar websites. Others led to sites impersonating well-known brands, offering big discounts.
+
+Ads are built to reach the people most likely to click. If you've been searching for winter boots in December, you're exactly who a boot ad wants. Carol wasn't careless. She was targeted.
+
+So where did her money go, and was anything ever going to arrive? [pause 1000]
+
+According to the F T C, most people in these cases said their order simply never arrived. Others received something, but it was counterfeit, or very different from what was advertised, and often shipped from China.
+
+Either way, the shop usually stops answering emails soon after. The contact form goes nowhere. The phone number, if there is one, rings out. And a few weeks later, the website itself may simply disappear.
+
+That second version is clever. A cheap item with a tracking number makes it harder to prove you were scammed. The package technically arrived.
+
+The FBI tracks a related category it calls non-payment and non-delivery: you pay, and you never get the goods. In its 2025 Internet Crime Report, it recorded over 56,000 complaints of this kind.
+
+And Carol paid with a debit card, which matters, because a debit card takes money straight out of your bank account, and getting it back can work differently than with a credit card. More on that in a moment.
+
+First, the thing that reassured her most: that little padlock. Doesn't the padlock mean a website is safe? [pause 1000]
+
+This is the most common misunderstanding about websites, so here's the engineering view.
+
+The padlock means your connection is encrypted; the site is using HTTPS. Nobody in the middle, on the Wi-Fi or the network, can read what you type. That's genuinely important.
+
+But encryption protects the pipe, not the person at the other end. The certificates that enable the padlock are available free to anyone who controls a domain — including scammers. So a fake shop can have a perfect padlock.
+
+Browsers have even changed how they show the lock over the years, partly because so many people read it as a badge of trust. It was never meant to be one.
+
+It's like a phone call. A clear, private line tells you nobody is eavesdropping. It tells you nothing about whether the person you're talking to is honest.
+
+So if the padlock can't tell you, what can? [pause 1000]
+
+Check one: how old is the store? [pause 1000] Go to lookup.icann.org, type in the website address, and look for the creation date. A store claiming decades of history with an address registered a few weeks ago is a giant red flag.
+
+Check two: search for the store somewhere else. Don't trust the reviews on its own page. Type the store's name into a search engine with words like "reviews," "complaints" or "scam." The F T C recommends exactly this. Silence, or a wave of complaints, both tell you something.
+
+Check three: how does it want you to pay? [pause 1000] If it pushes bank transfers, payment apps, gift cards or cryptocurrency — or offers a discount to avoid cards — stop. Use a credit card. Under the Fair Credit Billing Act, you can dispute a charge for goods you never received.
+
+And one bonus habit for the rest of the holiday season: if a deal reached you through an ad, close the ad and go to the brand's real website yourself. If the deal is real, it'll be there too. [pause 900]
+
+If it's already happened, like it did to Carol? [pause 1000] Act quickly and calmly. Call your bank or card issuer using the number on your card, say the goods never arrived, and ask about disputing the charge. Credit cards give you the strongest legal rights; with debit cards, it depends on your bank's policies, so call right away. [slow]Then report the store at ReportFraud.ftc.gov and ic3.gov, and report the ad on the platform where you saw it.[/slow]
+
+Carol looked up the address afterwards: eleven days old. The photos, the reviews and the padlock had all been easy to fake. The one thing the scammer couldn't fake was time.
+
+The good news is that none of these checks needs any technical skill. Each one takes under a minute, and together they catch the cheapest part of the scam: a brand-new address pretending to be an old, trusted shop.
+
+There are still weeks of holiday shopping ahead. Before your next order, check the store's age, look for it somewhere else, and pay with a card that protects you.
+
+That's how this scam works — so it never works on you. [pause 900]

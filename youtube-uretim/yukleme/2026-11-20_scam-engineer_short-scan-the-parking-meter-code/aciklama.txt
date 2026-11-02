@@ -1,0 +1,10 @@
+Scan the parking meter code?
+A: yes, it's right there on the meter. B: only if the sticker looks new. C: check first. Is the code part of the meter, or a sticker on top of it? It's C. The FTC warns that scammers cover real parking-meter codes with their own, leading to fake payment pages. Pay through the city's official app, or at the meter itself. And skip codes that arrive in unexpected texts. So next time you park, before you…
+
+Source: FTC – Scammers hide harmful links in QR codes to steal your information (Dec 2023); CBS Miami – Fort Lauderdale warns about fake QR code stickers
+
+This channel is made by a telecom engineer.
+
+#qrcode #parking #scamawareness #quishing #scamengineer
+
+Narration uses a synthetic voice.

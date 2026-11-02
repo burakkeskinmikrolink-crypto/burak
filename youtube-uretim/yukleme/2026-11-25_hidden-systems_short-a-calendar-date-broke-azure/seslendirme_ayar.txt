@@ -1,0 +1,6 @@
+dil: b
+ses: <seçilecek bm_… sesi>
+hız: 0.97
+
+Komut (youtube-uretim/ klasöründen):
+python arac/seslendirme/seslendir.py yukleme/2026-11-25_hidden-systems_short-a-calendar-date-broke-azure/seslendirme.txt -o yukleme/2026-11-25_hidden-systems_short-a-calendar-date-broke-azure/ses.wav --dil b --ses <ses> --hiz 0.97

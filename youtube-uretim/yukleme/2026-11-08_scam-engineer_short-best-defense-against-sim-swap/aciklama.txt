@@ -1,0 +1,15 @@
+Best defense against SIM swap?
+A: a stronger email password. B: moving important accounts from text-message codes to an authenticator app or security key, where available. C: turning your phone off at night. It's B. A SIM swap steals your number, and your text codes with it. App and key codes live on your device, not your number. Add your carrier's account lock, and you've closed both doors. So, one more time — what's the…
+
+Sources:
+- FCC – Caller ID Spoofing: https://www.fcc.gov/spoofing
+- FCC – Caller ID Authentication (STIR/SHAKEN): https://www.fcc.gov/call-authentication
+- FCC SIM swap and port-out rules (Nov 2023), summaries: https://therecord.media/fcc-new-rules-stop-sim-swapping · https://www.tlp.law/2023/11/23/fcc-releases-adopted-sim-swapping-port-out-fraud-ro-fnprm/
+- FBI IC3 PSA – SIM swap schemes (Feb 2022): https://www.ic3.gov/PSA/2022/PSA220208
+- FTC – Phishing: https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams
+
+This channel is made by a telecom engineer.
+
+#scamawareness #scams #fraudprevention #scamengineer
+
+Narration uses a synthetic voice.

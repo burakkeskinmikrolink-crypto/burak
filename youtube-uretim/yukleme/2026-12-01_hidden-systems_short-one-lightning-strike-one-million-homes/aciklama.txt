@@ -1,0 +1,10 @@
+One lightning strike. One million homes.
+9 August 2019. Lightning hit a transmission line north of London. That alone is routine; the grid is built for it. But within moments, an offshore wind farm and a gas power station both lost output, each linked to the strike. Frequency fell so far that automatic protection disconnected more than a million customers to protect everyone else. Some trains stopped. Both generators later paid 4.5 million pounds each into a redress fund. A routine fault, a rare combination:
+
+Source: Ofgem – 9 August 2019 power outage report (Jan 2020); National Grid ESO technical report
+
+This channel is made by someone who works inside a mobile network operations center.
+
+#powercut #nationalgrid #uk #lightning #hiddensystems
+
+Narration uses a synthetic voice.

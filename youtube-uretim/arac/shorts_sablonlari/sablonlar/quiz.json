@@ -1,0 +1,50 @@
+{
+  "format": "quiz",
+  "ad": "Quiz (A/B/C)",
+  "amac": "İzleyiciyi 3 saniyelik bir karar anına sokup cevabı ve tek bir kuralı öğretmek. Yorumlarda 'B dedim' etkileşimi üretir.",
+  "sure_aralik_sn": [30, 35],
+  "zamanlama": [
+    {"rol": "hook", "bas_sn": 0, "bit_sn": 2, "icerik": "Soru, ekranda ve sesli olarak aynı anda verilir", "ekran_yazisi_kurali": "≤6 kelime, VO'nun ilk cümlesiyle birebir aynı, genelde soru işaretiyle biter"},
+    {"rol": "secenekler", "bas_sn": 2, "bit_sn": 12, "icerik": "A, B ve C şıkları sırayla düşer. Biri bariz yanlış, biri makul görünen tuzak, biri doğru", "ekran_yazisi_kurali": "Şık başına ≤4 kelime"},
+    {"rol": "geri_sayim", "bas_sn": 12, "bit_sn": 15, "icerik": "3–2–1 sayaç. VO susar, sadece tik sesi çalar", "ekran_yazisi_kurali": "3… 2… 1…"},
+    {"rol": "cevap", "bas_sn": 15, "bit_sn": "sure-3", "icerik": "Doğru şık yeşil yanar. Tek cümleyle neden doğru, tek cümleyle ne yapılmalı", "ekran_yazisi_kurali": "Doğru şık + ≤5 kelimelik kural"},
+    {"rol": "dongu", "bas_sn": "sure-3", "bit_sn": "sure", "icerik": "Kapanış köprüsü sorunun ilk kelimelerine bağlanır, görsel ilk kareye döner", "ekran_yazisi_kurali": "Yazı yok veya hook yazısının ilk kelimesi"}
+  ],
+  "ilk_kare_kurallari": [
+    "Hareket zorunlu: titreşen telefon, düşen kart, büyüyen simge gibi. Statik kare yasak",
+    "Ekranda en fazla 6 kelime; seslendirmenin ilk cümlesiyle harfi harfine aynı",
+    "Logo, kanal adı, 'wait for it' yok",
+    "Sorunun konusu küçük resimdeki nesneyle aynı olmalı (ör. 'MEDICARE' yazan telefon)"
+  ],
+  "dongu_kurallari": [
+    "Son cümle '…', ':' veya '—' ile biter",
+    "Son cümle, ilk cümleyi tekrar sormayı doğal kılar. Örnek: '…So the next time your phone lights up and…' → 'Medicare is calling. You share…?'",
+    "'Full story on the channel' gibi çağrı yok; uzun video için açıklamada Related video bağlantısı kullanılır"
+  ],
+  "yaygin_hatalar": [
+    "Doğru şıkkın hep aynı harf olması (A/B/C dağılımını değiştir)",
+    "Cevap açıklamasının 2 cümleyi aşması: Short uzun videonun yerini tutmamalı",
+    "Korku dili ('you'll lose everything'): kanal kuralı gereği yasak"
+  ],
+  "bos_iskelet": {
+    "id": "XX-00-S1",
+    "kanal": "scam_engineer",
+    "format": "quiz",
+    "baslik": "<Short başlığı>",
+    "sure_sn": 32,
+    "ilk_kare": {"hareket": "<hareket tarifi>", "ekran_yazisi": "<≤6 KELİME SORU>"},
+    "sahneler": [
+      {"bas_sn": 0, "bit_sn": 2, "rol": "hook", "gorsel": "<hareketli görsel>", "ekran_yazisi": "<≤6 KELİME SORU>"},
+      {"bas_sn": 2, "bit_sn": 12, "rol": "secenekler", "gorsel": "<şıklar>", "ekran_yazisi": "A) … B) … C) …"},
+      {"bas_sn": 12, "bit_sn": 15, "rol": "geri_sayim", "gorsel": "Sayaç", "ekran_yazisi": "3… 2… 1…"},
+      {"bas_sn": 15, "bit_sn": 29, "rol": "cevap", "gorsel": "<doğru şık yeşil>", "ekran_yazisi": "<KURAL>"},
+      {"bas_sn": 29, "bit_sn": 32, "rol": "dongu", "gorsel": "İlk kareye dönüş", "ekran_yazisi": ""}
+    ],
+    "vo": {"ilk_cumle": "<soru>", "govde": ["<şıklar>", "<cevap + kural>"], "kapanis_kopru": "<ilk cümleye bağlanan köprü…>"},
+    "dongu": {"kopru": "<köprünün son kelimeleri>", "hedef": "<soru>"},
+    "related_video": {"baslik": "<uzun video başlığı>", "kod": "<XX-00 v2>"},
+    "aciklama": "<açıklama>. Related video bağlantısı: <uzun video başlığı>",
+    "hashtagler": ["#tag1", "#tag2", "#tag3"],
+    "quiz": {"soru": "<soru>", "secenekler": {"A": "", "B": "", "C": ""}, "dogru": "C", "aciklama": "", "geri_sayim_sn": 3}
+  }
+}

@@ -1,0 +1,15 @@
+The number was real. He wasn't.
+Tom's phone showed his bank's name and the exact number printed on his card. A polite voice said someone was buying a laptop with his debit card, and sent a code "to block it." Tom started reading the code… then stopped. Real banks don't ask for codes back. He hung up and called the number on his card. His bank had never called. Spoofing, in one sentence:
+
+Sources:
+- FCC – Caller ID Spoofing: https://www.fcc.gov/spoofing
+- FCC – Caller ID Authentication (STIR/SHAKEN): https://www.fcc.gov/call-authentication
+- FCC SIM swap and port-out rules (Nov 2023), summaries: https://therecord.media/fcc-new-rules-stop-sim-swapping · https://www.tlp.law/2023/11/23/fcc-releases-adopted-sim-swapping-port-out-fraud-ro-fnprm/
+- FBI IC3 PSA – SIM swap schemes (Feb 2022): https://www.ic3.gov/PSA/2022/PSA220208
+- FTC – Phishing: https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams
+
+This channel is made by a telecom engineer.
+
+#scamawareness #scams #fraudprevention #scamengineer
+
+Narration uses a synthetic voice.

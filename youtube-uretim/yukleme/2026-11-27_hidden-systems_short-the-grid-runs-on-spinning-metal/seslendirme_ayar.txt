@@ -1,0 +1,6 @@
+dil: b
+ses: <seçilecek bm_… sesi>
+hız: 0.97
+
+Komut (youtube-uretim/ klasöründen):
+python arac/seslendirme/seslendir.py yukleme/2026-11-27_hidden-systems_short-the-grid-runs-on-spinning-metal/seslendirme.txt -o yukleme/2026-11-27_hidden-systems_short-the-grid-runs-on-spinning-metal/ses.wav --dil b --ses <ses> --hiz 0.97

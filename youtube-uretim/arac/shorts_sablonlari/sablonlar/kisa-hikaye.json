@@ -1,0 +1,49 @@
+{
+  "format": "kisa_hikaye",
+  "ad": "Kısa hikâye (temsilî karakter)",
+  "amac": "Bir dolandırıcılığı veya sistem arızasını tek bir insanın birkaç anıyla anlatmak. Sonuç en başta verilir, merak 'nasıl?' sorusuna kayar.",
+  "sure_aralik_sn": [34, 40],
+  "zamanlama": [
+    {"rol": "hook", "bas_sn": 0, "bit_sn": 2, "icerik": "Hikâyenin SONUCU tek cümleyle verilir ('The code was real.', 'Her phone said SOS.')", "ekran_yazisi_kurali": "≤6 kelime, VO'nun ilk cümlesiyle aynı. Köşede 'Composite character'"},
+    {"rol": "kurulum", "bas_sn": 2, "bit_sn": 14, "icerik": "Karakter + tek somut an (ne geldi, ne yaptı). Yaş ve meslek en fazla tek kelime", "ekran_yazisi_kurali": "≤5 kelimelik durum etiketleri"},
+    {"rol": "donum", "bas_sn": 14, "bit_sn": 26, "icerik": "Görünmeyen mekanizma ortaya çıkar (kod aslında cüzdan onayıydı, numara başkasına taşınmıştı)", "ekran_yazisi_kurali": "Mekanizmayı adlandıran ≤5 kelime"},
+    {"rol": "ders", "bas_sn": 26, "bit_sn": "sure-2", "icerik": "Tek kural, emir kipinde ve sakin", "ekran_yazisi_kurali": "Kural, ≤5 kelime"},
+    {"rol": "dongu", "bas_sn": "sure-2", "bit_sn": "sure", "icerik": "Köprü cümle, hook'taki sonuca geri döner", "ekran_yazisi_kurali": "—"}
+  ],
+  "ilk_kare_kurallari": [
+    "Hareket zorunlu (bildirim kayar, sinyal çubukları söner, ekran donar)",
+    "≤6 kelime, VO'nun ilk cümlesiyle aynı",
+    "'Composite character' notu ilk karede görünür",
+    "Tanınabilir yüz yok (eller, arkadan çekim, bulanık)"
+  ],
+  "dongu_kurallari": [
+    "Son cümle ':' veya '…' ile biter ve hook'taki sonuca bağlanır. Örnek: '…that's the part people never expect:' → 'The code was real.'",
+    "Bağlam cümlesiyle açılış yasak ('Linda's phone was fine at lunch' gibi bir cümle ikinci sırada gelir)"
+  ],
+  "yaygin_hatalar": [
+    "Karakteri gerçek bir kişi gibi sunmak ('Composite character' notu unutulursa)",
+    "Mağduru suçlayan ton ('she should have known')",
+    "Hikâyeyi uzun videonun tamamı gibi anlatmak: tek an, tek mekanizma, tek ders"
+  ],
+  "bos_iskelet": {
+    "id": "XX-00-S2",
+    "kanal": "scam_engineer",
+    "format": "kisa_hikaye",
+    "baslik": "<Short başlığı>",
+    "sure_sn": 36,
+    "ilk_kare": {"hareket": "<hareket tarifi>", "ekran_yazisi": "<SONUÇ, ≤6 KELİME>", "not": "Composite character"},
+    "sahneler": [
+      {"bas_sn": 0, "bit_sn": 2, "rol": "hook", "gorsel": "<hareketli görsel>", "ekran_yazisi": "<SONUÇ, ≤6 KELİME>"},
+      {"bas_sn": 2, "bit_sn": 14, "rol": "kurulum", "gorsel": "<an>", "ekran_yazisi": "<durum>"},
+      {"bas_sn": 14, "bit_sn": 26, "rol": "donum", "gorsel": "<mekanizma>", "ekran_yazisi": "<mekanizma adı>"},
+      {"bas_sn": 26, "bit_sn": 34, "rol": "ders", "gorsel": "<kural görseli>", "ekran_yazisi": "<kural>"},
+      {"bas_sn": 34, "bit_sn": 36, "rol": "dongu", "gorsel": "İlk kareye dönüş", "ekran_yazisi": ""}
+    ],
+    "vo": {"ilk_cumle": "<sonuç>", "govde": ["<kurulum>", "<dönüm + ders>"], "kapanis_kopru": "<köprü:>"},
+    "dongu": {"kopru": "<son kelimeler>", "hedef": "<sonuç>"},
+    "related_video": {"baslik": "<uzun video başlığı>", "kod": "<XX-00 v2>"},
+    "aciklama": "<açıklama>. Related video bağlantısı: <uzun video başlığı>",
+    "hashtagler": ["#tag1", "#tag2", "#tag3"],
+    "kisa_hikaye": {"karakter": {"ad": "<ad>", "temsili": true}, "sonuc": "<sonuç>", "donum_noktasi": "<mekanizma>", "ders": "<kural>"}
+  }
+}

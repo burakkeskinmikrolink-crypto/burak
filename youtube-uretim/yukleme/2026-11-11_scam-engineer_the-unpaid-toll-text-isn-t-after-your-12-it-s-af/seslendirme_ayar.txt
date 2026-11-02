@@ -1,0 +1,6 @@
+dil: a
+ses: <seçilecek am_/af_ sesi>
+hız: 0.93
+
+Komut (youtube-uretim/ klasöründen):
+python arac/seslendirme/seslendir.py yukleme/2026-11-11_scam-engineer_the-unpaid-toll-text-isn-t-after-your-12-it-s-af/seslendirme.txt -o yukleme/2026-11-11_scam-engineer_the-unpaid-toll-text-isn-t-after-your-12-it-s-af/ses.wav --dil a --ses <ses> --hiz 0.93

@@ -1,0 +1,31 @@
+Americans are holding about $27 billion in unused gift cards and store credit. So this holiday season: gift card or cash? Five rounds — value, lost balances, the federal rules on expiration and fees, risks like card draining, and how gifts actually feel — plus the one question that decides it.
+
+This channel is made by an engineer, not a banker. Educational content, not financial advice.
+
+CHAPTERS
+0:00 $27 billion unused
+0:16 Dan's $100 (illustrative story)
+0:48 Round 1: value (the "deadweight loss of Christmas")
+2:00 Round 2: money that gets lost
+3:04 Round 3: expiration and fee rules
+4:12 Round 4: risk
+5:17 Round 5: feelings
+6:11 Final score and the deciding question
+
+SOURCES
+- Bankrate – Gift cards survey (2024): https://www.bankrate.com/credit-cards/news/gift-cards-survey/
+- CPA Practice Advisor – 43% of Americans have at least one unused gift card (2024): https://www.cpapracticeadvisor.com/2024/09/25/survey-43-of-americans-have-at-least-one-unused-gift-card/110981/
+- Federal Reserve – Final rules on gift cards under the Credit CARD Act (2010): https://www.pewtrusts.org/research-and-analysis/issue-briefs/2010/03/23/federal-reserve-issues-final-rules-on-gift-cards
+- Federal Reserve press release – Proposed gift card rules (Nov 2009): https://www.federalreserve.gov/newsevents/pressreleases/bcreg20091116a.htm
+- eCFR – 12 CFR 1005.20 (Regulation E, gift cards): https://www.ecfr.gov/current/title-12/chapter-X/part-1005/subpart-A/section-1005.20
+- American Economic Association – Did holiday gift-giving just create a loss?: https://www.aeaweb.org/research/did-holiday-gift-giving-just-create-loss
+- Waldfogel, J. "The Deadweight Loss of Christmas", American Economic Review 83(5), 1993
+- Bruegel – The microeconomics of Christmas: https://www.bruegel.org/blog-post/microeconomics-christmas
+- NRF – Gift cards gain popularity as top choice for holiday shoppers in 2025: https://nrf.com/blog/gift-cards-gain-popularity-as-top-choice-for-holiday-shoppers-in-2025
+- FTC – Avoiding and reporting gift card scams: https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams
+
+How gift card draining works (Scam Engineer): <SE-07 linki>
+
+Visual credits: Pexels, Pixabay, original graphics. Dramatized scenes use illustrative numbers. "Dan" is a composite character.
+
+Narration uses a synthetic voice.

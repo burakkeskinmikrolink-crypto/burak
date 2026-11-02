@@ -1,0 +1,2 @@
+Why cut power on purpose? [pause 400]
+Because a grid has to match supply and demand every second. When demand outruns supply, frequency falls, and power stations start disconnecting to protect themselves, which makes the shortfall worse. That's how a shortage becomes a collapse. So operators cut some customers, in planned blocks, and rotate them, so the whole system survives. On Christmas Eve 2022, that's exactly what happened in the eastern United States. And it answered the question:

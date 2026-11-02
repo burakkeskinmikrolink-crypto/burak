@@ -1,0 +1,48 @@
+{
+  "format": "gercek_mi_sahte_mi",
+  "ad": "Gerçek mi sahte mi? (3 öğe)",
+  "amac": "Üç kısa ifade, mesaj veya işaret gösterilir. İzleyici her biri için 1–2 saniye düşünür, sonra cevap ve tek cümlelik gerekçe gelir. Ezber değil, ayırt etme becerisi kazandırır.",
+  "sure_aralik_sn": [30, 34],
+  "zamanlama": [
+    {"rol": "hook", "bas_sn": 0, "bit_sn": 2, "icerik": "'Real or fake? Three X.' Kartlar dönerek gelir", "ekran_yazisi_kurali": "≤6 kelime, VO'nun ilk cümlesiyle aynı"},
+    {"rol": "oge", "bas_sn": 2, "bit_sn": 11, "icerik": "Öğe 1: ifade → 1,5 sn bekleme → cevap etiketi → tek cümle gerekçe", "ekran_yazisi_kurali": "Cevap etiketi (REAL/FAKE ya da RED FLAG/OK)"},
+    {"rol": "oge", "bas_sn": 11, "bit_sn": 20, "icerik": "Öğe 2. En az bir öğe 'gerçek' ya da 'OK' olmalı ki izleyici her şeye 'sahte' demeyi öğrenmesin", "ekran_yazisi_kurali": "Cevap etiketi"},
+    {"rol": "oge", "bas_sn": 20, "bit_sn": "sure-3", "icerik": "Öğe 3 + tek genel kural", "ekran_yazisi_kurali": "Cevap etiketi"},
+    {"rol": "dongu", "bas_sn": "sure-3", "bit_sn": "sure", "icerik": "'Next round? Real or fake…' gibi bir köprüyle hook'a dönüş", "ekran_yazisi_kurali": "—"}
+  ],
+  "ilk_kare_kurallari": [
+    "Hareket zorunlu (kartlar dönüyor, balonlar patlıyor, bildirim düşüyor)",
+    "≤6 kelime, VO'nun ilk cümlesiyle aynı",
+    "Gerçek kurum logosu yok, kurgusal arayüz kullan"
+  ],
+  "dongu_kurallari": [
+    "Son cümle '…' veya ':' ile biter ve hook cümlesini çağırır",
+    "Etiketler iki değerli ve sabit: ['REAL','FAKE'] veya ['RED FLAG','OK'] ya da ['REAL WARNING','FAKE']"
+  ],
+  "yaygin_hatalar": [
+    "Üç öğenin hepsinin 'sahte' olması: izleyici ayırt etmeyi değil şüpheciliği öğrenir",
+    "Gerekçenin uzun olması (tek cümleyi aşmasın)",
+    "İfadelerin gerçek kişi veya kurum adı taşıması"
+  ],
+  "bos_iskelet": {
+    "id": "XX-00-S3",
+    "kanal": "scam_engineer",
+    "format": "gercek_mi_sahte_mi",
+    "baslik": "<Short başlığı>",
+    "sure_sn": 32,
+    "ilk_kare": {"hareket": "<hareket tarifi>", "ekran_yazisi": "<REAL OR FAKE? …>"},
+    "sahneler": [
+      {"bas_sn": 0, "bit_sn": 2, "rol": "hook", "gorsel": "<dönen kartlar>", "ekran_yazisi": "<REAL OR FAKE? …>"},
+      {"bas_sn": 2, "bit_sn": 11, "rol": "oge", "gorsel": "<öğe 1>", "ekran_yazisi": "<etiket>"},
+      {"bas_sn": 11, "bit_sn": 20, "rol": "oge", "gorsel": "<öğe 2>", "ekran_yazisi": "<etiket>"},
+      {"bas_sn": 20, "bit_sn": 29, "rol": "oge", "gorsel": "<öğe 3>", "ekran_yazisi": "<etiket>"},
+      {"bas_sn": 29, "bit_sn": 32, "rol": "dongu", "gorsel": "İlk kareye dönüş", "ekran_yazisi": ""}
+    ],
+    "vo": {"ilk_cumle": "<Real or fake? …>", "govde": ["<öğe 1 + gerekçe>", "<öğe 2 + gerekçe>", "<öğe 3 + gerekçe + kural>"], "kapanis_kopru": "<Next round? Real or fake…>"},
+    "dongu": {"kopru": "<son kelimeler>", "hedef": "<Real or fake? …>"},
+    "related_video": {"baslik": "<uzun video başlığı>", "kod": "<XX-00 v2>"},
+    "aciklama": "<açıklama>. Related video bağlantısı: <uzun video başlığı>",
+    "hashtagler": ["#tag1", "#tag2", "#tag3"],
+    "gercek_mi_sahte_mi": {"etiketler": ["REAL", "FAKE"], "ogeler": [{"ifade": "", "cevap": "FAKE", "neden": ""}, {"ifade": "", "cevap": "REAL", "neden": ""}, {"ifade": "", "cevap": "FAKE", "neden": ""}], "kural": ""}
+  }
+}

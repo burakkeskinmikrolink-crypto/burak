@@ -1,0 +1,6 @@
+dil: a
+ses: <seçilecek am_/af_ sesi>
+hız: 1.0
+
+Komut (youtube-uretim/ klasöründen):
+python arac/seslendirme/seslendir.py yukleme/2026-11-27_centworks_short-2-99-or-3-00/seslendirme.txt -o yukleme/2026-11-27_centworks_short-2-99-or-3-00/ses.wav --dil a --ses <ses> --hiz 1.0

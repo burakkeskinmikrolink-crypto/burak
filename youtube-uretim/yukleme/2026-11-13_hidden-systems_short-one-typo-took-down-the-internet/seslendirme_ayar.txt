@@ -1,0 +1,6 @@
+dil: b
+ses: <seçilecek bm_… sesi>
+hız: 0.97
+
+Komut (youtube-uretim/ klasöründen):
+python arac/seslendirme/seslendir.py yukleme/2026-11-13_hidden-systems_short-one-typo-took-down-the-internet/seslendirme.txt -o yukleme/2026-11-13_hidden-systems_short-one-typo-took-down-the-internet/ses.wav --dil b --ses <ses> --hiz 0.97

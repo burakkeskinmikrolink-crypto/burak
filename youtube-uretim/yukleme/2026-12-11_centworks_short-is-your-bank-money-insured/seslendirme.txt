@@ -1,0 +1,2 @@
+Is your bank money insured? [pause 400]
+If your bank is FDIC-insured, deposits are covered up to 250,000 dollars per depositor, per bank, per ownership category. That last part matters. A single account and a joint account at the same bank are different categories, insured separately. Anything over the limit in one category at one bank isn't covered. It's automatic; you don't buy it. And stocks or crypto aren't deposits, even if your bank sells them. So check your categories, then ask again:

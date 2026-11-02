@@ -1,0 +1,86 @@
+[
+  {"id": "HS-04", "kanal": "hidden_systems", "tarih": "2026-11-11", "baslik": "The Generator That Didn't Start — and Took Britain's Banks With It",
+   "varyantlar": {
+     "A": {"yazi": "GENERATOR NEVER STARTED", "vurgu": [1, 2], "nesne": "jenerator", "ayar": {"etiket": "OFF"}},
+     "B": {"yazi": "BRITAIN COULDN'T PAY", "vurgu": [1, 2], "nesne": "terminal", "ayar": {"ekran": "DECLINED"}}}},
+  {"id": "HS-05", "kanal": "hidden_systems", "tarih": "2026-11-18", "baslik": "The $10 Billion Company That Was Built on Invoices",
+   "varyantlar": {
+     "A": {"yazi": "SOLD THE SAME INVOICE?", "vurgu": [2], "nesne": "fatura_kopya", "ayar": {}},
+     "B": {"yazi": "$9B OWED. $12M LEFT.", "vurgu": [2, 3], "nesne": "iki_cubuk", "ayar": {"sol": "$9B", "sag": "$12M"}}}},
+  {"id": "HS-06", "kanal": "hidden_systems", "tarih": "2026-11-25", "baslik": "A Room Got Too Hot. A Crypto Exchange Went Dark.",
+   "varyantlar": {
+     "A": {"yazi": "TOO HOT TO RUN", "vurgu": [0, 1], "nesne": "termometre", "ayar": {}},
+     "B": {"yazi": "WHY 3 BEATS 2", "vurgu": [1], "nesne": "zonlar", "ayar": {"kapali": [0]}}}},
+  {"id": "HS-07", "kanal": "hidden_systems", "tarih": "2026-12-02", "baslik": "The Phone Line That Worked in Every Power Cut Is Being Switched Off",
+   "varyantlar": {
+     "A": {"yazi": "SWITCHED OFF: 31 JAN", "vurgu": [2, 3], "nesne": "ev_telefonu", "ayar": {}},
+     "B": {"yazi": "WORKS IN POWER CUTS?", "vurgu": [2, 3], "nesne": "ev_telefonu", "ayar": {}}}},
+
+  {"id": "HS-08", "kanal": "hidden_systems", "tarih": "2026-12-09", "baslik": "The Christmas the Lights Went Out on Purpose",
+   "varyantlar": {
+     "A": {"yazi": "CUT ON CHRISTMAS EVE", "vurgu": [0], "nesne": "ev", "ayar": {"etiket": "POWER CUT"}},
+     "B": {"yazi": "90,500 MW GONE", "vurgu": [0, 1], "nesne": "jenerator", "ayar": {"etiket": "FROZEN"}}}},
+
+  {"id": "CW-03", "kanal": "centworks", "tarih": "2026-11-07", "baslik": "America Killed the Penny. Here's Who Pays the Difference.",
+   "varyantlar": {
+     "A": {"yazi": "$4.93 → $4.95?", "vurgu": [2], "nesne": "fis", "ayar": {}},
+     "B": {"yazi": "3.69¢ TO MAKE", "vurgu": [0], "nesne": "madeni_para", "ayar": {}}}},
+  {"id": "CW-04", "kanal": "centworks", "tarih": "2026-11-14", "baslik": "Who Really Pays for Your Credit Card Rewards?",
+   "varyantlar": {
+     "A": {"yazi": "WHO PAID YOUR MILES?", "vurgu": [3], "nesne": "kart_ucak", "ayar": {}},
+     "B": {"yazi": "$149 A YEAR?", "vurgu": [0], "nesne": "nakit", "ayar": {"etiket": "$149"}}}},
+  {"id": "CW-05", "kanal": "centworks", "tarih": "2026-11-21", "baslik": "What If the Fed Keeps Raising Rates?",
+   "varyantlar": {
+     "A": {"yazi": "+$284 A MONTH", "vurgu": [0], "nesne": "ev", "ayar": {"etiket": "SAME HOUSE"}},
+     "B": {"yazi": "WHAT IF RATES RISE?", "vurgu": [2, 3], "nesne": "merdiven", "ayar": {}}}},
+  {"id": "CW-06", "kanal": "centworks", "tarih": "2026-11-28", "baslik": "Buy Now, Pay Later vs Credit Card: Which Is Actually Cheaper?",
+   "varyantlar": {
+     "A": {"yazi": "0% vs 21%?", "vurgu": [0], "nesne": "iki_buton", "ayar": {}},
+     "B": {"yazi": "47% PAID LATE", "vurgu": [0], "nesne": "fiyat_etiketi", "ayar": {"yazi": "PAY IN 4"}}}},
+  {"id": "CW-07", "kanal": "centworks", "tarih": "2026-12-05", "baslik": "What If America Stopped Using Cash?",
+   "varyantlar": {
+     "A": {"yazi": "CARD ONLY?", "vurgu": [1], "nesne": "nakit", "ayar": {"etiket": "NO CASH", "sonek": ""}},
+     "B": {"yazi": "WHO GETS LEFT OUT?", "vurgu": [2, 3], "nesne": "nakit", "ayar": {"etiket": "CARD ONLY", "sonek": ""}}}},
+
+  {"id": "CW-08", "kanal": "centworks", "tarih": "2026-12-12", "baslik": "Gift Card vs Cash: Which Is Actually the Better Gift?",
+   "varyantlar": {
+     "A": {"yazi": "GIFT CARD OR CASH?", "vurgu": [3], "nesne": "iki_buton", "ayar": {"sol": "GIFT", "sag": "CASH"}},
+     "B": {"yazi": "$27B UNUSED", "vurgu": [0], "nesne": "nakit", "ayar": {"etiket": "UNSPENT", "sonek": ""}}}},
+
+  {"id": "SE-03", "kanal": "scam_engineer", "tarih": "2026-11-11", "baslik": "The Unpaid Toll Text Isn't After Your $12. It's After This.",
+   "varyantlar": {
+     "A": {"yazi": "IT'S NOT THE $12", "vurgu": [3], "nesne": "telefon_sms", "ayar": {}},
+     "B": {"yazi": "DON'T REPLY \"Y\"", "vurgu": [2], "nesne": "telefon_sms", "ayar": {"satir1": "Reply Y to", "satir2": "activate"}}}},
+  {"id": "SE-04", "kanal": "scam_engineer", "tarih": "2026-11-18", "baslik": "\"This Is Medicare.\" No, It Isn't. (Before Dec 7)",
+   "varyantlar": {
+     "A": {"yazi": "MEDICARE ISN'T CALLING", "vurgu": [0], "nesne": "telefon_arama", "ayar": {"ad": "MEDICARE"}},
+     "B": {"yazi": "YOUR NUMBER, THEIR PRIZE", "vurgu": [3], "nesne": "telefon_arama", "ayar": {"ad": "MEDICARE"}}}},
+  {"id": "SE-05", "kanal": "scam_engineer", "tarih": "2026-11-25", "baslik": "The Hacker Doesn't Exist. The Three Rescuers Do.",
+   "varyantlar": {
+     "A": {"yazi": "THE HACKER ISN'T REAL", "vurgu": [3], "nesne": "laptop_uc_telefon", "ayar": {}},
+     "B": {"yazi": "3 CALLS. 1 SENTENCE.", "vurgu": [2, 3], "nesne": "laptop_uc_telefon", "ayar": {}}}},
+  {"id": "SE-06", "kanal": "scam_engineer", "tarih": "2026-12-02", "baslik": "This Online Store Was 11 Days Old. Here's How to Tell.",
+   "varyantlar": {
+     "A": {"yazi": "STORE AGE: 11 DAYS", "vurgu": [2, 3], "nesne": "tarayici_magaza", "ayar": {}},
+     "B": {"yazi": "PADLOCK ISN'T SAFETY", "vurgu": [2], "nesne": "asma_kilit", "ayar": {}}}},
+  {"id": "SE-07", "kanal": "scam_engineer", "tarih": "2026-12-09", "baslik": "Two Holiday Scams Hiding in Plain Sight",
+   "varyantlar": {
+     "A": {"yazi": "EMPTY BEFORE YOU BUY", "vurgu": [0], "nesne": "hediye_karti", "ayar": {"etiket": "CHECK"}},
+     "B": {"yazi": "CHECK THE PACKAGE FIRST", "vurgu": [2], "nesne": "telefon_sms", "ayar": {"satir1": "Package on hold", "satir2": "$1.99?", "rozet": ""}}}},
+  {"id": "EV-01", "kanal": "scam_engineer", "tarih": "esnek", "baslik": "Is This Text a Scam? The 30-Second Check",
+   "varyantlar": {
+     "A": {"yazi": "REAL OR SCAM?", "vurgu": [2], "nesne": "telefon_sms", "ayar": {"satir1": "Package on hold", "satir2": "REAL?", "rozet": ""}},
+     "B": {"yazi": "THE 30-SECOND CHECK", "vurgu": [1], "nesne": "telefon_sms", "ayar": {"satir1": "Fraud alert:", "satir2": "REPLY 1", "rozet": ""}}}},
+  {"id": "EV-02", "kanal": "scam_engineer", "tarih": "esnek", "baslik": "Gave Your SSN to a Scammer? Do These 4 Free Things",
+   "varyantlar": {
+     "A": {"yazi": "4 FREE STEPS", "vurgu": [1], "nesne": "kontrol_listesi", "ayar": {"baslik": "SSN"}},
+     "B": {"yazi": "SSN STOLEN? DO THIS", "vurgu": [1], "nesne": "kontrol_listesi", "ayar": {"baslik": "SSN"}}}},
+  {"id": "EV-03", "kanal": "scam_engineer", "tarih": "esnek", "baslik": "Clicked a Link in a Scam Text? Do This Next",
+   "varyantlar": {
+     "A": {"yazi": "CLICKED IT? DO THIS", "vurgu": [0], "nesne": "telefon_sms", "ayar": {"satir1": "Track parcel:", "satir2": "TAPPED", "rozet": ""}},
+     "B": {"yazi": "IS MY PHONE HACKED?", "vurgu": [3], "nesne": "telefon_sms", "ayar": {"satir1": "You tapped", "satir2": "NOW?", "rozet": ""}}}},
+  {"id": "EV-04", "kanal": "scam_engineer", "tarih": "esnek", "baslik": "Sent Money to a Scammer? How to Try to Get It Back",
+   "varyantlar": {
+     "A": {"yazi": "HOW DID YOU PAY?", "vurgu": [3], "nesne": "odeme_yollari", "ayar": {}},
+     "B": {"yazi": "CALL YOUR BANK FIRST", "vurgu": [2], "nesne": "odeme_yollari", "ayar": {}}}}
+]

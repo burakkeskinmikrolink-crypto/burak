@@ -1,0 +1,41 @@
+{
+  "id": "SE-06-S3",
+  "kanal": "scam_engineer",
+  "format": "gercek_mi_sahte_mi",
+  "baslik": "Red flag or OK? 3 online store signs",
+  "yayin_tarihi": "2026-12-07",
+  "sure_sn": 32,
+  "ilk_kare": {
+    "hareket": "'RED FLAG / OK' kartları dönerek ekrana geliyor",
+    "ekran_yazisi": "RED FLAG OR OK? THREE SIGNS."
+  },
+  "sahneler": [
+    {"bas_sn": 0, "bit_sn": 2, "rol": "hook", "gorsel": "Dönen RED FLAG / OK kartları", "ekran_yazisi": "RED FLAG OR OK? THREE SIGNS."},
+    {"bas_sn": 2, "bit_sn": 11, "rol": "oge", "gorsel": "Kurgusal ödeme sayfası: '10% off with bank transfer'", "ekran_yazisi": "RED FLAG"},
+    {"bas_sn": 11, "bit_sn": 20, "rol": "oge", "gorsel": "ICANN sorgusu: 'Created last month' + sitede 'est. 1998'", "ekran_yazisi": "RED FLAG"},
+    {"bas_sn": 20, "bit_sn": 29, "rol": "oge", "gorsel": "Marka adresi elle yazılıyor, aynı indirim", "ekran_yazisi": "OK"},
+    {"bas_sn": 29, "bit_sn": 32, "rol": "dongu", "gorsel": "Dönen kartlara geri dönüş", "ekran_yazisi": ""}
+  ],
+  "vo": {
+    "ilk_cumle": "Red flag or OK? Three signs.",
+    "govde": [
+      "Ten percent off if you pay by bank transfer: red flag. They're steering you away from card protection.",
+      "A web address registered last month, on a store that says \"established 1998\": red flag.",
+      "You typed the brand's address yourself, and the same deal is there: OK. That's the safe path."
+    ],
+    "kapanis_kopru": "Still shopping this month? Before you pay, ask:"
+  },
+  "dongu": {"kopru": "before you pay, ask:", "hedef": "Red flag or OK? Three signs."},
+  "related_video": {"baslik": "This Online Store Was 11 Days Old. Here's How to Tell.", "kod": "SE-06 v2", "dosya": "scam_engineer/06-v2.md"},
+  "aciklama": "Three signs of a fake online store during holiday shopping. Related video bağlantısı: This Online Store Was 11 Days Old. Here's How to Tell.",
+  "hashtagler": ["#fakestore", "#holidayshopping", "#onlinescam", "#scamengineer"],
+  "gercek_mi_sahte_mi": {
+    "etiketler": ["RED FLAG", "OK"],
+    "ogeler": [
+      {"ifade": "10% off if you pay by bank transfer", "cevap": "RED FLAG", "neden": "Steers you away from card dispute protection"},
+      {"ifade": "Domain registered last month, store says 'est. 1998'", "cevap": "RED FLAG", "neden": "A website can't fake its age"},
+      {"ifade": "You typed the brand's address yourself and the deal is there", "cevap": "OK", "neden": "You chose your own path"}
+    ],
+    "kural": "Pay by credit card, and never pay a shop that reached you through a surprise discount."
+  }
+}

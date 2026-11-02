@@ -1,0 +1,4 @@
+Your card is declined. Now what? [pause 400]
+In October, that happened to Revolut customers when a Google data-centre zone in London lost power and its generators never started.
+The fix isn't technical. It's boring: a second card from a different bank, and a little cash.
+Hidden systems fail. A plan B shouldn't depend on the same one. So next time you're at the till and the screen turns red, and your card is declined… now what?

@@ -1,0 +1,10 @@
+Your card number checks itself.
+The last digit on most payment cards is a check digit, calculated from all the others with a simple formula called the Luhn algorithm. Mistype one digit at checkout, and the website can often tell before it ever contacts your bank. It isn't security; anyone can calculate it. It's a typo detector. The first digits matter too: they identify the card network and the bank that issued it. Sixteen digits, and…
+
+Source: ISO/IEC 7812-1 (Identification cards – Identification of issuers), Luhn check digit annex
+
+This channel is made by an engineer, not a banker. Educational content, not financial advice.
+
+#creditcard #math #engineering #payments #centworks
+
+Narration uses a synthetic voice.

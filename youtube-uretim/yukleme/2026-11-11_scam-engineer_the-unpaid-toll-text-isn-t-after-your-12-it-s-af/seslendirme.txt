@@ -1,0 +1,73 @@
+That unpaid toll text isn't after your twelve dollars. It's after a code that puts your card on a stranger's phone — and one simple check stops it. [pause 900]
+
+This channel is made by a telecom engineer. [pause 900]
+
+Diane, sixty-one, drove through a toll road last week. Today her phone says she owes 12.51, with a 50-dollar late fee by Friday.
+
+She taps the link. Nothing. Then she reads: "Reply Y to activate the link."
+
+Why would a toll agency need you to reply before you can click? [pause 1000]
+
+She types Y. And that one letter is where this story really begins. [pause 900]
+
+Here's what's happening under the hood.
+
+On an iPhone, Apple's Messages app disables links in texts from unknown senders. It's a safety feature. But if you reply, or save the sender as a contact, the links come back to life. Apple confirmed this behavior to the tech site BleepingComputer, after researchers spotted scam texts telling people to reply Y.
+
+There's a second reason they want a reply. It tells them your number is real, and that someone is reading. Live numbers are worth more to them.
+
+And there's a telecom detail most people never hear. A classic SMS text travels through your mobile carrier's network, where carriers run spam filters. But according to security journalist Brian Krebs, many of these scam messages are sent as iMessage or RCS chat messages, which travel over the internet as data and largely bypass the carrier's text filters.
+
+In other words, the message arrives through a side door the carrier isn't watching. That's not a failure of your carrier. Apple's iMessage is encrypted from end to end, which protects your private conversations — and also means the network in the middle can't read the scam.
+
+So where do millions of these messages come from, all at once, all nearly identical? [pause 1000]
+
+Back to Diane. The link opens a page that looks official: a state seal, a toll-road photo, her "invoice." She types her card number, the expiration date and the security code.
+
+Then the page says: "For your security, enter the verification code we've sent to your phone."
+
+A text arrives, and this one is real. It's from her actual bank.
+
+Behind the page is a business. Researchers have linked a huge share of these campaigns to a China-based group known as the Smishing Triad. In November 2025, Google sued the operators behind a phishing kit called Lighthouse, which it says was used in these schemes. Google said the operation had harmed over a million victims in 120 countries, and estimated that between 12.7 million and 115 million U.S. credit cards may have been compromised.
+
+The kit was sold like software. One security firm reported subscriptions from 88 dollars a week to about 1,600 dollars a year.
+
+But Diane only owed twelve dollars and fifty-one cents. Why would anyone need a code for that? [pause 1000]
+
+Because the twelve dollars was never the point.
+
+When you add a card to Apple Pay or Google Wallet, your bank often sends a one-time code to confirm it's really you. Krebs reported that these phishing kits use your card details to start adding your card to a digital wallet, on a phone the criminals control. Your bank, doing exactly what it should, texts you a code. Type that code into the fake page, and you've just approved their phone.
+
+From then on, they can tap to pay with your card in stores or online, without ever holding the plastic. Krebs reported that groups load several stolen cards onto a single phone, then sell those phones in bulk.
+
+That's the real product: a working copy of your card in someone else's pocket.
+
+So how long has this been going on, and how big has it become? [pause 1000]
+
+The FBI first warned about this wave in April 2024. At that point, its Internet Crime Complaint Center had received over 2,000 complaints since early March, from at least three states, and said the scam appeared to be moving state to state. The sample message in that warning? [pause 1000] A 12.51 balance and a 50-dollar late fee.
+
+The Federal Trade Commission issued its own alerts, and its advice is blunt: if you get a text about unpaid tolls, it's probably a scam, whether you've driven through a toll recently or not.
+
+Since then, the same machinery has pivoted to other disguises: package deliveries, DMV notices, bank alerts. The costume changes. The method doesn't.
+
+You may have had one of these this year yourself. Most people who get them never reply, and that's exactly why the senders need to reach millions of phones: they only need a tiny share to type a Y.
+
+That's good news, because it means one check works on all of them. So what is it? [pause 1000]
+
+Here it is: never trust the path the message gives you. Choose your own path.
+
+If a text says you owe a toll, don't use its link and don't reply, not even with a Y. Open your toll account by typing the agency's address yourself, using the app you already have, or calling the number on your statement. If you really owe something, it'll be there.
+
+Second: read your codes. Many banks' verification texts say what the code is for. If a code mentions adding your card to a wallet and you didn't ask for that, don't share it, with anyone, including a website.
+
+Third, on an iPhone, keep "Filter Unknown Senders" turned on in your Messages settings. It quietly moves these texts out of your main inbox.
+
+And report it. [slow]Forward the text to seven seven two six — that spells SPAM — or use your phone's "Report Junk" option.[/slow] [slow]You can also report at ReportFraud.ftc.gov or ic3.gov.[/slow] Then delete it. [pause 900]
+
+And if, like Diane, you already typed in your card or a code? [pause 1000] Don't panic. Act. [slow]Call your bank using the number on the back of your card.[/slow] Say you entered your details on a fake site and may have shared a verification code. Ask them to cancel the card and remove any digital wallets it was added to. Then watch your statements, and report it.
+
+A text message is cheap to fake. The toll agency's name, the amount, the late fee, the official-looking page: all of it costs the sender almost nothing. What it can't do is force you to use its link.
+
+The moment you choose your own path — your app, your bookmark, the number on your card — the whole machine stops working. The reply, the fake page and the code all depend on you staying on their path.
+
+That's how this scam works — so it never works on you. [pause 900]

@@ -1,0 +1,10 @@
+1.5% of the world's electricity.
+That's how much data centres used in 2024, according to the International Energy Agency: about 415 terawatt-hours. The United States used the largest share. The agency expects that demand to roughly double by 2030, driven largely by artificial intelligence. And every one of those watts ends up as heat, which is why cooling is half the engineering. The cloud isn't weightless. It's buildings, cables, and…
+
+Source: International Energy Agency – Energy and AI, Executive summary (2025)
+
+This channel is made by someone who works inside a mobile network operations center.
+
+#datacenter #ai #electricity #energy #hiddensystems
+
+Narration uses a synthetic voice.

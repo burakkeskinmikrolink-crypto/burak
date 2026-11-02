@@ -1,0 +1,3 @@
+Why not turn it back on? [pause 400]
+After a power cut, you often can. After a cooling failure, you can't. The room is still hot, and servers brought back too early trip again, or get damaged.
+Engineers restore cooling, wait for the temperature to fall, then restart hardware in stages. That's why an Amazon cooling failure in Virginia took well into the next day to settle. And the first thing everyone asked was:

@@ -1,0 +1,10 @@
+A generator didn't start.
+And across Britain, people couldn't reach their money. One of Google's London data-centre zones lost grid power. The batteries took over, which is normal. The generators were supposed to come next. Google's preliminary report says both the main and the backup automation failed to start them. A backup for the backup, and both failed together.
+
+Sources are listed in the related video's description.
+
+This channel is made by someone who works inside a mobile network operations center.
+
+#googlecloud #outage #datacentre #hiddensystems #uk
+
+Narration uses a synthetic voice.

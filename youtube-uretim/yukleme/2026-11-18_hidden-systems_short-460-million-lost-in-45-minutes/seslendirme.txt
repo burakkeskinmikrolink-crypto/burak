@@ -1,0 +1,2 @@
+$460 million lost in 45 minutes. [pause 400]
+August 2012. Knight Capital, one of the biggest traders of US shares, switched on new software. On one of its eight servers, old code that should have been retired woke up instead. In the first 45 minutes of trading, its system sent more than four million orders while trying to fill just 212 customer orders. The SEC later said the firm lost more than 460 million dollars. Automated warnings had gone out before the market opened. That's the price of one forgotten switch:

@@ -1,0 +1,32 @@
+A generator in London didn't start — and for most of a working day, people across Britain couldn't reach their money. Here's the hidden chain of batteries, generators and automation behind "the cloud", and the one switch that failed.
+
+This channel is made by someone who works inside a mobile network operations center.
+
+CHAPTERS
+0:00 The generator that didn't start
+0:17 Inside the building
+0:45 What "the cloud" physically is
+1:55 The batteries run down
+3:05 Why the generators didn't start
+4:15 Why losing one zone wasn't survivable
+5:25 Why everyone was in the same place
+6:40 Test whether it starts
+
+SOURCES
+- Euronews – Power outage hits Google Cloud services, disrupting UK banks: https://euronews.com/2026/10/20/power-outage-hits-google-cloud-services-disrupting-uk-banks
+- ITV News – Banks and courts affected as Google apologises for cloud outage: https://www.itv.com/news/2026-10-20/banks-and-courts-affected-by-disruption-as-google-apologises-for-cloud-outage
+- Computing – Google fixes cloud outage that disrupted UK banks, businesses and court services: https://www.computing.co.uk/news/2026/datacentre/google-fixes-cloud-outage-that-disrupted-uk-banks-businesses-and-court-services
+- Cisco ThousandEyes – Google Cloud Outage Analysis, 20 Oct 2026: https://www.thousandeyes.com/blog/google-cloud-outage-analysis-october-20-2026
+- IncidentHub – Summary of Google's preliminary report: https://blog.incidenthub.cloud/google-cloud-europe-west2-outage-oct-20-2026
+- Google Cloud Service Health: https://status.cloud.google.com/incidents/ETJGhvY9Xaktw7tgi8dF
+- Google Cloud docs – Geography and regions: https://cloud.google.com/docs/geography-and-regions
+- Bank of England – Critical third parties (PS16/24): https://www.bankofengland.co.uk/prudential-regulation/publication/2024/november/operational-resilience-critical-third-parties-to-the-uk-financial-sector-policy-statement
+- Uptime Institute – Annual Outage Analysis: https://uptimeinstitute.com/resources/research-and-reports
+- US NRC glossary – Common-cause failure: https://www.nrc.gov/reading-rm/basic-ref/glossary/common-cause-failure.html
+
+VISUAL CREDITS
+- Wikimedia Commons files as credited on screen (Title, Author, Source, Licence)
+- Stock footage: Pexels, Pixabay
+Scenes marked "Reconstruction" are dramatised and do not depict real individuals.
+
+Narration uses a synthetic voice.

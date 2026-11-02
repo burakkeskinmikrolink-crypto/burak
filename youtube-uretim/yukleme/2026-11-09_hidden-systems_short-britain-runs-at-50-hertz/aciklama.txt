@@ -1,0 +1,10 @@
+Britain runs at 50 hertz.
+Every big generator in the country spins in step with the grid, fifty cycles a second. The rules allow the frequency to drift only between 49.5 and 50.5. If it falls much further, automatic systems start disconnecting customers to save everyone else. So the control room watches one number, every second of every day, because supply and demand must match, or that number moves. Right now, as you watch this, Britain runs…
+
+Source: NESO – System frequency data; NESO – Management of frequency during extreme weather (June 2026)
+
+This channel is made by someone who works inside a mobile network operations center.
+
+#nationalgrid #electricity #engineering #uk #hiddensystems
+
+Narration uses a synthetic voice.

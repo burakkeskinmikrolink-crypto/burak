@@ -1,0 +1,10 @@
+Why three beats two.
+Many systems keep data consistent by voting: a change only counts when a majority agrees. With two locations, lose one, and there's no majority. With three, lose one, and the other two still decide. After the Amazon cooling failure in May 2026, Coinbase said it would move a key messaging system from two zones to three. A backup waits to be switched on. A quorum keeps working. And that's exactly…
+
+Sources are listed in the related video's description.
+
+This channel is made by someone who works inside a mobile network operations center.
+
+#distributedsystems #aws #coinbase #engineering #hiddensystems
+
+Narration uses a synthetic voice.

@@ -1,0 +1,69 @@
+Federal Reserve economists estimated cash-paying households were handing card users about 149 dollars a year. Here's who really pays for card rewards — and which side you're on. [pause 900]
+
+This channel is made by an engineer, not a banker. [pause 900]
+
+Two shoppers. Same groceries. Same total: a hundred dollars.
+
+One taps a premium rewards card, and about two dollars in points land in her account. The other pays cash, and gets nothing.
+
+Same price. Same bags. So where did that two dollars actually come from? [pause 1000]
+
+The receipt doesn't say. But the answer is printed, invisibly, on every price tag in the store. [pause 900]
+
+When you pay by card, the store doesn't receive the full hundred dollars. It pays a fee, often called the swipe fee. The biggest slice of that fee is called interchange, and it goes to the bank that issued your card.
+
+Think of it like a toll road. Your purchase travels from the store, through a card network like Visa or Mastercard, to your bank. Everyone along the route takes a small cut — and the store is the one paying the tolls. The customer at the register never sees the toll booth.
+
+That interchange is the fuel tank for rewards. The fancier the card, the more the bank typically collects, and the more it can hand back to you in points, miles and cash back.
+
+From the store's point of view, that fee is a cost of doing business, like rent or electricity. And like rent or electricity, it gets built into prices. Not into your price specifically — into everyone's.
+
+So when the rewards customer and the cash customer pay the same hundred dollars, they're both paying shelf prices that already include the store's card costs. One gets a slice back. The other doesn't.
+
+Which raises the next question: if debit cards run on the same networks, why don't they pay rewards like credit cards? [pause 1000]
+
+The answer is a law. In 2010, Congress passed the Dodd-Frank Act, and inside it was the Durbin Amendment. The Federal Reserve used it to cap debit interchange fees for large banks. Since 2011, the cap has been 21 cents plus 0.05 percent of the purchase, with a small extra allowance for fraud prevention. In October 2026, a federal appeals court agreed with a lower court that the Fed counted costs the law didn't allow. For now, the cap stays in place while the Fed works out what comes next.
+
+On a hundred-dollar purchase, that's only around a quarter. Not much room for generous rewards. That's a big reason debit cards from big banks rarely earn meaningful rewards, while credit cards, which have no such federal cap, compete on them.
+
+Some smaller banks and credit unions, which fall under the cap's exemption threshold, can still earn more on debit — but for most Americans, the debit card in their wallet is the low-fee option.
+
+So the system rewards one kind of plastic and not another. Which brings us to the uncomfortable part: who's actually on the losing side? [pause 1000]
+
+In 2010, economists at the Federal Reserve Bank of Boston tried to measure it. Their model estimated that, on average, each household paying by cash was transferring about 149 dollars a year to card users — and each card-using household was receiving about 1,133 dollars a year from cash users.
+
+They also looked at income. After rewards, the lowest-income households paid about 21 dollars a year, while the highest-income households received about 750.
+
+More recent research adds a twist. A team of economists studying Federal Reserve credit card data estimated an annual cross-subsidy of about 15.5 billion dollars tied to rewards. In their findings, the biggest losers weren't only lower-income people. They were people who carry a balance and pay interest — including some high earners. The biggest winners were people who pay in full every month.
+
+So it's not only rich versus poor. It's careful card users versus everyone else. If you've seen our video on why card companies like it when you pay late, this is the other half of that story.
+
+And now something is about to change. Could a store soon turn down your rewards card? [pause 1000]
+
+For nearly two decades, merchants have fought Visa and Mastercard in court over swipe fees. In June 2026, a federal judge in Brooklyn granted preliminary approval to a revised settlement, estimated to be worth around 38 billion dollars in savings for merchants over time.
+
+What's in it? [pause 1000] Interchange rates would come down by a tenth of a percentage point for five years. Rates on standard consumer credit cards would be capped at 1.25 percent. Merchants would get more freedom to add surcharges for credit card payments.
+
+And the big one: merchants could choose whether to accept different categories of cards — accepting standard cards, for example, but declining premium rewards cards. That's a crack in a rule called "Honor All Cards," which for years meant a store that took one Visa credit card had to take them all.
+
+Not everyone is happy. Major retail groups have opposed the deal, and some merchants call the fee cut tiny. A final decision is still pending. [pause 900]
+
+So what could this mean at the register? [pause 1000]
+
+If the deal is approved, you might see more stores adding a surcharge line for credit cards. Occasionally, you might see a sign saying a store doesn't take premium cards. Or nothing may change at all, because many merchants worry about losing customers who expect to pay with their favorite card.
+
+If you do see a surcharge, you'll have a choice the old system rarely gave you: pay a little more with the rewards card, or switch to debit or cash at that store. For the first time, the hidden cost of rewards could show up as a line on your receipt.
+
+Nobody knows yet how many stores will use these options. And the settlement doesn't send anyone a check. The 38 billion is an estimate of reduced fees, not cash in your pocket. [pause 900]
+
+So, in this hidden system, there are really three kinds of shoppers.
+
+The first pays with a rewards card and clears the balance every month. They get some of the swipe fee back, and they're the winners in every study we've looked at.
+
+The second pays cash or debit. Their prices are the same as everyone else's, so they help fund the rewards, without getting any.
+
+The third carries a balance. The interest they pay usually costs far more than any points they earn — and helps fund everyone else's flights.
+
+Refusing rewards won't lower your grocery bill; shelf prices are the same either way. If you can pay in full every month without overspending, a rewards card puts some of the hidden cost back in your pocket. If you can't, the most valuable reward is getting the balance to zero.
+
+This is educational, not financial advice. The system isn't hidden because it's secret. It's hidden because it's in every price. [pause 900]

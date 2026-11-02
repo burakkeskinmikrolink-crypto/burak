@@ -1,0 +1,32 @@
+That "unpaid toll" text isn't really after your $12.51. Here's — calmly — how these messages are sent, why they ask you to "reply Y", how the real goal is a one-time code that adds your card to someone else's phone, and the one check that works on every text like it.
+
+This channel is made by a telecom engineer.
+
+CHAPTERS
+0:00 It's not the $12
+0:16 Diane's text (reconstruction)
+0:45 Why scammers want you to reply "Y"
+2:00 The fake payment page and who builds it
+3:10 The real prize: your card in a digital wallet
+4:25 How big this got
+5:35 The one check that works on every text
+6:45 If you already clicked
+
+WHERE TO REPORT
+- Forward scam texts to 7726 (SPAM)
+- FTC: https://reportfraud.ftc.gov
+- FBI IC3: https://www.ic3.gov
+
+SOURCES
+- FBI IC3 PSA I-041224-PSA (April 12, 2024): https://www.ic3.gov/PSA/2024/PSA240412
+- FTC – Got a text about unpaid tolls? It's probably a scam (Jan 2025): https://consumer.ftc.gov/consumer-alerts/2025/01/got-text-about-unpaid-tolls-its-probably-scam
+- FTC – Text about overdue toll charges? (May 2024): https://consumer.ftc.gov/consumer-alerts/2024/05/text-about-overdue-toll-charges-probably-scam
+- BleepingComputer – Phishing texts trick iMessage users into disabling protection: https://www.bleepingcomputer.com/news/security/phishing-texts-trick-apple-imessage-users-into-disabling-protection/
+- Krebs on Security – SMS phishing triad pivots to banks (April 2025): https://krebsonsecurity.com/2025/04/china-based-sms-phishing-triad-pivots-to-banks
+- Krebs on Security – Google sues to disrupt SMS phishing triad (Nov 2025): https://krebsonsecurity.com/2025/11/google-sues-to-disrupt-chinese-sms-phishing-triad/
+- The Hacker News – Google sues Lighthouse operators: https://thehackernews.com/2025/11/google-sues-china-based-hackers-behind.html
+- Singapore CSA – Advisory on iMessage phishing texts: https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2025-001/
+
+Visual credits: Wikimedia Commons (as credited on screen), U.S. government public-domain materials, Pexels, Pixabay. "Diane" is a composite character.
+
+Narration uses a synthetic voice.

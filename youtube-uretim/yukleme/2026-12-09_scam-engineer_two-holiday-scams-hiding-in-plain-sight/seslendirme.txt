@@ -1,0 +1,79 @@
+A gift card can be drained before you even buy it. And the most reported text scam in America is a package problem that doesn't exist. Here's how both work, and the two checks that stop them. [pause 900]
+
+This channel is made by a telecom engineer. [pause 900]
+
+Joan buys a one-hundred-dollar gift card for her grandson. The cashier loads it, she tucks it into a card, and the card goes in the mail.
+
+On Christmas morning, her grandson tries to use it. The balance is zero.
+
+How can a card be empty if nobody ever used it? [pause 1000]
+
+The same week, Joan's phone buzzes: a package is on hold. She is expecting three. So that one doesn't feel strange at all.
+
+Two scams, one week. Let's take them apart, one at a time. [pause 900]
+
+The first one is called card draining. It starts before you ever touch the card.
+
+Thieves take gift cards from store racks. They open the packaging, record the card number and PIN, or copy the barcode, then reseal the package and put it back on the shelf. Some cover the real barcode with a sticker that points to a card they already control.
+
+Nothing happens until someone buys it. When the cashier loads your money onto the card, the thieves are watching the balance. As soon as it's loaded, they spend it, often online, often within minutes.
+
+Police and federal investigators have been chasing organized crews doing this. In one 2024 case in Plano, Texas, investigators recovered more than four thousand tampered cards. In September 2026, a Texas financial crimes unit announced it had broken up a gift card tampering ring operating in Texas and Arkansas.
+
+Why gift cards? [pause 1000] Because the F T C compares them to cash. Once a balance is spent, it's very hard to trace and very hard to reverse.
+
+So the trick isn't on the card. It's in what happened to the card before you picked it up. So how do you spot one? [pause 1000]
+
+The Federal Trade Commission's advice is simple: look before you buy.
+
+Check the back of the package. If the PIN area looks scratched, or a sticker looks removed, replaced, or slightly lifted, tell a cashier and pick another card.
+
+Look at the wrapping. Is it torn, wrinkled, or resealed? [pause 1000] Does the card slide around loosely inside? [pause 1000]
+
+If the store keeps gift cards behind the counter, buy those. They're much harder to tamper with.
+
+Check that the number on your receipt matches the card. Before you wrap it, take a quick photo of the back of the card and the receipt. Keep both. And if you can, check the balance soon after you buy, not on Christmas morning.
+
+One more rule from the F T C, all year round: no real business or government agency will ever ask you to pay them with a gift card.
+
+And if you check everything, and the card is still empty? [pause 1000]
+
+Contact the company that issued the card, using the number on the back of the card or the receipt. Explain that the balance was missing from the start, and have the receipt and packaging ready. [slow]Report it to the store too, and at ReportFraud dot F T C dot gov.[/slow]
+
+Getting the money back isn't guaranteed. But the receipt and the packaging are your strongest evidence, which is why keeping them matters.
+
+If you'd rather avoid the risk entirely, a gift card bought directly from the retailer's own website and sent by email never sits on a public rack.
+
+Now, the second scam. It doesn't wait on a shelf. It comes to your phone.
+
+So why is a fake package text the number one text scam in America? [pause 1000]
+
+Every year, the F T C looks at the scam reports people send in. For text messages in 2024, the most reported type was a fake package delivery problem. Overall, people reported losing four hundred and seventy million dollars to scams that started with a text.
+
+The message usually says your package can't be delivered, or there's a small redelivery fee, and gives you a link. The link opens a page that looks like a real carrier. If you pay the small fee, you've typed your full card details into a scammer's page. Some pages also ask for your date of birth or Social Security number.
+
+How do they reach so many phones? [pause 1000] The messages come from many different numbers, and some are sent from email addresses that arrive looking like texts. Block one sender, and the next message comes from another. That's why blocking alone never wins this. Your habits do.
+
+Here's why it works so well in December. Normally, the first warning sign of a scam text is surprise: you weren't expecting it. But in December, everyone is expecting packages. The surprise sign disappears.
+
+So how do you check a package text without clicking anything? [pause 1000]
+
+Track from the source.
+
+Your real tracking number comes from the store you bought from, in its app or its order confirmation email. Open that. Or open the shipping company's own app, or type its website address yourself, and enter the number there.
+
+Never use the link in the text. Fake links often look close to a real carrier's address, with an extra word, a hyphen, or an unusual ending. You don't need to judge the link at all if you never use it. The U.S. Postal Inspection Service says the Postal Service won't text you a link unless you signed up for text tracking for that package.
+
+If the text is fake, forward it to seven-seven-two-six. That spells SPAM, and it helps your carrier block similar messages. Then delete it.
+
+And if you already typed in your card number? [pause 1000] [slow]Call the number on the back of your card, tell them, and ask for a new card.[/slow] [slow]If you entered your Social Security number, IdentityTheft dot gov has a free, step-by-step plan.[/slow] [pause 900]
+
+So, how can a gift card be empty when nobody used it? [pause 1000] Because somebody used it before it was ever sold. The number was copied on the shelf, and the money was spent the moment it arrived.
+
+And why is a package text the top text scam? [pause 1000] Because in December, a package problem is the one message nobody finds surprising.
+
+As for Joan: she called the number on the back of the card with her receipt, and reported it. Next time, she'll buy from behind the counter and check the packaging first. The package text? [pause 1000] [slow]She opened the store's app, saw all three packages on their way, forwarded the text to seven seven two six, and deleted it.[/slow]
+
+Two scams, two checks. Inspect before you buy. Track from the source.
+
+That's how this scam works — so it never works on you. [pause 900]

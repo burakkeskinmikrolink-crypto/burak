@@ -1,0 +1,1 @@
+Two zones or three? If you run systems in the cloud, how many zones does your most critical service really survive? Engineers: what's the worst single point of failure you've found in production?

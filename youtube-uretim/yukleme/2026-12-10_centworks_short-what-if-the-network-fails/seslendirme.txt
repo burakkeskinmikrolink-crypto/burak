@@ -1,0 +1,3 @@
+What if the network fails? [pause 400]
+It has happened. In June 2018, a partial failure of one switch in a Visa data center in Europe caused about five point two million card payments to fail.
+Sweden, where only about one in ten store purchases is paid in cash, still argues for keeping cash as a backup. That's why emergency checklists suggest keeping a little cash at home. Because one day you'll ask:

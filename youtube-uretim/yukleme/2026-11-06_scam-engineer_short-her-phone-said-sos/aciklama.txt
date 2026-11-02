@@ -1,0 +1,15 @@
+Her phone said SOS.
+At lunch, Linda's phone was fine. By two o'clock, no calls, no texts. Someone had convinced her carrier to move her number to their SIM card, so her bank's security codes went to them. Under FCC rules adopted in 2023, carriers must alert you to SIM change requests and offer a free account lock. If your service vanishes for no reason, call your carrier from another phone, fast. Because it all started the moment…
+
+Sources:
+- FCC – Caller ID Spoofing: https://www.fcc.gov/spoofing
+- FCC – Caller ID Authentication (STIR/SHAKEN): https://www.fcc.gov/call-authentication
+- FCC SIM swap and port-out rules (Nov 2023), summaries: https://therecord.media/fcc-new-rules-stop-sim-swapping · https://www.tlp.law/2023/11/23/fcc-releases-adopted-sim-swapping-port-out-fraud-ro-fnprm/
+- FBI IC3 PSA – SIM swap schemes (Feb 2022): https://www.ic3.gov/PSA/2022/PSA220208
+- FTC – Phishing: https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams
+
+This channel is made by a telecom engineer.
+
+#scamawareness #scams #fraudprevention #scamengineer
+
+Narration uses a synthetic voice.
