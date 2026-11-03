@@ -39,13 +39,13 @@ Bu klasör `python arac/yukleme_paketi/paketle.py` ile **otomatik üretilir**. E
 | 2026-11-11 Çar | 21:00 | Scam Engineer | **Uzun** | The Unpaid Toll Text Isn't After Your $12. It's After This. | `2026-11-11_scam-engineer_the-unpaid-toll-text-isn-t-after-your-12-it-s-af/` |  |
 | 2026-11-11 Çar | 21:30 | Hidden Systems | Short | Every disaster has lined-up holes. #engineering | `2026-11-11_hidden-systems_short-every-disaster-has-lined-up-holes/` | ⚠️ `<…>` doldur: `arac/yukleme_paketi/ayarlar.json` |
 | 2026-11-12 Per | 20:00 | Centworks | Short | Is rounding a secret tax? #penny | `2026-11-12_centworks_short-is-rounding-a-secret-tax/` |  |
-| 2026-11-12 Per | 20:00 | Scam Engineer | Short | Why do scammers want "Y"? #scamawareness | `2026-11-12_scam-engineer_short-why-do-scammers-want-y/` |  |
+| 2026-11-12 Per | 20:00 | Scam Engineer | Short | The code was real. #scamawareness | `2026-11-12_scam-engineer_short-the-code-was-real/` |  |
 | 2026-11-12 Per | 21:30 | Hidden Systems | Short | A generator didn't start. #googlecloud | `2026-11-12_hidden-systems_short-a-generator-didn-t-start/` |  |
 | 2026-11-13 Cum | 20:00 | Centworks | Short | How long does $1 last? #dollar | `2026-11-13_centworks_short-how-long-does-1-last/` |  |
 | 2026-11-13 Cum | 20:00 | Scam Engineer | Short | She was selling a stroller. #marketplace | `2026-11-13_scam-engineer_short-she-was-selling-a-stroller/` | ⚠️ `<…>` doldur: `arac/yukleme_paketi/ayarlar.json` |
 | 2026-11-13 Cum | 21:30 | Hidden Systems | Short | One typo took down the internet? #aws | `2026-11-13_hidden-systems_short-one-typo-took-down-the-internet/` |  |
 | 2026-11-14 Cmt | 20:00 | Centworks | Short | Why do quarters have ridges? #coins | `2026-11-14_centworks_short-why-do-quarters-have-ridges/` |  |
-| 2026-11-14 Cmt | 20:00 | Scam Engineer | Short | The code was real. #scamawareness | `2026-11-14_scam-engineer_short-the-code-was-real/` |  |
+| 2026-11-14 Cmt | 20:00 | Scam Engineer | Short | Why do scammers want "Y"? #scamawareness | `2026-11-14_scam-engineer_short-why-do-scammers-want-y/` |  |
 | 2026-11-14 Cmt | 21:00 | Centworks | **Uzun** | Who Really Pays for Your Credit Card Rewards? | `2026-11-14_centworks_who-really-pays-for-your-credit-card-rewards/` |  |
 | 2026-11-14 Cmt | 21:30 | Hidden Systems | Short | One zone. Two systems. Dozens. #googlecloud | `2026-11-14_hidden-systems_short-one-zone-two-systems-dozens/` |  |
 | 2026-11-14 Cmt | 23:00 | Scam Engineer | Short | Real or fake? A package text. #packagescam | `2026-11-14_scam-engineer_short-real-or-fake-a-package-text/` |  |
